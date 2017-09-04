@@ -7,9 +7,10 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.math.NumberUtils;
+
 import com.alibaba.druid.util.StringUtils;
 import com.alibaba.fastjson.JSONObject;
-import com.hm.apollo.framework.utils.NumberUtils;
 import com.hm.apollo.module.cdss.enums.WordTypeEnum;
 import com.hm.apollo.module.recognition.pojo.Word;
 
