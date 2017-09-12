@@ -13,7 +13,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.module.recognition.model.NodeSynonym;
 import com.hm.apollo.module.recognition.pojo.RecordInfo;
 import com.hm.apollo.service.PushService;
-import com.poi.excel.parse.ExportDynamicExcel;
 import com.poi.excel.parse.ImportExcel;
 
 public class Feibiaojicihui {
@@ -91,7 +90,7 @@ public class Feibiaojicihui {
                 list.add(Arrays.asList(entry.getKey(), entry.getValue()));
             }
             
-            ExportDynamicExcel export = new ExportDynamicExcel(list);
+            // ExportDynamicExcel export = new ExportDynamicExcel(list);
             // export.saveFile(new File(resultPath, "非标记识别词汇.xls"));
         } catch (Exception e) {
             e.printStackTrace();

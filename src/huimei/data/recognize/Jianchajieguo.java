@@ -11,7 +11,6 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.controller.PushService;
 import com.hm.apollo.module.recognition.pojo.RecordInfo;
-import com.poi.excel.parse.ExportDynamicExcel;
 import com.poi.excel.parse.ImportExcel;
 
 public class Jianchajieguo {
@@ -71,8 +70,8 @@ public class Jianchajieguo {
                 }
             }
 
-            ExportDynamicExcel export = new ExportDynamicExcel(list);
-            export.saveFile(new File(resultPath, "检查结果-结果.xls"));
+            // ExportDynamicExcel export = new ExportDynamicExcel(list);
+            // export.saveFile(new File(resultPath, "检查结果-结果.xls"));
             br.close();
         } catch (Exception e) {
             e.printStackTrace();

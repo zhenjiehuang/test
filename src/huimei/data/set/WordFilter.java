@@ -18,7 +18,6 @@ import com.hm.apollo.module.recognition.model.NodeSynonym;
 import com.huaban.analysis.jieba.JiebaSegmenter;
 import com.huaban.analysis.jieba.SegToken;
 import com.huaban.analysis.jieba.WordDictionary;
-import com.poi.excel.parse.ExportDynamicExcel;
 
 public class WordFilter {
 
@@ -90,18 +89,21 @@ public class WordFilter {
                 }
             }
 
-            if (!ses.isEmpty()) {
-                ExportDynamicExcel sesExcel = new ExportDynamicExcel(getList(ses));
-                sesExcel.saveFile(new File(resultPath, "ses.xls"));
-            }
-            if (!nodes.isEmpty()) {
-                ExportDynamicExcel nodesExcel = new ExportDynamicExcel(getList(nodes));
-                nodesExcel.saveFile(new File(resultPath, "nodes.xls"));
-            }
-            if (!parents.isEmpty()) {
-                ExportDynamicExcel parentsExcel = new ExportDynamicExcel(getList(parents));
-                parentsExcel.saveFile(new File(resultPath, "parents.xls"));
-            }
+            // if (!ses.isEmpty()) {
+            // ExportDynamicExcel sesExcel = new
+            // ExportDynamicExcel(getList(ses));
+            // sesExcel.saveFile(new File(resultPath, "ses.xls"));
+            // }
+            // if (!nodes.isEmpty()) {
+            // ExportDynamicExcel nodesExcel = new
+            // ExportDynamicExcel(getList(nodes));
+            // nodesExcel.saveFile(new File(resultPath, "nodes.xls"));
+            // }
+            // if (!parents.isEmpty()) {
+            // ExportDynamicExcel parentsExcel = new
+            // ExportDynamicExcel(getList(parents));
+            // parentsExcel.saveFile(new File(resultPath, "parents.xls"));
+            // }
             br.close();
         } catch (Exception e) {
             e.printStackTrace();

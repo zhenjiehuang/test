@@ -11,7 +11,6 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.controller.PushService;
 import com.hm.apollo.module.recognition.pojo.RecordInfo;
-import com.poi.excel.parse.ExportDynamicExcel;
 
 public class Test {
 
@@ -61,8 +60,8 @@ public class Test {
                     list.add(new ArrayList<>());
                 }
 
-                ExportDynamicExcel export = new ExportDynamicExcel(list);
-                export.saveFile(new File(resultPath, count++ + ".xls"));
+                // ExportDynamicExcel export = new ExportDynamicExcel(list);
+                // export.saveFile(new File(resultPath, count++ + ".xls"));
             }
 
             br.close();

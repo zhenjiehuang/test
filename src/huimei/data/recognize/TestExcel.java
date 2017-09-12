@@ -9,7 +9,6 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.controller.PushService;
 import com.hm.apollo.module.recognition.pojo.RecordInfo;
-import com.poi.excel.parse.ExportDynamicExcel;
 import com.poi.excel.parse.ImportExcel;
 
 public class TestExcel {
@@ -67,8 +66,8 @@ public class TestExcel {
                 }
             }
 
-            ExportDynamicExcel export = new ExportDynamicExcel(list);
-            export.saveFile(new File(resultPath, "检验识别优化.xls"));
+            // ExportDynamicExcel export = new ExportDynamicExcel(list);
+            // export.saveFile(new File(resultPath, "检验识别优化.xls"));
         } catch (Exception e) {
             e.printStackTrace();
         }
