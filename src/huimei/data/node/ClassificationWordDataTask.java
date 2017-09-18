@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,8 +16,10 @@ import com.hm.apollo.framework.utils.BCConvertUtils;
 import com.hm.apollo.module.cdss.dao.ClassificationWordMapper;
 import com.hm.apollo.module.cdss.dao.DiseaseMapper;
 import com.hm.apollo.module.cdss.dao.SymptomMapper;
+import com.hm.apollo.module.cdss.dao.SymptomWordMapper;
 import com.hm.apollo.module.cdss.model.ClassificationWord;
 import com.hm.apollo.module.cdss.model.Disease;
+import com.hm.apollo.module.cdss.model.SymptomWord;
 import com.hm.apollo.module.knowledge.dao.DiseaseAliasMapper;
 import com.hm.apollo.module.knowledge.model.DiseaseAlias;
 import com.hm.apollo.module.recognition.dao.NodeSynonymMapper;
@@ -48,6 +51,9 @@ public class ClassificationWordDataTask {
 
     @Autowired
     SymptomMapper symptomMapper;
+
+    @Autowired
+    SymptomWordMapper symptomWordMapper;
 
     List<NodeSynonym> synonyms = null;
 
@@ -85,7 +91,7 @@ public class ClassificationWordDataTask {
     }
 
     private boolean hasParent(String source, String parent, int level) {
-        if(level>=10){
+        if (level >= 10) {
             return false;
         }
         List<NodeSynonym> parents = nodeSynonymService.getParentsByWord(source);
@@ -105,7 +111,7 @@ public class ClassificationWordDataTask {
         return false;
     }
 
-    @Test
+    // @Test
     public void classification() throws Exception {
         List<ClassificationWord> classificationWords = classificationWordMapper.selectAll();
         List<NodeExcel> findNodes = new ArrayList<NodeExcel>();
@@ -169,26 +175,75 @@ public class ClassificationWordDataTask {
         ExportExcel<NodeExcel> u = new ExportExcel<>(unConfirm, NodeExcel.class);
         u.saveFile(new File("D://", "未审核-分型.xls"));
 
-
         ExportExcel<NodeExcel> n = new ExportExcel<>(findNodes, NodeExcel.class);
         n.saveFile(new File("D://", "不存在节点-分型.xls"));
     }
 
-    // @Test
+    @Test
     public void diseaseAlias() {
         List<NodeExcel> unConfirm = new ArrayList<>();
+        List<NodeExcel> unDisease = new ArrayList<>();
         List<DiseaseAlias> diseases = diseaseAliasMapper.findAll();
         for (DiseaseAlias disease : diseases) {
             NodeSynonym node = getNodeSynonym(disease.getAlias());
-            if (node != null && node.getStatus() == 1) {
-                unConfirm.add(new NodeExcel(disease.getAlias(), "否"));
+            if (disease.getAlias().equals(disease.getDiseaseName())) {
+                if (node == null) {
+                    unDisease.add(new NodeExcel(disease.getAlias(), "", "", "否", "", ""));
+                } else {
+                    if (node.getStatus() == 1) {
+                        unDisease.add(new NodeExcel(disease.getAlias(), "否"));
+                    }
+                }
             } else {
-                unConfirm.add(new NodeExcel(disease.getAlias(), "", "", "否", "", ""));
+                if (node != null) {
+                    List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getDiseaseName());
+                    synonyms = synonyms == null ? new ArrayList<>() : synonyms;
+                    boolean hasParent = synonyms.contains(disease.getDiseaseName());
+                    if (node.getStatus() == 1) {
+                        // 未通过
+                        unConfirm.add(new NodeExcel(disease.getAlias(), disease.getDiseaseName(),
+                                hasParent ? "" : "否", // 关系是否成立
+                                "是", // 是否存在
+                                hasParent ? ""
+                                        : (getNodeSynonym(disease.getDiseaseName()) == null ? "否" : ""),
+                                "否"));
+                    } else if (node.getStatus() == 2) {
+                        if (!hasParent) {
+                            unConfirm.add(new NodeExcel(disease.getAlias(), disease.getDiseaseName(), //
+                                    "否", // 关系成立
+                                    "是", // 是否存在
+                                    getNodeSynonym(disease.getDiseaseName()) == null ? "否" : "", ""));
+                        }
+                    }
+                } else {
+                    List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getDiseaseName());
+                    synonyms = synonyms == null ? new ArrayList<>() : synonyms;
+                    boolean hasParent = !CollectionUtils.isEmpty(synonyms);
+                    unConfirm.add(new NodeExcel(disease.getAlias(), disease.getDiseaseName(), "否", // 关系不成立
+                            "否", hasParent ? "" : "否"// 不存在
+                            , "否"));
+                }
             }
         }
 
         ExportExcel<NodeExcel> n = new ExportExcel<>(unConfirm, NodeExcel.class);
         n.saveFile(new File("D://", "诊断别名.xls"));
+
+        List<NodeExcel> ds = new ArrayList<>();
+        for (NodeExcel d : unDisease) {
+            boolean e = false;
+            for (NodeExcel c : unConfirm) {
+                if (c.getParent().equals(d.getWord())) {
+                    e = true;
+                    break;
+                }
+            }
+            if (!e) {
+                ds.add(d);
+            }
+        }
+        ExportExcel<NodeExcel> n1 = new ExportExcel<>(ds, NodeExcel.class);
+        n1.saveFile(new File("D://", "诊断名.xls"));
     }
 
     // @Test
@@ -197,8 +252,10 @@ public class ClassificationWordDataTask {
         List<Disease> diseases = diseaseMapper.selectAll();
         for (Disease disease : diseases) {
             NodeSynonym node = getNodeSynonym(disease.getDiseaseName());
-            if (node != null && node.getStatus() == 1) {
-                unConfirm.add(new NodeExcel(disease.getDiseaseName(), "否"));
+            if (node != null) {
+                if (node.getStatus() == 1) {
+                    unConfirm.add(new NodeExcel(disease.getDiseaseName(), "否"));
+                }
             } else {
                 unConfirm.add(new NodeExcel(disease.getDiseaseName(), "", "", "否", "", ""));
             }
@@ -209,13 +266,15 @@ public class ClassificationWordDataTask {
     }
 
     // @Test
-    public void symptom() {
+    public void symptom() throws Exception {
         List<NodeExcel> unConfirm = new ArrayList<>();
         List<String> symptoms = symptomMapper.getAllName();
         for (String symptom : symptoms) {
             NodeSynonym node = getNodeSynonym(symptom);
-            if (node != null && node.getStatus() == 1) {
-                unConfirm.add(new NodeExcel(symptom, "否"));
+            if (node != null) {
+                if (node.getStatus() == 1) {
+                    unConfirm.add(new NodeExcel(symptom, "否"));
+                }
             } else {
                 unConfirm.add(new NodeExcel(symptom, "", "", "否", "", ""));
             }
@@ -223,5 +282,24 @@ public class ClassificationWordDataTask {
 
         ExportExcel<NodeExcel> n = new ExportExcel<>(unConfirm, NodeExcel.class);
         n.saveFile(new File("D://", "诊断因子.xls"));
+    }
+
+    // @Test
+    public void symptomWord() {
+        List<NodeExcel> unConfirm = new ArrayList<>();
+        List<SymptomWord> words = symptomWordMapper.selectAll();
+        for (SymptomWord word : words) {
+            NodeSynonym node = getNodeSynonym(word.getWord());
+            if (node == null) {
+                unConfirm.add(new NodeExcel(word.getWord(), "", "", "否", "", ""));
+            } else {
+                if (node.getStatus() == 1) {
+                    unConfirm.add(new NodeExcel(word.getWord(), "否"));
+                }
+            }
+        }
+
+        ExportExcel<NodeExcel> n = new ExportExcel<NodeExcel>(unConfirm, NodeExcel.class);
+        n.saveFile(new File("D://", "词性.xls"));
     }
 }
