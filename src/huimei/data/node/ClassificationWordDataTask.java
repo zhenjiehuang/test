@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -186,6 +185,9 @@ public class ClassificationWordDataTask {
         List<DiseaseAlias> diseases = diseaseAliasMapper.findAll();
         for (DiseaseAlias disease : diseases) {
             NodeSynonym node = getNodeSynonym(disease.getAlias());
+            if ("支气管扩张症".equals(disease.getAlias())) {
+                System.out.println();
+            }
             if (disease.getAlias().equals(disease.getDiseaseName())) {
                 if (node == null) {
                     unDisease.add(new NodeExcel(disease.getAlias(), "", "", "否", "", ""));
@@ -196,7 +198,7 @@ public class ClassificationWordDataTask {
                 }
             } else {
                 if (node != null) {
-                    List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getDiseaseName());
+                    List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getAlias());
                     synonyms = synonyms == null ? new ArrayList<>() : synonyms;
                     boolean hasParent = synonyms.contains(disease.getDiseaseName());
                     if (node.getStatus() == 1) {
@@ -216,9 +218,9 @@ public class ClassificationWordDataTask {
                         }
                     }
                 } else {
-                    List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getDiseaseName());
+                    List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getAlias());
                     synonyms = synonyms == null ? new ArrayList<>() : synonyms;
-                    boolean hasParent = !CollectionUtils.isEmpty(synonyms);
+                    boolean hasParent = synonyms.contains(disease.getDiseaseName());
                     unConfirm.add(new NodeExcel(disease.getAlias(), disease.getDiseaseName(), "否", // 关系不成立
                             "否", hasParent ? "" : "否"// 不存在
                             , "否"));
