@@ -2,8 +2,10 @@ package huimei.data.node;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.junit.Test;
@@ -29,27 +31,43 @@ public class ClassificationWordDataTask2 {
     @Autowired
     NodeSynonymMapper nodeSynonymMapper;
 
-    List<NodeSynonym> synonyms = null;
+    Map<String, NodeSynonym> synonymMap = null;
+    List<NodeSynonym> synonymList = null;
 
     private NodeSynonym getNodeSynonym(String word) {
-        if (synonyms == null) {
-            synonyms = nodeSynonymMapper.selectAll();
-            // synonyms = new ArrayList<NodeSynonym>();
-        }
-
-        word = BCConvertUtils.toBanjiaoLowercase(word);
-        NodeSynonym result = null;
-        for (NodeSynonym synonym : synonyms) {
-            if (synonym.getFlag() == 1 && synonym.getSynonymWord().equalsIgnoreCase(word)) {
-                if (synonym.getStatus() == 2) {
-                    return synonym;
-                } else if (synonym.getStatus() == 1) {
-                    result = synonym;
+        if (synonymMap == null) {
+            synchronized (this) {
+                if (synonymMap == null) {
+                    synonymList = nodeSynonymMapper.selectAll();
+                    Map<String, NodeSynonym> synonymMap = new HashMap<String, NodeSynonym>(
+                            synonymList.size());
+                    for (NodeSynonym synonym : synonymList) {
+                        if (synonym.getFlag() == 1) {
+                            String synonymWord = BCConvertUtils.toBanjiaoLowercase(synonym.getSynonymWord())
+                                    .toLowerCase();
+                            synonym.setSynonymWord(synonymWord);
+                            NodeSynonym node = synonymMap.get(synonymWord);
+                            if (node == null) {
+                                synonymMap.put(synonymWord, synonym);
+                            } else {
+                                if (node.getStatus() != 2) {
+                                    synonymMap.put(synonymWord, synonym);
+                                }
+                            }
+                        }
+                    }
+                    this.synonymMap = synonymMap;
                 }
             }
         }
 
-        return result;
+        word = BCConvertUtils.toBanjiaoLowercase(word);
+        NodeSynonym synonym = synonymMap.get(word);
+        if (synonym != null) {
+            return synonym;
+        }
+
+        return null;
     }
 
     @Test
@@ -59,7 +77,6 @@ public class ClassificationWordDataTask2 {
 
         Set<Excel2> set = new HashSet<Excel2>();
 
-        int i = 0;
         List<Excel> datas = im.getRowDatas();
         for (Excel data : datas) {
             if ("是".equals(data.getData7())) {
@@ -72,7 +89,7 @@ public class ClassificationWordDataTask2 {
         }
 
         ExportExcel<Excel2> ex = new ExportExcel<>(new ArrayList<>(set), Excel2.class);
-        ex.saveFile(new File("D://", "11111.xls"));
+        ex.saveFile(new File("D://", "识别结果.xls"));
     }
 
     private void check(String sheet, String data, Set<Excel2> list) {
@@ -83,7 +100,7 @@ public class ClassificationWordDataTask2 {
         if (node == null) {
             // 不存在
             list.add(new Excel2(sheet, 0L, data, "否", "否"));
-        } else if (node.getStatus() == 1) {
+        } else if (node.getStatus() != 2) {
             // 审核未通过
             list.add(new Excel2(sheet, node.getId(), data, "是", "否"));
         } else {

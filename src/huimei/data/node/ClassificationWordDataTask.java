@@ -2,7 +2,9 @@ package huimei.data.node;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
@@ -11,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.hm.apollo.datas.NodeExcel;
 import com.hm.apollo.framework.utils.BCConvertUtils;
 import com.hm.apollo.module.cdss.dao.ClassificationWordMapper;
 import com.hm.apollo.module.cdss.dao.DiseaseMapper;
@@ -54,33 +57,51 @@ public class ClassificationWordDataTask {
     @Autowired
     SymptomWordMapper symptomWordMapper;
 
-    List<NodeSynonym> synonyms = null;
+    Map<String, NodeSynonym> synonymMap = null;
+
+    List<NodeSynonym> synonymList;
 
     private NodeSynonym getNodeSynonym(String word) {
-        if (synonyms == null) {
-            synonyms = nodeSynonymMapper.selectAll();
-        }
-
-        word = BCConvertUtils.toBanjiaoLowercase(word);
-        NodeSynonym result = null;
-        for (NodeSynonym synonym : synonyms) {
-            if (synonym.getFlag() == 1 && synonym.getSynonymWord().equalsIgnoreCase(word)) {
-                if (synonym.getStatus() == 2) {
-                    return synonym;
-                } else if (synonym.getStatus() == 1) {
-                    result = synonym;
+        if (synonymMap == null) {
+            synchronized (this) {
+                if (synonymMap == null) {
+                    synonymList = nodeSynonymMapper.selectAll();
+                    Map<String, NodeSynonym> synonymMap = new HashMap<String, NodeSynonym>(
+                            synonymList.size());
+                    for (NodeSynonym synonym : synonymList) {
+                        if (synonym.getFlag() == 1) {
+                            String synonymWord = BCConvertUtils.toBanjiaoLowercase(synonym.getSynonymWord())
+                                    .toLowerCase();
+                            synonym.setSynonymWord(synonymWord);
+                            NodeSynonym node = synonymMap.get(synonymWord);
+                            if (node == null) {
+                                synonymMap.put(synonymWord, synonym);
+                            } else {
+                                if (node.getStatus() != 2) {
+                                    synonymMap.put(synonymWord, synonym);
+                                }
+                            }
+                        }
+                    }
+                    this.synonymMap = synonymMap;
                 }
             }
         }
 
-        return result;
+        word = BCConvertUtils.toBanjiaoLowercase(word);
+        NodeSynonym synonym = synonymMap.get(word);
+        if (synonym != null) {
+            return synonym;
+        }
+
+        return null;
     }
 
     private NodeSynonym getNode(NodeSynonym node) {
         if (node.getIsNode() == 1) {
             return node;
         }
-        for (NodeSynonym synonym : synonyms) {
+        for (NodeSynonym synonym : synonymList) {
             if (synonym.getNodeId().equals(node.getNodeId()) && synonym.getIsNode() == 1) {
                 return synonym;
             }
@@ -110,7 +131,7 @@ public class ClassificationWordDataTask {
         return false;
     }
 
-    // @Test
+    @Test
     public void classification() throws Exception {
         List<ClassificationWord> classificationWords = classificationWordMapper.selectAll();
         List<NodeExcel> findNodes = new ArrayList<NodeExcel>();
@@ -124,7 +145,7 @@ public class ClassificationWordDataTask {
             if (nodeSynonym == null) {
                 findNodes.add(new NodeExcel(call, "", call, "否", "", ""));
             } else {
-                if (nodeSynonym.getStatus() == 1) {
+                if (nodeSynonym.getStatus() != 2) {
                     unConfirm.add(new NodeExcel(call, "否"));
                 }
                 nodeSynonym = getNode(nodeSynonym);
@@ -144,23 +165,6 @@ public class ClassificationWordDataTask {
                                     // 父子关系错误
                                     findParents.add(new NodeExcel(s, call, "", "", "否", ""));
                                 }
-                                // List<NodeSynonym> parents =
-                                // nodeSynonymService.getParentsByWord(s);
-                                // if (CollectionUtils.isNotEmpty(parents)) {
-                                // List<String> parentList = parents.stream()
-                                // .map(NodeSynonym::getSynonymWord).collect(Collectors.toList());
-                                // if
-                                // (!parentList.contains(BCConvertUtils.quanjiao2banjiao(call)))
-                                // {
-                                // // 父子关系错误
-                                // findParents.add(new NodeExcel(s, call, "",
-                                // "", "否", ""));
-                                // }
-                                // } else {
-                                // // 父子关系错误
-                                // findParents.add(new NodeExcel(s, call, "",
-                                // "", "否", ""));
-                                // }
                             }
                         }
                     }
@@ -185,14 +189,11 @@ public class ClassificationWordDataTask {
         List<DiseaseAlias> diseases = diseaseAliasMapper.findAll();
         for (DiseaseAlias disease : diseases) {
             NodeSynonym node = getNodeSynonym(disease.getAlias());
-            if ("支气管扩张症".equals(disease.getAlias())) {
-                System.out.println();
-            }
             if (disease.getAlias().equals(disease.getDiseaseName())) {
                 if (node == null) {
                     unDisease.add(new NodeExcel(disease.getAlias(), "", "", "否", "", ""));
                 } else {
-                    if (node.getStatus() == 1) {
+                    if (node.getStatus() != 2) {
                         unDisease.add(new NodeExcel(disease.getAlias(), "否"));
                     }
                 }
@@ -201,7 +202,7 @@ public class ClassificationWordDataTask {
                     List<String> synonyms = nodeSynonymService.getSynonymWords(disease.getAlias());
                     synonyms = synonyms == null ? new ArrayList<>() : synonyms;
                     boolean hasParent = synonyms.contains(disease.getDiseaseName());
-                    if (node.getStatus() == 1) {
+                    if (node.getStatus() != 2) {
                         // 未通过
                         unConfirm.add(new NodeExcel(disease.getAlias(), disease.getDiseaseName(),
                                 hasParent ? "" : "否", // 关系是否成立
@@ -248,14 +249,14 @@ public class ClassificationWordDataTask {
         n1.saveFile(new File("D://", "诊断名.xls"));
     }
 
-    // @Test
+    @Test
     public void disease() {
         List<NodeExcel> unConfirm = new ArrayList<>();
         List<Disease> diseases = diseaseMapper.selectAll();
         for (Disease disease : diseases) {
             NodeSynonym node = getNodeSynonym(disease.getDiseaseName());
             if (node != null) {
-                if (node.getStatus() == 1) {
+                if (node.getStatus() != 2) {
                     unConfirm.add(new NodeExcel(disease.getDiseaseName(), "否"));
                 }
             } else {
@@ -267,14 +268,14 @@ public class ClassificationWordDataTask {
         n.saveFile(new File("D://", "诊断.xls"));
     }
 
-    // @Test
+    @Test
     public void symptom() throws Exception {
         List<NodeExcel> unConfirm = new ArrayList<>();
         List<String> symptoms = symptomMapper.getAllName();
         for (String symptom : symptoms) {
             NodeSynonym node = getNodeSynonym(symptom);
             if (node != null) {
-                if (node.getStatus() == 1) {
+                if (node.getStatus() != 2) {
                     unConfirm.add(new NodeExcel(symptom, "否"));
                 }
             } else {
@@ -286,7 +287,7 @@ public class ClassificationWordDataTask {
         n.saveFile(new File("D://", "诊断因子.xls"));
     }
 
-    // @Test
+    @Test
     public void symptomWord() {
         List<NodeExcel> unConfirm = new ArrayList<>();
         List<SymptomWord> words = symptomWordMapper.selectAll();
@@ -295,7 +296,7 @@ public class ClassificationWordDataTask {
             if (node == null) {
                 unConfirm.add(new NodeExcel(word.getWord(), "", "", "否", "", ""));
             } else {
-                if (node.getStatus() == 1) {
+                if (node.getStatus() != 2) {
                     unConfirm.add(new NodeExcel(word.getWord(), "否"));
                 }
             }
