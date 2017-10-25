@@ -88,7 +88,7 @@ public class ParseTimeServiceImpl {
                 String unit = "";
                 if (period != null && unit != null) {
                     // 数值转换为double，包括数字和汉语数字描述
-                    Double num = NumberUtils.isNumber(period) ? Double.valueOf(period) : chineseNumber2Int(period);
+                    Double num = NumberUtils.isParsable(period) ? Double.valueOf(period) : chineseNumber2Int(period);
                     // 单位对应的天数
                     Double dayOfUnit = unitMap.get(unit);
                     if (num != null && dayOfUnit != null) {
@@ -126,7 +126,7 @@ public class ParseTimeServiceImpl {
                 System.out.println(unit);
                 if (period != null && unit != null) {
                     // 数值转换为double，包括数字和汉语数字描述
-                    Double num = NumberUtils.isNumber(period) ? Double.valueOf(period)
+                    Double num = NumberUtils.isParsable(period) ? Double.valueOf(period)
                             : chineseNumber2Int(period);
                     // 单位对应的天数
                     Double dayOfUnit = unitMap.get(unit);

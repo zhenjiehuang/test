@@ -12,15 +12,14 @@ import java.io.InputStream;
 public class Test {
     public static void main(String[] args) {
         try {
-            Class.forName("declass.JarFile");
-            String path = "D:\\huimei\\work\\test\\";
+            // Class.forName("declass.JarFile");
+            String path = "Z:\\workspace\\huimei\\work\\test\\";
+             Process process = Runtime.getRuntime()
+             .exec("java -jar " + path
+                            + "decompiler.jar UnitRecognitionServiceImpl.class");
             // Process process = Runtime.getRuntime()
             // .exec("java -jar " + path
-            // + "decompiler.jar
-            // org.elasticsearch.search.aggregations.metrics.NumericMetricsAggregator");
-            Process process = Runtime.getRuntime()
-                    .exec("java -jar " + path
-                            + "decompiler.jar JarFile");
+            // + "decompiler.jar JarFile");
             InputStream in = process.getErrorStream();
             // InputStream in = process.getInputStream();
             // in.read(b)

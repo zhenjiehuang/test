@@ -4,5 +4,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/apollo"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/poi-excel"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="decompiler.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mayson"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

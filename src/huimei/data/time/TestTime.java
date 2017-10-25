@@ -186,7 +186,7 @@ public class TestTime {
                 num += mDay.group();
                 last = mDay.end();
             }
-            if (NumberUtils.isNumber(num)) {
+            if (NumberUtils.isParsable(num)) {
                 word.setPeriod(Double.parseDouble(num));
             } else if (num.matches("([亿|万|千|百|十]|[零一二三四五六七八九])+?")) {
                 word.setPeriod(chineseNumber2Int(num));

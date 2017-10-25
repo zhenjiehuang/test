@@ -1,8 +1,10 @@
 package huimei.test;
 
-import org.springframework.expression.spel.support.StandardEvaluationContext;
+import java.util.Set;
 
+import com.google.common.collect.Sets;
 import com.hm.apollo.framework.utils.ExpressionParserUtils;
+import com.hm.mayson.module.progress.model.PatientRecord;
 
 /**
  * Description:
@@ -13,11 +15,25 @@ import com.hm.apollo.framework.utils.ExpressionParserUtils;
  */
 public class ExpressionTest {
 	public static void main(String[] args) {
-		// 低危｜中危
-		String s = "'低危'.equals(#value)||'中危'.equals(#value)";
-		// String s = "#value>140";
-		StandardEvaluationContext context = new StandardEvaluationContext();
-		context.setVariable("value", "1中危");
-		System.out.println(ExpressionParserUtils.parseExpression(s, context));
+        PatientRecord patientRecord = new PatientRecord();
+        Set<String> param = Sets.newHashSet();
+        patientRecord.setParam(param);
+        // [胸痛, 女, T波改变, 缺血症状, 急性胸痛, 急性肌钙蛋白阴性, 无GRACE评分, 急性T波改变, 肌钙蛋白阴性, 女性]
+        param.add("胸痛");
+        param.add("女");
+        param.add("T波改变");
+        param.add("缺血症状");
+        param.add("急性胸痛");
+        param.add("急性肌钙蛋白阴性");
+        param.add("无GRACE评分");
+        param.add("急性T波改变");
+        param.add("肌钙蛋白阴性");
+        param.add("女性");
+
+        System.out.println(ExpressionParserUtils.parseExpression(
+                "(( param.contains('急性胸痛') ) ) and" + " (param.contains('T波改变') && "
+                        + "( param.contains('肌钙蛋白阴性') || param.contains('cTnI阴性') || param.contains('cTnT阴性') )"
+                        + " && param.contains('CK-MB正常') )",
+                patientRecord));
 	}
 }

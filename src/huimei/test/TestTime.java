@@ -3,18 +3,17 @@ package huimei.test;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Iterator;
 import java.util.List;
 
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 
-import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.framework.utils.ParseTimeUtils;
 import com.hm.apollo.module.cdss.enums.WordTypeEnum;
 import com.hm.apollo.module.recognition.pojo.Sentence;
 import com.hm.apollo.module.recognition.pojo.Word;
-import com.huaban.analysis.jieba.JiebaSegmenter;
-import com.huaban.analysis.jieba.SegToken;
 
 /**
  * Description:
@@ -77,23 +76,22 @@ public class TestTime {
     }
 
     public static void main(String[] args) throws ParseException {
-        Sentence sentence = new Sentence();
-        sentence.setSentence("发热3天，咳嗽3天");
-        List<Word> words = new ArrayList<Word>();
-        JiebaSegmenter segmenter = new JiebaSegmenter();
-        List<SegToken> tokens = segmenter.process(sentence.getSentence(), JiebaSegmenter.SegMode.SEARCH);
-        for (SegToken token : tokens) {
-            Word word = new Word();
-            word.setEnd(token.endOffset);
-            word.setStart(token.startOffset);
-            word.setWord(token.word);
-            words.add(word);
-        }
+        Calendar calendar = Calendar.getInstance();
 
-        sentence.setWords(words);
+        calendar.set(Calendar.YEAR, 2017);
+        calendar.set(Calendar.MONTH, 8);
+        calendar.set(Calendar.DAY_OF_MONTH, 25);
+        calendar.set(Calendar.HOUR_OF_DAY, 16);
+        calendar.set(Calendar.MINUTE, 322);
 
-        new TestTime().recognizeTime(sentence);
+        // System.out.println(NumberUtils.isParsable("01"));
+        // System.out.println(NumberUtils.isParsable("02"));
+        System.out.println(NumberUtils.isNumber("07"));
+        System.out.println(NumberUtils.isNumber("08"));
+        // System.out.println(NumberUtils.isParsable("09"));
+        // System.out.println(NumberUtils.isParsable("09.5"));
 
-        System.out.println(JSONObject.toJSONString(sentence));
+        // System.out.println((System.currentTimeMillis() -
+        // calendar.getTimeInMillis()) / 86400000D);
     }
 }

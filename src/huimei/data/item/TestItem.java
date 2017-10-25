@@ -33,7 +33,7 @@ public class TestItem {
                         && !org.apache.commons.lang3.StringUtils.containsNone(s, cs) && value != null) {
                     ExamRecognizePojo examRecognizePojo = new ExamRecognizePojo();
                     examRecognizePojo.setValueDescription(s);
-                    if (NumberUtils.isNumber(value)) {
+                    if (NumberUtils.isParsable(value)) {
                         examRecognizePojo.setNumberValue(Double.valueOf(value));
                     }
                     // 解析A:B
@@ -48,7 +48,7 @@ public class TestItem {
                     if (vs != null && vs.length == 2) {
                         String s1 = vs[0].trim();
                         String s2 = vs[1].trim();
-                        if (NumberUtils.isNumber(s1) && NumberUtils.isNumber(s2)) {
+                        if (NumberUtils.isParsable(s1) && NumberUtils.isParsable(s2)) {
                             Double d1 = Double.valueOf(s1);
                             Double d2 = Double.valueOf(s2);
                             if (d2 != 0) {
@@ -70,7 +70,7 @@ public class TestItem {
                     if (vs2 != null && vs2.length == 2) {
                         String s1 = vs2[0].trim();
                         String s2 = vs2[1].trim();
-                        if (NumberUtils.isNumber(s1) && NumberUtils.isNumber(s2)) {
+                        if (NumberUtils.isParsable(s1) && NumberUtils.isParsable(s2)) {
                             Double d1 = Double.valueOf(s1);
                             Double d2 = Double.valueOf(s2);
                             examRecognizePojo.setValue1(d1);
