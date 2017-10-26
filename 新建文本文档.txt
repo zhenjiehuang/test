@@ -2,159 +2,6 @@
 	"body":{
 		"diseaseHospitalList":[
 			{
-				"diseaseCode":"I26.900",
-				"diseaseGuid":"513",
-				"diseaseName":"肺栓塞",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":true,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":513,
-				"isSelected":false,
-				"isSerious":true,
-				"level":3,
-				"unmatchSymptom":[],
-				"uuid":"8753C5A8E2"
-			},
-			{
-				"diseaseCode":"I48.x01",
-				"diseaseGuid":"7967",
-				"diseaseName":"心房颤动",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":true,
-				"hasReference":false,
-				"hasTreatment":true,
-				"id":7967,
-				"isSelected":false,
-				"isSerious":false,
-				"level":3,
-				"unmatchSymptom":[],
-				"uuid":"8754C9AFE6"
-			},
-			{
-				"diseaseCode":"I50.900",
-				"diseaseGuid":"7981",
-				"diseaseName":"心力衰竭",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":false,
-				"hasTreatment":true,
-				"id":7981,
-				"isSelected":false,
-				"isSerious":false,
-				"level":3,
-				"unmatchSymptom":[],
-				"uuid":"8754C9A1E0"
-			},
-			{
-				"diseaseCode":"I49.900",
-				"diseaseGuid":"7977",
-				"diseaseName":"心律失常",
-				"hasBasis":false,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":7977,
-				"isSelected":false,
-				"isSerious":false,
-				"level":3,
-				"unmatchSymptom":[],
-				"uuid":"8754C9AEE6"
-			},
-			{
-				"diseaseCode":"R57.900",
-				"diseaseGuid":"224",
-				"diseaseName":"休克",
-				"hasBasis":false,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":224,
-				"isSelected":false,
-				"isSerious":true,
-				"level":3,
-				"unmatchSymptom":[],
-				"uuid":"8753C2ABE5"
-			},
-			{
-				"diseaseCode":"I42.900",
-				"diseaseGuid":"34478",
-				"diseaseName":"心肌病",
-				"hasBasis":false,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":34478,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8457C4AEE9"
-			},
-			{
-				"diseaseCode":"I25.103",
-				"diseaseGuid":"82",
-				"diseaseName":"冠状动脉粥样硬化性心脏病",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":82,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8753C0A1E3"
-			},
-			{
-				"diseaseCode":"C22.900",
-				"diseaseGuid":"2668",
-				"diseaseName":"肝恶性肿瘤",
-				"hasBasis":false,
-				"hasDetail":false,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":false,
-				"id":2668,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8751C6AFE9"
-			},
-			{
-				"diseaseCode":"A41.900",
-				"diseaseGuid":"58",
-				"diseaseName":"脓毒症",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":58,
-				"isSelected":false,
-				"isSerious":true,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8753C0ACE9"
-			},
-			{
 				"diseaseCode":"I61.900",
 				"diseaseGuid":"113",
 				"diseaseName":"脑出血",
@@ -167,110 +14,25 @@
 				"id":113,
 				"isSelected":false,
 				"isSerious":true,
-				"level":1,
+				"level":3,
 				"unmatchSymptom":[],
 				"uuid":"8753C1A8E2"
-			},
-			{
-				"diseaseCode":"K83.000",
-				"diseaseGuid":"10433",
-				"diseaseName":"胆管炎",
-				"hasBasis":false,
-				"hasDetail":false,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":10433,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8653C4AAE2"
-			},
-			{
-				"diseaseCode":"G47.302",
-				"diseaseGuid":"6512",
-				"diseaseName":"阻塞性睡眠呼吸暂停综合征",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":false,
-				"id":6512,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8755C5A8E3"
-			},
-			{
-				"diseaseCode":"I51.400",
-				"diseaseGuid":"7997",
-				"diseaseName":"心肌炎",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":false,
-				"id":7997,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8754C9A0E6"
-			},
-			{
-				"diseaseCode":"I27.900",
-				"diseaseGuid":"81",
-				"diseaseName":"慢性肺源性心脏病",
-				"hasBasis":true,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":false,
-				"hasTreatment":true,
-				"id":81,
-				"isSelected":false,
-				"isSerious":false,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"8753C0A1E0"
-			},
-			{
-				"diseaseCode":"J96.900",
-				"diseaseGuid":"9093",
-				"diseaseName":"呼吸衰竭",
-				"hasBasis":false,
-				"hasDetail":true,
-				"hasDifferential":false,
-				"hasMayo":false,
-				"hasReference":true,
-				"hasTreatment":true,
-				"id":9093,
-				"isSelected":false,
-				"isSerious":true,
-				"level":1,
-				"unmatchSymptom":[],
-				"uuid":"875AC0A0E2"
 			}
 		],
 		"examinationRecommendList":[
 			{
 				"customerExams":[
 					{
-						"examId":32,
-						"id":3931,
-						"orgExamId":"32",
-						"orgExamName":"尿常规",
-						"orgPyallName":"niaochanggui",
-						"orgPysimpleName":"ncg"
+						"examId":19,
+						"id":3918,
+						"orgExamId":"19",
+						"orgExamName":"凝血功能",
+						"orgPyallName":"ningxiegongneng",
+						"orgPysimpleName":"nxgn"
 					}
 				],
-				"examination":"尿常规",
-				"examinationId":32,
+				"examination":"凝血功能",
+				"examinationId":19,
 				"examinationLevel":4,
 				"examinationPostil":"",
 				"levelDesc":"一般检查"
@@ -278,67 +40,50 @@
 			{
 				"customerExams":[
 					{
-						"examId":35,
-						"id":3934,
-						"orgExamId":"35",
-						"orgExamName":"超敏促甲状腺激素",
-						"orgPyallName":"chaomincujiazhuangxianjisu",
-						"orgPysimpleName":"cmcjzxjs"
+						"examId":51,
+						"id":3947,
+						"orgExamId":"51",
+						"orgExamName":"头颅CT平扫",
+						"orgPyallName":"touluCTpingsao",
+						"orgPysimpleName":"tlCTps"
 					}
 				],
-				"examination":"超敏促甲状腺激素",
-				"examinationId":35,
-				"examinationLevel":4,
-				"examinationPostil":"",
-				"levelDesc":"一般检查"
+				"examination":"头颅CT平扫",
+				"examinationId":51,
+				"examinationLevel":2,
+				"examinationPostil":"诊断脑卒中首选的影像学检查方法，发病3小时内行首次头部CT患者，应于发病后8小时，最迟24小时内再次复查头部CT",
+				"levelDesc":"确诊检查"
 			},
 			{
 				"customerExams":[
 					{
-						"examId":3,
-						"id":3902,
-						"orgExamId":"3",
-						"orgExamName":"肌钙蛋白",
-						"orgPyallName":"jigaidanbai",
-						"orgPysimpleName":"jgdb"
+						"examId":52,
+						"id":3948,
+						"orgExamId":"52",
+						"orgExamName":"脑血管成像技术(CTA)",
+						"orgPyallName":"naoxieguanchengxiangjishu(CTA)",
+						"orgPysimpleName":"nxgcxjs(CTA)"
 					}
 				],
-				"examination":"肌钙蛋白",
-				"examinationId":3,
-				"examinationLevel":4,
-				"examinationPostil":"",
-				"levelDesc":"一般检查"
+				"examination":"脑血管成像技术(CTA)",
+				"examinationId":52,
+				"examinationLevel":3,
+				"examinationPostil":"可用于筛查可存在的脑血管畸形，动脉瘤，动静脉窦",
+				"levelDesc":"鉴别检查"
 			},
 			{
 				"customerExams":[
 					{
-						"examId":36,
-						"id":3935,
-						"orgExamId":"36",
-						"orgExamName":"动脉血气PH",
-						"orgPyallName":"dongmaixieqiPH",
-						"orgPysimpleName":"dmxqPH"
+						"examId":53,
+						"id":3949,
+						"orgExamId":"53",
+						"orgExamName":"脑磁共振血管成像 (MRA)",
+						"orgPyallName":"naocigongzhenxieguanchengxiang (MRA)",
+						"orgPysimpleName":"ncgzxgcx (MRA)"
 					}
 				],
-				"examination":"动脉血气PH",
-				"examinationId":36,
-				"examinationLevel":1,
-				"examinationPostil":"",
-				"levelDesc":"紧急检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":38,
-						"id":3937,
-						"orgExamId":"38",
-						"orgExamName":"促甲状腺激素检查",
-						"orgPyallName":"cujiazhuangxianjisujiancha",
-						"orgPysimpleName":"cjzxjsjc"
-					}
-				],
-				"examination":"促甲状腺激素检查",
-				"examinationId":38,
+				"examination":"脑磁共振血管成像 (MRA)",
+				"examinationId":53,
 				"examinationLevel":3,
 				"examinationPostil":"",
 				"levelDesc":"鉴别检查"
@@ -346,53 +91,70 @@
 			{
 				"customerExams":[
 					{
-						"examId":39,
-						"id":3938,
-						"orgExamId":"39",
-						"orgExamName":"凝血酶原检查",
-						"orgPyallName":"ningxiemeiyuanjiancha",
-						"orgPysimpleName":"nxmyjc"
+						"examId":55,
+						"id":3951,
+						"orgExamId":"55",
+						"orgExamName":"全脑血管造影(DSA)",
+						"orgPyallName":"quannaoxieguanzaoying(DSA)",
+						"orgPysimpleName":"qnxgzy(DSA)"
 					}
 				],
-				"examination":"凝血酶原检查",
-				"examinationId":39,
-				"examinationLevel":6,
-				"examinationPostil":"",
-				"levelDesc":"其他检查"
+				"examination":"全脑血管造影(DSA)",
+				"examinationId":55,
+				"examinationLevel":3,
+				"examinationPostil":"血管病变检查的重要方法和金标准",
+				"levelDesc":"鉴别检查"
 			},
 			{
 				"customerExams":[
 					{
-						"examId":40,
-						"id":3939,
-						"orgExamId":"40",
-						"orgExamName":"动态心电图监测",
-						"orgPyallName":"dongtaixindiantujiance",
-						"orgPysimpleName":"dtxdtjc"
+						"examId":59,
+						"id":3955,
+						"orgExamId":"59",
+						"orgExamName":"CT脑灌注成像(CTP)",
+						"orgPyallName":"CTnaoguanzhuchengxiang(CTP)",
+						"orgPysimpleName":"CTngzcx(CTP)"
 					}
 				],
-				"examination":"动态心电图监测",
-				"examinationId":40,
-				"examinationLevel":6,
-				"examinationPostil":"",
-				"levelDesc":"其他检查"
+				"examination":"CT脑灌注成像(CTP)",
+				"examinationId":59,
+				"examinationLevel":3,
+				"examinationPostil":"CTP能够反映ICH后脑组织的血供变化，了解血肿周边血流灌注情况",
+				"levelDesc":"鉴别检查"
 			},
 			{
 				"customerExams":[
 					{
-						"examId":41,
-						"id":3940,
-						"orgExamId":"41",
-						"orgExamName":"过夜血氧饱和度监测",
-						"orgPyallName":"guoyexieyangbaohedujiance",
-						"orgPysimpleName":"gyxybhdjc"
+						"examId":28,
+						"id":3927,
+						"orgExamId":"28",
+						"orgExamName":"心电图",
+						"orgPyallName":"xindiantu",
+						"orgPysimpleName":"xdt"
 					}
 				],
-				"examination":"过夜血氧饱和度监测",
-				"examinationId":41,
-				"examinationLevel":6,
+				"examination":"心电图",
+				"examinationId":28,
+				"examinationLevel":4,
 				"examinationPostil":"",
-				"levelDesc":"其他检查"
+				"levelDesc":"一般检查"
+			},
+			{
+				"customerExams":[
+					{
+						"examId":60,
+						"id":3956,
+						"orgExamId":"60",
+						"orgExamName":"CTV",
+						"orgPyallName":"CTV",
+						"orgPysimpleName":"CTV"
+					}
+				],
+				"examination":"CTV",
+				"examinationId":60,
+				"examinationLevel":3,
+				"examinationPostil":"",
+				"levelDesc":"鉴别检查"
 			},
 			{
 				"customerExams":[
@@ -414,121 +176,19 @@
 			{
 				"customerExams":[
 					{
-						"examId":14,
-						"id":3913,
-						"orgExamId":"14",
-						"orgExamName":"血电解质",
-						"orgPyallName":"xiedianjiezhi",
-						"orgPysimpleName":"xdjz"
+						"examId":61,
+						"id":3957,
+						"orgExamId":"61",
+						"orgExamName":"MRV",
+						"orgPyallName":"MRV",
+						"orgPysimpleName":"MRV"
 					}
 				],
-				"examination":"血电解质",
-				"examinationId":14,
-				"examinationLevel":4,
+				"examination":"MRV",
+				"examinationId":61,
+				"examinationLevel":3,
 				"examinationPostil":"",
-				"levelDesc":"一般检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":15,
-						"id":3914,
-						"orgExamId":"15",
-						"orgExamName":"肝功能",
-						"orgPyallName":"gangongneng",
-						"orgPysimpleName":"ggn"
-					}
-				],
-				"examination":"肝功能",
-				"examinationId":15,
-				"examinationLevel":4,
-				"examinationPostil":"",
-				"levelDesc":"一般检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":16,
-						"id":3915,
-						"orgExamId":"16",
-						"orgExamName":"肾功能",
-						"orgPyallName":"shengongneng",
-						"orgPysimpleName":"sgn"
-					}
-				],
-				"examination":"肾功能",
-				"examinationId":16,
-				"examinationLevel":4,
-				"examinationPostil":"",
-				"levelDesc":"一般检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":17,
-						"id":3916,
-						"orgExamId":"17",
-						"orgExamName":"血糖",
-						"orgPyallName":"xietang",
-						"orgPysimpleName":"xt"
-					}
-				],
-				"examination":"血糖",
-				"examinationId":17,
-				"examinationLevel":4,
-				"examinationPostil":"",
-				"levelDesc":"一般检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":22,
-						"id":3921,
-						"orgExamId":"22",
-						"orgExamName":"BNP",
-						"orgPyallName":"BNP",
-						"orgPysimpleName":"BNP"
-					}
-				],
-				"examination":"BNP",
-				"examinationId":22,
-				"examinationLevel":2,
-				"examinationPostil":"评估心力衰竭风险",
-				"levelDesc":"确诊检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":23,
-						"id":3922,
-						"orgExamId":"23",
-						"orgExamName":"NT-proBNP",
-						"orgPyallName":"NT-proBNP",
-						"orgPysimpleName":"NT-proBNP"
-					}
-				],
-				"examination":"NT-proBNP",
-				"examinationId":23,
-				"examinationLevel":2,
-				"examinationPostil":"",
-				"levelDesc":"确诊检查"
-			},
-			{
-				"customerExams":[
-					{
-						"examId":28,
-						"id":3927,
-						"orgExamId":"28",
-						"orgExamName":"心电图",
-						"orgPyallName":"xindiantu",
-						"orgPysimpleName":"xdt"
-					}
-				],
-				"examination":"心电图",
-				"examinationId":28,
-				"examinationLevel":2,
-				"examinationPostil":"",
-				"levelDesc":"确诊检查"
+				"levelDesc":"鉴别检查"
 			},
 			{
 				"customerExams":[
@@ -543,71 +203,102 @@
 				],
 				"examination":"胸部X线片",
 				"examinationId":30,
-				"examinationLevel":2,
+				"examinationLevel":4,
 				"examinationPostil":"",
-				"levelDesc":"确诊检查"
+				"levelDesc":"一般检查"
 			},
 			{
 				"customerExams":[
 					{
-						"examId":31,
-						"id":3930,
-						"orgExamId":"31",
-						"orgExamName":"超声心动图",
-						"orgPyallName":"chaoshengxindongtu",
-						"orgPysimpleName":"csxdt"
+						"examId":62,
+						"id":3958,
+						"orgExamId":"62",
+						"orgExamName":"血生化",
+						"orgPyallName":"xieshenghua",
+						"orgPysimpleName":"xsh"
 					}
 				],
-				"examination":"超声心动图",
-				"examinationId":31,
-				"examinationLevel":2,
+				"examination":"血生化",
+				"examinationId":62,
+				"examinationLevel":4,
 				"examinationPostil":"",
-				"levelDesc":"确诊检查"
-			}
-		],
-		"illnessAssessList":[
-			{
-				"assessId":"6",
-				"assessItem":"NYHA心功能分级",
-				"assessPostil":"对心力衰竭患者的运动耐量采用心力衰竭功能分级进行分期，运动耐量应在每次随诊时进行记录"
+				"levelDesc":"一般检查"
 			},
 			{
-				"assessId":"7",
-				"assessItem":"肺栓塞抗凝禁忌评估",
-				"assessPostil":""
-			},
-			{
-				"assessId":"8",
-				"assessItem":"肺栓塞溶栓禁忌评估",
-				"assessPostil":""
-			},
-			{
-				"assessId":"9",
-				"assessItem":"房颤卒中危险评估(CHA2DS2-VASc)",
-				"assessPostil":"评估脑卒中风险，脑卒中风险高考虑抗凝，抗凝治疗前评估抗凝获益和出血风险"
+				"customerExams":[
+					{
+						"examId":63,
+						"id":3959,
+						"orgExamId":"63",
+						"orgExamName":"输血前检查",
+						"orgPyallName":"shuxieqianjiancha",
+						"orgPysimpleName":"sxqjc"
+					}
+				],
+				"examination":"输血前检查",
+				"examinationId":63,
+				"examinationLevel":4,
+				"examinationPostil":"",
+				"levelDesc":"一般检查"
 			}
 		],
 		"illnessItems":[
 			{
 				"itemWord":"心率",
 				"unit":"次/min",
-				"value":"115"
-			},
-			{
-				"itemWord":"体重",
-				"unit":"kg",
-				"value":"3.3"
+				"value":"90"
 			}
 		],
 		"itemOrderList":[
 			501,
-			1,
-			3
+			4,
+			1
 		],
 		"patientInfo":{
 			"ageType":"岁",
+			"definiteDiagnosis":[
+				"脑出血"
+			],
 			"gender":0
-		}
+		},
+		"therapeuticPlanList":[
+			{
+				"hasDrug":1,
+				"id":74,
+				"planName":"脑出血血压管理",
+				"planPostil":""
+			},
+			{
+				"hasDrug":1,
+				"id":44,
+				"planName":"脑出血血糖管理",
+				"planPostil":"高血糖和低血糖均是影响脑出血预后的重要因素。脑出血当血糖>10mmol/L开始降糖治疗，静脉用胰岛素治疗，控制随机血糖<11.1mmol/L，避免发生低血糖"
+			},
+			{
+				"hasDrug":1,
+				"id":32,
+				"planName":"降颅压治疗",
+				"planPostil":"密切观察患者脑水肿和颅内压增高情况，必要时监测颅内压，颅内压ICP>20mmHg，可应用脱水剂；颅内压ICP>25mmHg，可微创或外科干预，如脑室引流减压、去骨瓣减压"
+			},
+			{
+				"hasDrug":0,
+				"id":46,
+				"planName":"外科治疗",
+				"planPostil":"脑出血后，若患者情况恶化和高危患者（如：大半球血肿中线移位或小脑出血）可以考虑手术治疗"
+			},
+			{
+				"hasDrug":1,
+				"id":75,
+				"planName":"脑出血并发症治疗",
+				"planPostil":""
+			},
+			{
+				"hasDrug":1,
+				"id":45,
+				"planName":"止血治疗",
+				"planPostil":"出血8小时内可以适当应用止血药预防血肿扩大，使用一般不超过48小时。对于凝血功能正常的患者，一般不建议常规使用止血药"
+			}
+		]
 	},
 	"head":{
 		"error":0
