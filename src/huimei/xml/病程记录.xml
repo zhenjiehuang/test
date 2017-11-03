@@ -1,0 +1,4637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTextDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" EditorVersionString="1.2015.11.30">
+	<Attributes />
+	<XElements>
+		<Element xsi:type="XTextHeader">
+			<Attributes />
+			<AcceptTab>true</AcceptTab>
+			<Expressions />
+			<ScriptItems />
+			<XElements>
+				<Element xsi:type="XInputField" StyleIndex="5">
+					<Attributes>
+						<Attribute>
+							<Name>YuanSuID</Name>
+							<Value>DE08.10.013.00</Value>
+						</Attribute>
+						<Attribute>
+							<Name>YuanSuMC</Name>
+							<Value>医疗机构名称</Value>
+						</Attribute>
+					</Attributes>
+					<ID>ZSK_YiLiaoJGMC</ID>
+					<ToolTip>医疗机构名称</ToolTip>
+					<EnableValueValidate>true</EnableValueValidate>
+					<ValueBinding />
+					<Expressions />
+					<ScriptItems />
+					<XElements>
+						<Element xsi:type="XString" StyleIndex="5">
+							<XElements xsi:nil="true" />
+							<Text>建德市第一人民医院</Text>
+						</Element>
+					</XElements>
+					<BorderElementColor />
+					<EventExpressions />
+					<LabelText />
+					<Name>医疗机构名称</Name>
+					<InnerValue>建德市第一人民医院</InnerValue>
+					<BackgroundText>医疗机构名称</BackgroundText>
+				</Element>
+				<Element xsi:type="XParagraphFlag" StyleIndex="3" />
+				<Element xsi:type="XInputField" StyleIndex="7">
+					<Attributes>
+						<Attribute>
+							<Name>YuanSuMC</Name>
+							<Value>文档标题</Value>
+						</Attribute>
+					</Attributes>
+					<ID>ZSK_WenDangBT</ID>
+					<ToolTip>文档标题</ToolTip>
+					<EnableValueValidate>true</EnableValueValidate>
+					<ValueBinding />
+					<Expressions />
+					<ScriptItems />
+					<XElements>
+						<Element xsi:type="XString" StyleIndex="7">
+							<XElements xsi:nil="true" />
+							<Text>病程记录</Text>
+						</Element>
+					</XElements>
+					<BorderElementColor />
+					<EventExpressions />
+					<LabelText />
+					<Name>文档标题</Name>
+					<InnerValue>病程记录</InnerValue>
+					<BackgroundText>文档标题</BackgroundText>
+				</Element>
+				<Element xsi:type="XParagraphFlag" StyleIndex="4" />
+				<Element xsi:type="XTextTable" NumOfRows="1" NumOfColumns="5">
+					<Attributes />
+					<ID>table1</ID>
+					<Expressions />
+					<ScriptItems />
+					<XElements>
+						<Element xsi:type="XTextTableRow">
+							<Attributes />
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableCell" StyleIndex="2">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="6">
+											<XElements xsi:nil="true" />
+											<Text>姓名</Text>
+										</Element>
+										<Element xsi:type="XString">
+											<XElements xsi:nil="true" />
+											<Text>:</Text>
+										</Element>
+										<Element xsi:type="XInputField">
+											<Attributes>
+												<Attribute>
+													<Name>YuanSuID</Name>
+													<Value>DE02.01.039.00</Value>
+												</Attribute>
+												<Attribute>
+													<Name>YuanSuMC</Name>
+													<Value>患者姓名</Value>
+												</Attribute>
+											</Attributes>
+											<ID>ZSK_HuanZheXMBT</ID>
+											<ToolTip>患者姓名</ToolTip>
+											<EnableValueValidate>true</EnableValueValidate>
+											<ValueBinding />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString">
+													<XElements xsi:nil="true" />
+													<Text>沈惠琴</Text>
+												</Element>
+											</XElements>
+											<BorderElementColor />
+											<EventExpressions />
+											<LabelText />
+											<Name>患者姓名</Name>
+											<InnerValue>沈惠琴</InnerValue>
+											<BackgroundText>姓名</BackgroundText>
+										</Element>
+										<Element xsi:type="XParagraphFlag" />
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableCell" StyleIndex="2">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="6">
+											<XElements xsi:nil="true" />
+											<Text>病历号</Text>
+										</Element>
+										<Element xsi:type="XString">
+											<XElements xsi:nil="true" />
+											<Text>:</Text>
+										</Element>
+										<Element xsi:type="XInputField">
+											<Attributes>
+												<Attribute>
+													<Name>YuanSuID</Name>
+													<Value>DE01.00.004.00</Value>
+												</Attribute>
+												<Attribute>
+													<Name>YuanSuMC</Name>
+													<Value>病案号</Value>
+												</Attribute>
+											</Attributes>
+											<ID>ZSK_BingAnHBT</ID>
+											<ToolTip>病案号</ToolTip>
+											<EnableValueValidate>true</EnableValueValidate>
+											<ValueBinding />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString">
+													<XElements xsi:nil="true" />
+													<Text>759704</Text>
+												</Element>
+											</XElements>
+											<BorderElementColor />
+											<EventExpressions />
+											<LabelText />
+											<Name>病案号</Name>
+											<InnerValue>759704</InnerValue>
+											<BackgroundText>病案号</BackgroundText>
+										</Element>
+										<Element xsi:type="XParagraphFlag" />
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableCell" StyleIndex="2">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="6">
+											<XElements xsi:nil="true" />
+											<Text>性别</Text>
+										</Element>
+										<Element xsi:type="XString">
+											<XElements xsi:nil="true" />
+											<Text>:</Text>
+										</Element>
+										<Element xsi:type="XInputField">
+											<Attributes>
+												<Attribute>
+													<Name>YuanSuID</Name>
+													<Value>DE02.01.040.00</Value>
+												</Attribute>
+												<Attribute>
+													<Name>YuanSuMC</Name>
+													<Value>性别代码</Value>
+												</Attribute>
+												<Attribute>
+													<Name>ShengChengYS</Name>
+													<Value>下拉列表</Value>
+												</Attribute>
+												<Attribute>
+													<Name>DuoXuanBZ</Name>
+													<Value>单选</Value>
+												</Attribute>
+											</Attributes>
+											<ID>xingbie</ID>
+											<ToolTip>性别代码</ToolTip>
+											<EnableValueValidate>true</EnableValueValidate>
+											<ValueBinding />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString">
+													<XElements xsi:nil="true" />
+													<Text>女</Text>
+												</Element>
+											</XElements>
+											<BorderElementColor />
+											<EventExpressions />
+											<LabelText />
+											<Name>性别</Name>
+											<InnerValue>女</InnerValue>
+											<BackgroundText>性别</BackgroundText>
+											<FieldSettings>
+												<EditStyle>DropdownList</EditStyle>
+												<ListSource>
+													<Items>
+														<Item>
+															<Text>未知的性别</Text>
+															<Value>未知的性别</Value>
+														</Item>
+														<Item>
+															<Text>男性</Text>
+															<Value>男性</Value>
+														</Item>
+														<Item>
+															<Text>女性</Text>
+															<Value>女性</Value>
+														</Item>
+														<Item>
+															<Text>未说明的性别</Text>
+															<Value>未说明的性别</Value>
+														</Item>
+													</Items>
+												</ListSource>
+											</FieldSettings>
+										</Element>
+										<Element xsi:type="XParagraphFlag" />
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableCell" StyleIndex="2">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="6">
+											<XElements xsi:nil="true" />
+											<Text>科别</Text>
+										</Element>
+										<Element xsi:type="XString">
+											<XElements xsi:nil="true" />
+											<Text>:</Text>
+										</Element>
+										<Element xsi:type="XTextLabelElement">
+											<Attributes />
+											<ID>LB_KeShi</ID>
+											<PropertyExpressions />
+											<ScriptItems />
+											<Name>当前科室</Name>
+											<Width>229.166641</Width>
+											<Height>52.2786369</Height>
+											<Alignment>MiddleLeft</Alignment>
+											<Text>心血管内科</Text>
+											<PageTexts>
+												<PageText>
+													<Text>心血管内科</Text>
+												</PageText>
+												<PageText>
+													<PageIndex>1</PageIndex>
+													<Text>心血管内科</Text>
+												</PageText>
+												<PageText>
+													<PageIndex>2</PageIndex>
+													<Text>心血管内科</Text>
+												</PageText>
+												<PageText>
+													<PageIndex>3</PageIndex>
+													<Text>心血管内科</Text>
+												</PageText>
+											</PageTexts>
+										</Element>
+										<Element xsi:type="XParagraphFlag" />
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableCell" StyleIndex="2">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="6">
+											<XElements xsi:nil="true" />
+											<Text>床号</Text>
+										</Element>
+										<Element xsi:type="XString">
+											<XElements xsi:nil="true" />
+											<Text>:</Text>
+										</Element>
+										<Element xsi:type="XTextLabelElement">
+											<Attributes />
+											<ID>LB_ChuangHao</ID>
+											<PropertyExpressions />
+											<ScriptItems />
+											<Name>床号</Name>
+											<Width>137.499985</Width>
+											<Height>52.2786369</Height>
+											<Alignment>MiddleLeft</Alignment>
+											<Text>316027</Text>
+											<PageTexts>
+												<PageText>
+													<Text>316027</Text>
+												</PageText>
+												<PageText>
+													<PageIndex>1</PageIndex>
+													<Text>316027</Text>
+												</PageText>
+												<PageText>
+													<PageIndex>2</PageIndex>
+													<Text>316027</Text>
+												</PageText>
+												<PageText>
+													<PageIndex>3</PageIndex>
+													<Text>316027</Text>
+												</PageText>
+											</PageTexts>
+										</Element>
+										<Element xsi:type="XParagraphFlag" />
+									</XElements>
+								</Element>
+							</XElements>
+							<AllowInsertRowDownUseHotKey>EnableInAllCases</AllowInsertRowDownUseHotKey>
+							<AllowUserPressTabKeyToInsertRowDown>true</AllowUserPressTabKeyToInsertRowDown>
+						</Element>
+					</XElements>
+					<CompressOwnerLineSpacing>true</CompressOwnerLineSpacing>
+					<Columns>
+						<Element xsi:type="XTextTableColumn">
+							<Attributes />
+							<Width>374.079559</Width>
+						</Element>
+						<Element xsi:type="XTextTableColumn">
+							<Attributes />
+							<Width>422.741852</Width>
+						</Element>
+						<Element xsi:type="XTextTableColumn">
+							<Attributes />
+							<Width>279.843048</Width>
+						</Element>
+						<Element xsi:type="XTextTableColumn">
+							<Attributes />
+							<Width>544.557861</Width>
+						</Element>
+						<Element xsi:type="XTextTableColumn">
+							<Attributes />
+							<Width>486.527771</Width>
+						</Element>
+					</Columns>
+				</Element>
+				<Element xsi:type="XParagraphFlag" StyleIndex="0" />
+			</XElements>
+		</Element>
+		<Element xsi:type="XTextBody">
+			<Attributes />
+			<AcceptTab>true</AcceptTab>
+			<ContentReadonly>True</ContentReadonly>
+			<Expressions />
+			<ScriptItems />
+			<XElements>
+				<Element xsi:type="XTextSection" StyleIndex="23">
+					<Attributes />
+					<AcceptTab>true</AcceptTab>
+					<ContentReadonly>False</ContentReadonly>
+					<XElements>
+						<Element xsi:type="XTextTable" StyleIndex="9" NumOfRows="3"
+							NumOfColumns="4">
+							<Attributes />
+							<ID>table2</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="11">
+													<XElements xsi:nil="true" />
+													<Text>首次病程记录</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="12" />
+											</XElements>
+											<ColSpan>4</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>患者姓名:</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.039.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>患者姓名</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_HuanZheXM</ID>
+													<ToolTip>患者姓名</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>沈惠琴</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>患者姓名</Name>
+													<InnerValue>hm.name</InnerValue>
+													<BackgroundText>患者姓名</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>性别:</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.040.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>性别代码</Value>
+														</Attribute>
+														<Attribute>
+															<Name>ShengChengYS</Name>
+															<Value>下拉列表</Value>
+														</Attribute>
+														<Attribute>
+															<Name>DuoXuanBZ</Name>
+															<Value>单选</Value>
+														</Attribute>
+														<Attribute>
+															<Name>ZHIYULY</Name>
+															<Value>1</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_XingBie</ID>
+													<ToolTip>性别代码</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>女</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>性别</Name>
+													<InnerValue>hm.gender</InnerValue>
+													<BackgroundText>性别</BackgroundText>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DropdownList</EditStyle>
+														<DynamicListItems>true</DynamicListItems>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>年龄: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.026.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>年龄</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_NianLing</ID>
+													<ToolTip>年龄（岁）</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>39岁</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>年龄</Name>
+													<InnerValue>hm.age</InnerValue>
+													<BackgroundText>年龄</BackgroundText>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>Numeric</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>病历号:  </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE01.00.004.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>病案号</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_BingAnH</ID>
+													<ToolTip>病案号</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>759704</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>病案号</Name>
+													<InnerValue>hm.guid</InnerValue>
+													<BackgroundText>病案号</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>入院日期:</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE06.00.092.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>入院日期时间</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_RuYuanRQ</ID>
+													<ToolTip>入院日期时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>2017-05-08 12:21</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>入院日期</Name>
+													<DisplayFormat>
+														<Style>DateTime</Style>
+														<Format>hm.inhospitalFormat</Format>
+													</DisplayFormat>
+													<InnerValue>hm.inhospital</InnerValue>
+													<PrintBackgroundText>True</PrintBackgroundText>
+													<BackgroundText>入科日期</BackgroundText>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTime</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>2</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>床号: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE01.00.026.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>病床号</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_DangQianCH</ID>
+													<ToolTip>病床号</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>316027</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>当前床号</Name>
+													<InnerValue>hm.bingchuang</InnerValue>
+													<BackgroundText>当前床号</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>临床科室:</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_DangQianKS</ID>
+													<ToolTip>科室名称</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>心血管内科</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>当前科室</Name>
+													<InnerValue>hm.keshi</InnerValue>
+													<BackgroundText>当前科室</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>569.6875</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>342.6875</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>456.6875</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>673.6875</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="9">
+							<Attributes />
+							<ID>ZSK_ZhuSu1</ID>
+							<ToolTip>主诉</ToolTip>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text> 患者</Text>
+								</Element>
+								<Element xsi:type="XInputField" StyleIndex="9">
+									<Attributes>
+										<Attribute>
+											<Name>YuanSuID</Name>
+											<Value>DE02.01.039.00</Value>
+										</Attribute>
+										<Attribute>
+											<Name>YuanSuMC</Name>
+											<Value>患者姓名</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_HuanZheXM1</ID>
+									<ToolTip>患者姓名</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValidateStyle>
+										<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+										<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+									</ValidateStyle>
+									<ValueBinding />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>沈惠琴</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<LabelText />
+									<Name>患者姓名</Name>
+									<InnerValue>沈惠琴</InnerValue>
+									<BackgroundText>患者姓名</BackgroundText>
+									<LastSelectedListItems />
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>，</Text>
+								</Element>
+								<Element xsi:type="XInputField" StyleIndex="9">
+									<Attributes>
+										<Attribute>
+											<Name>YuanSuID</Name>
+											<Value>DE02.01.040.00</Value>
+										</Attribute>
+										<Attribute>
+											<Name>YuanSuMC</Name>
+											<Value>性别代码</Value>
+										</Attribute>
+										<Attribute>
+											<Name>ShengChengYS</Name>
+											<Value>下拉列表</Value>
+										</Attribute>
+										<Attribute>
+											<Name>DuoXuanBZ</Name>
+											<Value>单选</Value>
+										</Attribute>
+										<Attribute>
+											<Name>ZHIYULY</Name>
+											<Value>1</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_XingBie1</ID>
+									<ToolTip>性别代码</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValidateStyle>
+										<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+										<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+									</ValidateStyle>
+									<ValueBinding />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>女</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<LabelText />
+									<Name>性别</Name>
+									<InnerValue>女</InnerValue>
+									<BackgroundText>性别</BackgroundText>
+									<LastSelectedListItems />
+									<FieldSettings>
+										<EditStyle>DropdownList</EditStyle>
+										<DynamicListItems>true</DynamicListItems>
+									</FieldSettings>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>，</Text>
+								</Element>
+								<Element xsi:type="XInputField" StyleIndex="9">
+									<Attributes>
+										<Attribute>
+											<Name>YuanSuID</Name>
+											<Value>DE02.01.026.00</Value>
+										</Attribute>
+										<Attribute>
+											<Name>YuanSuMC</Name>
+											<Value>年龄</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_NianLing1</ID>
+									<ToolTip>年龄（岁）</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValidateStyle>
+										<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+										<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+									</ValidateStyle>
+									<ValueBinding />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>39岁</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<LabelText />
+									<Name>年龄</Name>
+									<InnerValue>39岁</InnerValue>
+									<BackgroundText>年龄</BackgroundText>
+									<LastSelectedListItems />
+									<FieldSettings>
+										<EditStyle>Numeric</EditStyle>
+									</FieldSettings>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text> ，</Text>
+								</Element>
+								<Element xsi:type="XInputField" StyleIndex="9">
+									<Attributes>
+										<Attribute>
+											<Name>YuanSuID</Name>
+											<Value>DE02.01.052.00</Value>
+										</Attribute>
+										<Attribute>
+											<Name>YuanSuMC</Name>
+											<Value>职业类别代码</Value>
+										</Attribute>
+										<Attribute>
+											<Name>ShengChengYS</Name>
+											<Value>下拉列表</Value>
+										</Attribute>
+										<Attribute>
+											<Name>DuoXuanBZ</Name>
+											<Value>单选</Value>
+										</Attribute>
+										<Attribute>
+											<Name>ZHIYULY</Name>
+											<Value>1</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_ZhiYe</ID>
+									<ToolTip>职业类别代码</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValidateStyle>
+										<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+										<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+									</ValidateStyle>
+									<ValueBinding />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>农民</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<LabelText />
+									<Name>职业</Name>
+									<InnerValue>农民</InnerValue>
+									<BackgroundText>职业类别</BackgroundText>
+									<SelectedIndex>4</SelectedIndex>
+									<LastSelectedListItems />
+									<FieldSettings>
+										<EditStyle>DropdownList</EditStyle>
+										<DynamicListItems>true</DynamicListItems>
+									</FieldSettings>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>。因“</Text>
+								</Element>
+								<Element xsi:type="XInputField" StyleIndex="9">
+									<Attributes>
+										<Attribute>
+											<Name>YuanSuMC</Name>
+											<Value>DE04.01.119.00</Value>
+										</Attribute>
+										<Attribute>
+											<Name>YongHudjbjqx</Name>
+											<Value>主诉</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_ZhuSu</ID>
+									<ToolTip>主诉</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValidateStyle>
+										<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+										<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+									</ValidateStyle>
+									<ValueBinding />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>反复胸闷胸痛半月</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<LabelText />
+									<Name>主诉</Name>
+									<InnerValue>反复胸闷胸痛半月</InnerValue>
+									<BackgroundText>主诉</BackgroundText>
+									<LastSelectedListItems />
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>”入院。</Text>
+								</Element>
+							</XElements>
+							<BorderElementColor />
+							<EventExpressions />
+							<Name>主诉1</Name>
+							<InnerValue>hm.zhusu</InnerValue>
+							<BackgroundText>主诉</BackgroundText>
+							<EnableHighlight>Disabled</EnableHighlight>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XString" StyleIndex="9">
+							<XElements xsi:nil="true" />
+							<Text>病例特点:</Text>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="9">
+							<Attributes />
+							<ID>ZSK_BingLiTD</ID>
+							<ToolTip>病例特点</ToolTip>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text> 1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>2.患者半月前起无明显诱因下反复出现胸闷、胸痛不适，位于胸骨下段后方，与活动无关，胸痛呈隐痛，持续时间长短不等，未曾正规诊治，今来我院门诊就诊，拟“胸痛”收住入院。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>3.体检：T 37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+										神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>4.辅助检查：心电图：窦性心律 T波改变。   </Text>
+								</Element>
+							</XElements>
+							<BorderElementColor />
+							<EventExpressions />
+							<Name>病例特点</Name>
+							<InnerValue>hm.bingli</InnerValue>
+							<BackgroundText>病例特点</BackgroundText>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XString" StyleIndex="9">
+							<XElements xsi:nil="true" />
+							<Text>拟诊讨论</Text>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="13">
+							<Attributes>
+								<Attribute>
+									<Name>ZhenDuanBJMS</Name>
+									<Value>1</Value>
+								</Attribute>
+								<Attribute>
+									<Name>ZhenDuanSXLX</Name>
+									<Value>140</Value>
+								</Attribute>
+							</Attributes>
+							<ID>ZSK_ChuBuZdKJ</ID>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<ContentReadonly>True</ContentReadonly>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XInputField" StyleIndex="14">
+									<Attributes>
+										<Attribute>
+											<Name>诊断标准码</Name>
+											<Value>141,142</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_ChuBuZD</ID>
+									<ToolTip>补充诊断</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValueBinding />
+									<ContentReadonly>True</ContentReadonly>
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>冠状动脉粥样硬化性心脏病可疑</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<Name>拟诊讨论</Name>
+									<InnerValue></InnerValue>
+									<BackgroundText>拟诊讨论</BackgroundText>
+									<EnableHighlight>Disabled</EnableHighlight>
+									<LastSelectedListItems />
+								</Element>
+								<Element xsi:type="XString" StyleIndex="15"
+									WhiteSpaceLength="3">
+									<XElements xsi:nil="true" />
+									<Text>
+									</Text>
+								</Element>
+							</XElements>
+							<Deleteable>false</Deleteable>
+							<BorderElementColor />
+							<SpecifyWidth>236.220474</SpecifyWidth>
+							<EventExpressions />
+							<UserEditable>false</UserEditable>
+							<InnerValue>hm.nizhen</InnerValue>
+							<BorderVisible>AlwaysVisible</BorderVisible>
+							<EnableHighlight>Disabled</EnableHighlight>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XString" StyleIndex="9">
+							<XElements xsi:nil="true" />
+							<Text>初步诊断:</Text>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="13">
+							<Attributes>
+								<Attribute>
+									<Name>ZhenDuanBJMS</Name>
+									<Value>1</Value>
+								</Attribute>
+								<Attribute>
+									<Name>ZhenDuanSXLX</Name>
+									<Value>140</Value>
+								</Attribute>
+							</Attributes>
+							<ID>ZSK_ChuBuZdKJ</ID>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<ContentReadonly>True</ContentReadonly>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XInputField" StyleIndex="14">
+									<Attributes>
+										<Attribute>
+											<Name>诊断标准码</Name>
+											<Value>141,142</Value>
+										</Attribute>
+									</Attributes>
+									<ID>ZSK_ChuBuZD</ID>
+									<ToolTip>补充诊断</ToolTip>
+									<EnableValueValidate>true</EnableValueValidate>
+									<ValueBinding />
+									<ContentReadonly>True</ContentReadonly>
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XString" StyleIndex="9">
+											<XElements xsi:nil="true" />
+											<Text>冠状动脉粥样硬化性心脏病可疑</Text>
+										</Element>
+									</XElements>
+									<BorderElementColor />
+									<EventExpressions />
+									<Name>初步诊断</Name>
+									<InnerValue></InnerValue>
+									<BackgroundText>初步诊断</BackgroundText>
+									<EnableHighlight>Disabled</EnableHighlight>
+									<LastSelectedListItems />
+								</Element>
+								<Element xsi:type="XString" StyleIndex="15"
+									WhiteSpaceLength="3">
+									<XElements xsi:nil="true" />
+									<Text>
+									</Text>
+								</Element>
+							</XElements>
+							<Deleteable>false</Deleteable>
+							<BorderElementColor />
+							<SpecifyWidth>236.220474</SpecifyWidth>
+							<EventExpressions />
+							<UserEditable>false</UserEditable>
+							<InnerValue>hm.chubu</InnerValue>
+							<BorderVisible>AlwaysVisible</BorderVisible>
+							<EnableHighlight>Disabled</EnableHighlight>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XString" StyleIndex="9">
+							<XElements xsi:nil="true" />
+							<Text>诊断依据: </Text>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="9">
+							<Attributes />
+							<ID>field14</ID>
+							<ToolTip>诊断依据</ToolTip>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>2.因“反复胸闷胸痛半月”入院。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>3.体检：T 37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+										神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>4.辅助检查：心电图：窦性心律 T波改变。       </Text>
+								</Element>
+							</XElements>
+							<BorderElementColor />
+							<EventExpressions />
+							<Name>诊断依据</Name>
+							<InnerValue>hm.zhenduan</InnerValue>
+							<BackgroundText>诊断依据</BackgroundText>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XString" StyleIndex="9">
+							<XElements xsi:nil="true" />
+							<Text>鉴别诊断: </Text>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="9">
+							<Attributes />
+							<ID>field15</ID>
+							<ToolTip>鉴别诊断</ToolTip>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>1.心脏神经官能症:
+										常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。</Text>
+								</Element>
+							</XElements>
+							<BorderElementColor />
+							<EventExpressions />
+							<Name>鉴别诊断</Name>
+							<InnerValue>hm.jianjie</InnerValue>
+							<BackgroundText>鉴别诊断</BackgroundText>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XString" StyleIndex="9">
+							<XElements xsi:nil="true" />
+							<Text>诊疗计划:</Text>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XInputField" StyleIndex="9">
+							<Attributes />
+							<ID>ZSK_ZhenLiaoJH</ID>
+							<ToolTip>诊疗计划</ToolTip>
+							<EnableValueValidate>true</EnableValueValidate>
+							<ValueBinding />
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>1.心内科护理常规，二级护理，低盐低脂饮食。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>2.</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="16">
+									<XElements xsi:nil="true" />
+									<Text>.</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>完善相关检查如胸片、B超、心电图、动态血压、动态心电图及血生化、甲状腺功能、二便常规等检查</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="16">
+									<XElements xsi:nil="true" />
+									<Text>助诊断指导治疗。建议行冠脉CTA或冠脉造影检查明确诊断</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="17">
+									<XElements xsi:nil="true" />
+									<Text>助诊治。</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="16">
+									<XElements xsi:nil="true" />
+									<Text>。</Text>
+								</Element>
+								<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+								<Element xsi:type="XString" StyleIndex="16">
+									<XElements xsi:nil="true" />
+									<Text>4</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="17">
+									<XElements xsi:nil="true" />
+									<Text>3</Text>
+								</Element>
+								<Element xsi:type="XString" StyleIndex="9">
+									<XElements xsi:nil="true" />
+									<Text>.健康宣教。          </Text>
+								</Element>
+							</XElements>
+							<BorderElementColor />
+							<EventExpressions />
+							<Name>诊疗计划</Name>
+							<InnerValue>hm.zhenliao</InnerValue>
+							<BackgroundText>诊疗计划</BackgroundText>
+							<LastSelectedListItems />
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+						<Element xsi:type="XTextTable" StyleIndex="9" NumOfRows="1"
+							NumOfColumns="2">
+							<Attributes />
+							<ID>table3</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>记录医生: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiLuYS</ID>
+													<ToolTip>记录医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>崇爱国</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>记录医师</Name>
+													<InnerValue>hm.doctor</InnerValue>
+													<BackgroundText>记录医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>记录日期及时间: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiLuSJ</ID>
+													<ToolTip>记录时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>2017-05-08 13:40</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>记录时间</Name>
+													<DisplayFormat>
+														<Format>hm.recordTimeFormat</Format>
+													</DisplayFormat>
+													<InnerValue>hm.recordTime</InnerValue>
+													<PrintBackgroundText>True</PrintBackgroundText>
+													<BackgroundText>记录时间</BackgroundText>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTimeWithoutSecond</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>1170.375</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>872.375</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+					</XElements>
+					<ForeColorForCollapsed />
+				</Element>
+				<Element xsi:type="XTextSection" StyleIndex="22">
+					<Attributes />
+					<AcceptTab>true</AcceptTab>
+					<ContentReadonly>True</ContentReadonly>
+					<XElements>
+						<Element xsi:type="XTextTable" StyleIndex="9" NumOfRows="6"
+							NumOfColumns="1">
+							<Attributes />
+							<ID>table2</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_BingChengSJ</ID>
+													<ToolTip>病程时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<ContentReadonly>False</ContentReadonly>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>2017年05月09日 10时21分</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<UserEditable>false</UserEditable>
+													<Name>病程时间</Name>
+													<DisplayFormat>
+														<Style>DateTime</Style>
+														<Format>hm.bingcheng.timeFormat</Format>
+													</DisplayFormat>
+													<InnerValue>hm.bingcheng.time</InnerValue>
+													<PrintBackgroundText>True</PrintBackgroundText>
+													<BackgroundText>病程时间</BackgroundText>
+													<BorderVisible>AlwaysVisible</BorderVisible>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<EditorActiveMode>None</EditorActiveMode>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTime</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>文档标题</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_BingChengBT</ID>
+													<ToolTip>病程标题</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<ContentReadonly>False</ContentReadonly>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>崇爱国主治医师查房记录</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<UserEditable>false</UserEditable>
+													<Name>病程标题</Name>
+													<InnerValue>崇爱国主治医师查房记录</InnerValue>
+													<BackgroundText>病程标题</BackgroundText>
+													<BorderVisible>AlwaysVisible</BorderVisible>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_BingChengNR</ID>
+													<ToolTip>病程内容</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<ContentReadonly>True</ContentReadonly>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>Subjective:</Text>
+														</Element>
+														<Element xsi:type="XInputField" StyleIndex="9">
+															<Attributes>
+																<Attribute>
+																	<Name>YuanSuMC</Name>
+																	<Value>DE04.01.119.00</Value>
+																</Attribute>
+																<Attribute>
+																	<Name>YongHudjbjqx</Name>
+																	<Value>主诉</Value>
+																</Attribute>
+															</Attributes>
+															<ID>ZSK_ZhuSu1</ID>
+															<ToolTip>主诉</ToolTip>
+															<EnableValueValidate>true</EnableValueValidate>
+															<ValidateStyle>
+																<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+																<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+															</ValidateStyle>
+															<ValueBinding />
+															<ContentReadonly>False</ContentReadonly>
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XString" StyleIndex="17">
+																	<XElements xsi:nil="true" />
+																	<Text>患者诉胸闷胸痛缓解，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿</Text>
+																</Element>
+															</XElements>
+															<BorderElementColor />
+															<EventExpressions />
+															<LabelText />
+															<Name>主诉</Name>
+															<InnerValue>患者诉胸闷胸痛缓解，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿</InnerValue>
+															<BackgroundText>主诉</BackgroundText>
+															<LastSelectedListItems />
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>病程内容</Name>
+													<InnerValue>hm.Subjective</InnerValue>
+													<BackgroundText>病程内容</BackgroundText>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_ChaTi</ID>
+													<ToolTip>查体</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<ContentReadonly>True</ContentReadonly>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>Objective:</Text>
+														</Element>
+														<Element xsi:type="XInputField" StyleIndex="9">
+															<Attributes />
+															<ID>ZSK_ChaTi1</ID>
+															<ToolTip>查体1</ToolTip>
+															<EnableValueValidate>true</EnableValueValidate>
+															<ValueBinding />
+															<ContentReadonly>False</ContentReadonly>
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XString" StyleIndex="17">
+																	<XElements xsi:nil="true" />
+																	<Text> BP 103/71mmHg
+																		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿.</Text>
+																</Element>
+															</XElements>
+															<Deleteable>false</Deleteable>
+															<BorderElementColor />
+															<EventExpressions />
+															<Name>查体</Name>
+															<InnerValue></InnerValue>
+															<BackgroundText>查体1</BackgroundText>
+															<LastSelectedListItems />
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>查体</Name>
+													<InnerValue>hm.Objective</InnerValue>
+													<BackgroundText>查体</BackgroundText>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_ZhenDuan</ID>
+													<ToolTip>诊断</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<ContentReadonly>True</ContentReadonly>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>Assessment:</Text>
+														</Element>
+														<Element xsi:type="XInputField" StyleIndex="9">
+															<Attributes />
+															<ID>ZSK_ZhenDuan1</ID>
+															<ToolTip>诊断1</ToolTip>
+															<EnableValueValidate>true</EnableValueValidate>
+															<ValueBinding />
+															<ContentReadonly>False</ContentReadonly>
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XString" StyleIndex="17">
+																	<XElements xsi:nil="true" />
+																	<Text>今崇爱国主治医师查房：目前诊断：冠状动脉粥样硬化性心脏病可疑
+																		诊断依据：1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。2.因“反复胸闷胸痛半月”入院。3.体检：T
+																		37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+																		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。4.辅助检查：心电图：窦性心律
+																		T波改变。鉴别诊断：1.心脏神经官能症:
+																		常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。    </Text>
+																</Element>
+																<Element xsi:type="XLineBreak" StyleIndex="18" />
+															</XElements>
+															<Deleteable>false</Deleteable>
+															<BorderElementColor />
+															<EventExpressions />
+															<Name>诊断</Name>
+															<InnerValue>hm1111.Assessment</InnerValue>
+															<BackgroundText>诊断1</BackgroundText>
+															<LastSelectedListItems />
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>诊断</Name>
+													<InnerValue>hm.Assessment</InnerValue>
+													<BackgroundText>诊断</BackgroundText>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiHua1</ID>
+													<ToolTip>计划</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<ContentReadonly>True</ContentReadonly>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>Plan:</Text>
+														</Element>
+														<Element xsi:type="XInputField" StyleIndex="9">
+															<Attributes />
+															<ID>ZSK_JiHua</ID>
+															<ToolTip>计划</ToolTip>
+															<EnableValueValidate>true</EnableValueValidate>
+															<ValueBinding />
+															<ContentReadonly>False</ContentReadonly>
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XString" StyleIndex="17">
+																	<XElements xsi:nil="true" />
+																	<Text>继续同前治疗，继观。</Text>
+																</Element>
+															</XElements>
+															<Deleteable>false</Deleteable>
+															<BorderElementColor />
+															<EventExpressions />
+															<Name>计划</Name>
+															<InnerValue>继续同前治疗，继观。</InnerValue>
+															<BackgroundText>计划</BackgroundText>
+															<LastSelectedListItems />
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>计划1</Name>
+													<InnerValue>hm.Plan</InnerValue>
+													<BackgroundText>计划</BackgroundText>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="9">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XTextTable" StyleIndex="9"
+													NumOfRows="2" NumOfColumns="2">
+													<Attributes />
+													<ID>table3</ID>
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XTextTableRow" StyleIndex="9">
+															<Attributes />
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XTextTableCell" StyleIndex="10">
+																	<Attributes />
+																	<Expressions />
+																	<ScriptItems />
+																	<XElements>
+																		<Element xsi:type="XString" StyleIndex="9">
+																			<XElements xsi:nil="true" />
+																			<Text>记录医生: </Text>
+																		</Element>
+																		<Element xsi:type="XInputField" StyleIndex="9">
+																			<Attributes />
+																			<ID>ZSK_JiLuYS</ID>
+																			<ToolTip>记录医师</ToolTip>
+																			<EnableValueValidate>true</EnableValueValidate>
+																			<ValidateStyle>
+																				<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+																				<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+																			</ValidateStyle>
+																			<ValueBinding />
+																			<Expressions />
+																			<ScriptItems />
+																			<XElements>
+																				<Element xsi:type="XString" StyleIndex="9">
+																					<XElements xsi:nil="true" />
+																					<Text>江喜平</Text>
+																				</Element>
+																			</XElements>
+																			<BorderElementColor />
+																			<EventExpressions />
+																			<LabelText />
+																			<Name>记录医师</Name>
+																			<InnerValue>hm.bingcheng.doctor</InnerValue>
+																			<BackgroundText>记录医师</BackgroundText>
+																			<LastSelectedListItems />
+																		</Element>
+																		<Element xsi:type="XString" StyleIndex="9"
+																			WhiteSpaceLength="1">
+																			<XElements xsi:nil="true" />
+																			<Text>
+																			</Text>
+																		</Element>
+																		<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+																	</XElements>
+																</Element>
+																<Element xsi:type="XTextTableCell" StyleIndex="10">
+																	<Attributes />
+																	<Expressions />
+																	<ScriptItems />
+																	<XElements>
+																		<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+																	</XElements>
+																</Element>
+															</XElements>
+														</Element>
+														<Element xsi:type="XTextTableRow" StyleIndex="9">
+															<Attributes />
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XTextTableCell" StyleIndex="10">
+																	<Attributes />
+																	<Expressions />
+																	<ScriptItems />
+																	<XElements>
+																		<Element xsi:type="XString" StyleIndex="9">
+																			<XElements xsi:nil="true" />
+																			<Text>上级医生审核:</Text>
+																		</Element>
+																		<Element xsi:type="XInputField" StyleIndex="9">
+																			<Attributes>
+																				<Attribute>
+																					<Name>YuanSuID</Name>
+																					<Value>DE02.01.039.00</Value>
+																				</Attribute>
+																				<Attribute>
+																					<Name>YuanSuMC</Name>
+																					<Value>审核医师签名</Value>
+																				</Attribute>
+																			</Attributes>
+																			<ID>ZSK_ShenHeYSQM</ID>
+																			<ToolTip>审核医师签署的在公安户籍管理部门正式登记注册的姓氏和名称</ToolTip>
+																			<EnableValueValidate>true</EnableValueValidate>
+																			<ValidateStyle>
+																				<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+																				<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+																			</ValidateStyle>
+																			<ValueBinding />
+																			<Expressions />
+																			<ScriptItems />
+																			<XElements />
+																			<BorderElementColor />
+																			<EventExpressions />
+																			<Name>审核医师签名</Name>
+																			<InnerValue>hm.chech.doctoer</InnerValue>
+																			<BackgroundText>审核医师签名</BackgroundText>
+																			<LastSelectedListItems />
+																		</Element>
+																		<Element xsi:type="XString" StyleIndex="9"
+																			WhiteSpaceLength="1">
+																			<XElements xsi:nil="true" />
+																			<Text>
+																			</Text>
+																		</Element>
+																		<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+																	</XElements>
+																</Element>
+																<Element xsi:type="XTextTableCell" StyleIndex="10">
+																	<Attributes />
+																	<Expressions />
+																	<ScriptItems />
+																	<XElements>
+																		<Element xsi:type="XString" StyleIndex="9">
+																			<XElements xsi:nil="true" />
+																			<Text>审核日期: </Text>
+																		</Element>
+																		<Element xsi:type="XInputField" StyleIndex="9">
+																			<Attributes>
+																				<Attribute>
+																					<Name>YuanSuID</Name>
+																					<Value>DE02.01.039.00</Value>
+																				</Attribute>
+																				<Attribute>
+																					<Name>YuanSuMC</Name>
+																					<Value>签字日期</Value>
+																				</Attribute>
+																			</Attributes>
+																			<ID>ZSK_QianZiRQ</ID>
+																			<ToolTip>审核医生签名时间</ToolTip>
+																			<EnableValueValidate>true</EnableValueValidate>
+																			<ValueBinding />
+																			<Expressions />
+																			<ScriptItems />
+																			<XElements />
+																			<BorderElementColor />
+																			<EventExpressions />
+																			<Name>审核医生签名时间</Name>
+																			<DisplayFormat>
+																				<Style>DateTime</Style>
+																				<Format>yyyy-MM-dd HH:mm</Format>
+																			</DisplayFormat>
+																			<BackgroundText>审核医生签名时间</BackgroundText>
+																			<LastSelectedListItems />
+																			<FieldSettings>
+																				<EditStyle>DateTime</EditStyle>
+																			</FieldSettings>
+																		</Element>
+																		<Element xsi:type="XString" StyleIndex="9"
+																			WhiteSpaceLength="1">
+																			<XElements xsi:nil="true" />
+																			<Text>
+																			</Text>
+																		</Element>
+																		<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+																	</XElements>
+																</Element>
+															</XElements>
+														</Element>
+													</XElements>
+													<Columns>
+														<Element xsi:type="XTextTableColumn">
+															<Attributes />
+															<Width>1223.375</Width>
+														</Element>
+														<Element xsi:type="XTextTableColumn">
+															<Attributes />
+															<Width>789.375</Width>
+														</Element>
+													</Columns>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>2042.75</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+					</XElements>
+					<ForeColorForCollapsed />
+				</Element>
+				<Element xsi:type="XTextSection" StyleIndex="22">
+					<Attributes />
+					<AcceptTab>true</AcceptTab>
+					<ContentReadonly>True</ContentReadonly>
+					<XElements>
+						<Element xsi:type="XTextTable" StyleIndex="19" NumOfRows="9"
+							NumOfColumns="3">
+							<Attributes />
+							<ID>table2</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiLuSJ</ID>
+													<ToolTip>病程时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>2017年05月10日 13时47分</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<UserEditable>false</UserEditable>
+													<Name>病程时间</Name>
+													<DisplayFormat>
+														<Style>DateTime</Style>
+														<Format>hm.bingcheng.timeFormat</Format>
+													</DisplayFormat>
+													<InnerValue>hm.bingcheng.time</InnerValue>
+													<PrintBackgroundText>True</PrintBackgroundText>
+													<BackgroundText>病程时间</BackgroundText>
+													<BorderVisible>AlwaysVisible</BorderVisible>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<EditorActiveMode>None</EditorActiveMode>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTime</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>文档标题</Value>
+														</Attribute>
+													</Attributes>
+													<ID>field6</ID>
+													<ToolTip>病程标题</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>季红慧副主任医师查房共同照护记录</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<UserEditable>false</UserEditable>
+													<Name>病程标题</Name>
+													<InnerValue>季红慧副主任医师查房共同照护记录</InnerValue>
+													<BackgroundText>病程标题</BackgroundText>
+													<BorderVisible>AlwaysVisible</BorderVisible>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>参加人员：副主任医师：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>副主任医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>季红慧</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>副主任医师</Name>
+													<InnerValue>季红慧</InnerValue>
+													<BackgroundText>副主任医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>主治医师：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_ZhuZhiYSSHQZ</ID>
+													<ToolTip>主治医师审核签字</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>崇爱国</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>主治医师审核签字</Name>
+													<InnerValue>崇爱国</InnerValue>
+													<BackgroundText>主治医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>住院医师：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>住院医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>住院医师</Name>
+													<InnerValue>-</InnerValue>
+													<BackgroundText>住院医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text> 护士长：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>护士长</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>饶捍卫</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>护士长</Name>
+													<InnerValue>饶捍卫</InnerValue>
+													<BackgroundText>护士长</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>主管护士：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>主管护士</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>欧阳琴</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>主管护士</Name>
+													<InnerValue>欧阳琴</InnerValue>
+													<BackgroundText>主管护士</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field8</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>其他人员: </Text>
+														</Element>
+														<Element xsi:type="XInputField" StyleIndex="9">
+															<Attributes />
+															<ID>field9</ID>
+															<ToolTip>临床药师</ToolTip>
+															<EnableValueValidate>true</EnableValueValidate>
+															<ValueBinding />
+															<Expressions />
+															<ScriptItems />
+															<XElements>
+																<Element xsi:type="XString" StyleIndex="20">
+																	<XElements xsi:nil="true" />
+																	<Text>-</Text>
+																</Element>
+															</XElements>
+															<BorderElementColor />
+															<EventExpressions />
+															<Name>临床药师</Name>
+															<InnerValue>-</InnerValue>
+															<BackgroundText>临床药师</BackgroundText>
+															<LastSelectedListItems />
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<InnerValue>其他人员: -</InnerValue>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Subjective: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>患者胸闷胸痛较前好转，无发热，无恶心呕吐，无咳嗽咳痰等不适。</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>主诉</Name>
+													<InnerValue>患者胸闷胸痛较前好转，无发热，无恶心呕吐，无咳嗽咳痰等不适。</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Objective: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text> BP 112/67mmHg
+																神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率80次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿.血常规+CRP
+																2017-5-9 10:41:00 白细胞 4.2 10^9/L;中性粒细胞% 52.5 %;红细胞 4.90
+																10^12/L;血红蛋白 104 g/L;血小板 184 10^9/L;C反应蛋白 &lt;1.28
+																mg/L;糖化血红蛋白 2017-5-9 10:52:55 糖化血红蛋白HbA1 7.1
+																%;糖化血红蛋白HbA1c 5.8 %;大生化 2017-5-9 10:47:11 总胆红素 9.4
+																μmol/L;白蛋白 43.0 g/L;谷草转氨酶 18 IU/L;钾 4.15 mmol/L;甘油三酯
+																1.13 mmol/L;同型半胱氨酸 7.6 μmol/L;BNP+cTnI 2017-5-9 10:33:03
+																血清肌钙蛋白 0.012 ng/ml;B型纳尿肽 35.80 pg/ml;甲功+PCT 2017-5-9
+																10:38:01 促甲状腺素 2.39 μIU/ml;总T3 1.09 nmol/ml;总T4 66.73
+																nmol/L;抗甲状腺球蛋白抗体 460.80 IU/ml;降钙素原 &lt;0.02
+																ng/ml;凝血7项（含Ⅷ，Ⅸ） 2017-5-9 10:21:34 凝血酶原时间 9.9 s;凝血酶原活动度
+																150.5 ;纤维蛋白原 180.4 mg/dl;D-二聚体 0.06 μg/L;PT正常对照值 11.6
+																;女性肿瘤指标 2017-5-9 10:35:00 甲胎蛋白 2.87 ng/ml;胃蛋白酶原I 68
+																ug/L;胃蛋白酶原II 4 ug/L;传染病９项未见异常。CT胸部(两肺、纵隔)CT平扫报告 2017-5-9
+																14:37:23 检查号：CTY91242
+																检查结果:右肺下叶背段小肺气囊，右肺下叶间质纤维化。;US泌尿系[女]（双肾、输尿管、膀胱）报告
+																2017-5-10 08:40:43 检查号：USY264404
+																检查结果:肝胆胰脾未见明显异常；双肾输尿管膀胱未见明显异常;US心脏彩色多普勒超声、左心功能测定、室壁运动分析、组织多普勒显像报告
+																2017-5-10 09:09:02 检查号：USY264405
+																检查结果:心脏大小形态结构功能血流未见明显异常;</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>查体</Name>
+													<InnerValue> BP 112/67mmHg
+														神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率80次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿.血常规+CRP
+														2017-5-9 10:41:00 白细胞 4.2 10^9/L;中性粒细胞% 52.5 %;红细胞 4.90
+														10^12/L;血红蛋白 104 g/L;血小板 184 10^9/L;C反应蛋白 &lt;1.28
+														mg/L;糖化血红蛋白 2017-5-9 10:52:55 糖化血红蛋白HbA1 7.1 %;糖化血红蛋白HbA1c
+														5.8 %;大生化 2017-5-9 10:47:11 总胆红素 9.4 μmol/L;白蛋白 43.0
+														g/L;谷草转氨酶 18 IU/L;钾 4.15 mmol/L;甘油三酯 1.13 mmol/L;同型半胱氨酸
+														7.6 μmol/L;BNP+cTnI 2017-5-9 10:33:03 血清肌钙蛋白 0.012
+														ng/ml;B型纳尿肽 35.80 pg/ml;甲功+PCT 2017-5-9 10:38:01 促甲状腺素
+														2.39 μIU/ml;总T3 1.09 nmol/ml;总T4 66.73 nmol/L;抗甲状腺球蛋白抗体
+														460.80 IU/ml;降钙素原 &lt;0.02 ng/ml;凝血7项（含Ⅷ，Ⅸ） 2017-5-9
+														10:21:34 凝血酶原时间 9.9 s;凝血酶原活动度 150.5 ;纤维蛋白原 180.4
+														mg/dl;D-二聚体 0.06 μg/L;PT正常对照值 11.6 ;女性肿瘤指标 2017-5-9
+														10:35:00 甲胎蛋白 2.87 ng/ml;胃蛋白酶原I 68 ug/L;胃蛋白酶原II 4
+														ug/L;传染病９项未见异常。CT胸部(两肺、纵隔)CT平扫报告 2017-5-9 14:37:23
+														检查号：CTY91242
+														检查结果:右肺下叶背段小肺气囊，右肺下叶间质纤维化。;US泌尿系[女]（双肾、输尿管、膀胱）报告 2017-5-10
+														08:40:43 检查号：USY264404
+														检查结果:肝胆胰脾未见明显异常；双肾输尿管膀胱未见明显异常;US心脏彩色多普勒超声、左心功能测定、室壁运动分析、组织多普勒显像报告
+														2017-5-10 09:09:02 检查号：USY264405 检查结果:心脏大小形态结构功能血流未见明显异常;</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Assessment: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>今季红慧副主任医师查房：目前诊断：冠状动脉粥样硬化性心脏病可疑
+																诊断依据：1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。2.因“反复胸闷胸痛半月”入院。3.体检：T
+																37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+																神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。4.辅助检查：心电图：窦性心律
+																T波改变。鉴别诊断：1.心脏神经官能症:
+																常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。    </Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>诊断</Name>
+													<InnerValue>今季红慧副主任医师查房：目前诊断：冠状动脉粥样硬化性心脏病可疑
+														诊断依据：1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。2.因“反复胸闷胸痛半月”入院。3.体检：T
+														37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+														神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。4.辅助检查：心电图：窦性心律
+														T波改变。鉴别诊断：1.心脏神经官能症:
+														常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。    </InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Plan: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="20">
+															<XElements xsi:nil="true" />
+															<Text>治疗同前，续观。</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>计划</Name>
+													<InnerValue>治疗同前，续观。</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>出院计划:</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>(1)医疗需求评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>医疗需求评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>医疗需求评估</Name>
+													<InnerValue />
+													<BackgroundText>医疗需求评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>)(2)家庭支持系统评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>家庭支持系统评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>家庭支持系统评估</Name>
+													<InnerValue />
+													<BackgroundText>家庭支持系统评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>)(3)资源需求评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>资源需求评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>资源需求评估</Name>
+													<InnerValue />
+													<BackgroundText>资源需求评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>)(4)特殊教育需求评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>特殊教育需求评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>特殊教育需求评估</Name>
+													<InnerValue />
+													<BackgroundText>特殊教育需求评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>) </Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>845.9167</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>555.9167</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>640.916565</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XTextTable" StyleIndex="19" NumOfRows="2"
+							NumOfColumns="2">
+							<Attributes />
+							<ID>table3</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>记录医生: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiLuYS</ID>
+													<ToolTip>记录医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>季红慧</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>记录医师</Name>
+													<InnerValue>季红慧</InnerValue>
+													<BackgroundText>记录医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>审核医生:</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.039.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>审核医师签名</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_ShenHeYSQM</ID>
+													<ToolTip>审核医师签署的在公安户籍管理部门正式登记注册的姓氏和名称</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements />
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>审核医师签名</Name>
+													<InnerValue />
+													<BackgroundText>审核医师签名</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>审核日期: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.039.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>签字日期</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_QianZiRQ</ID>
+													<ToolTip>审核医生签名时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements />
+													<BorderElementColor />
+													<SpecifyWidth>354.330017</SpecifyWidth>
+													<EventExpressions />
+													<Name>审核医生签名时间</Name>
+													<DisplayFormat>
+														<Style>DateTime</Style>
+														<Format>yyyy-MM-dd HH:mm</Format>
+													</DisplayFormat>
+													<BackgroundText />
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTime</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>1142.375</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>870.375</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+					</XElements>
+					<ForeColorForCollapsed />
+				</Element>
+				<Element xsi:type="XTextSection" StyleIndex="22">
+					<Attributes />
+					<AcceptTab>true</AcceptTab>
+					<ContentReadonly>True</ContentReadonly>
+					<XElements>
+						<Element xsi:type="XTextTable" StyleIndex="19" NumOfRows="9"
+							NumOfColumns="3">
+							<Attributes />
+							<ID>table2</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiLuSJ</ID>
+													<ToolTip>病程时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>2017年05月13日 10时44分</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<UserEditable>false</UserEditable>
+													<Name>病程时间</Name>
+													<DisplayFormat>
+														<Style>DateTime</Style>
+														<Format>yyyy年MM月dd日 HH时mm分</Format>
+													</DisplayFormat>
+													<InnerValue>2017年05月13日 10时44分</InnerValue>
+													<PrintBackgroundText>True</PrintBackgroundText>
+													<BackgroundText>病程时间</BackgroundText>
+													<BorderVisible>AlwaysVisible</BorderVisible>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<EditorActiveMode>None</EditorActiveMode>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTime</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>文档标题</Value>
+														</Attribute>
+													</Attributes>
+													<ID>field6</ID>
+													<ToolTip>病程标题</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>季红慧副主任医师查房共同照护记录</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<UserEditable>false</UserEditable>
+													<Name>病程标题</Name>
+													<InnerValue>季红慧副主任医师查房共同照护记录</InnerValue>
+													<BackgroundText>病程标题</BackgroundText>
+													<BorderVisible>AlwaysVisible</BorderVisible>
+													<EnableHighlight>Disabled</EnableHighlight>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>参加人员：副主任医师：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>副主任医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>季红慧</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>副主任医师</Name>
+													<InnerValue>季红慧</InnerValue>
+													<BackgroundText>副主任医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>主治医师：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_ZhuZhiYSSHQZ</ID>
+													<ToolTip>主治医师审核签字</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>崇爱国</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>主治医师审核签字</Name>
+													<InnerValue>崇爱国</InnerValue>
+													<BackgroundText>主治医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>住院医师：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>住院医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements />
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>住院医师</Name>
+													<InnerValue />
+													<BackgroundText>住院医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text> 护士长：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>护士长</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>饶捍卫</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>护士长</Name>
+													<InnerValue>饶捍卫</InnerValue>
+													<BackgroundText>护士长</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>主管护士：</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field22</ID>
+													<ToolTip>主管护士</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>欧阳琴</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>主管护士</Name>
+													<InnerValue>欧阳琴</InnerValue>
+													<BackgroundText>主管护士</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field8</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>其他人员: </Text>
+														</Element>
+														<Element xsi:type="XInputField" StyleIndex="9">
+															<Attributes />
+															<ID>field9</ID>
+															<ToolTip>临床药师</ToolTip>
+															<EnableValueValidate>true</EnableValueValidate>
+															<ValueBinding />
+															<Expressions />
+															<ScriptItems />
+															<XElements />
+															<BorderElementColor />
+															<EventExpressions />
+															<Name>临床药师</Name>
+															<InnerValue />
+															<BackgroundText>临床药师</BackgroundText>
+															<LastSelectedListItems />
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<InnerValue>其他人员: </InnerValue>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Subjective: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>患者胸闷不适好转，无气急浮肿</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>主诉</Name>
+													<InnerValue>患者胸闷不适好转，无气急浮肿</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Objective: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>血压101/58mmHg,两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。CT冠状动脉造影成像（CTA）报告
+																2017-5-12 14:00:29 检查结果:冠脉动脉CTA示：左冠回旋支远段肌壁间动脉，请结合临床。</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>查体</Name>
+													<InnerValue>血压101/58mmHg,两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。CT冠状动脉造影成像（CTA）报告
+														2017-5-12 14:00:29 检查结果:冠脉动脉CTA示：左冠回旋支远段肌壁间动脉，请结合临床。</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Assessment: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>目前诊断：冠状动脉肌桥</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>诊断</Name>
+													<InnerValue>目前诊断：冠状动脉肌桥</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>Plan: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field10</ID>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="21">
+															<XElements xsi:nil="true" />
+															<Text>今予带药出院，嘱门诊随访。</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>计划</Name>
+													<InnerValue>今予带药出院，嘱门诊随访。</InnerValue>
+													<BackgroundText>
+													</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>出院计划:</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>(1)医疗需求评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>医疗需求评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>医疗需求评估</Name>
+													<InnerValue />
+													<BackgroundText>医疗需求评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>)(2)家庭支持系统评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>家庭支持系统评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>家庭支持系统评估</Name>
+													<InnerValue />
+													<BackgroundText>家庭支持系统评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>)(3)资源需求评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>资源需求评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>资源需求评估</Name>
+													<InnerValue />
+													<BackgroundText>资源需求评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>)(4)特殊教育需求评估(</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>field14</ID>
+													<ToolTip>特殊教育需求评估</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>-</Text>
+														</Element>
+													</XElements>
+													<Deleteable>false</Deleteable>
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>特殊教育需求评估</Name>
+													<InnerValue />
+													<BackgroundText>特殊教育需求评估</BackgroundText>
+													<SelectedIndex>0</SelectedIndex>
+													<LastSelectedListItems />
+													<FieldSettings>
+														<GetValueOrderByTime>true</GetValueOrderByTime>
+														<EditStyle>DropdownList</EditStyle>
+														<ListSource>
+															<SourceName />
+															<Items>
+																<Item>
+																	<TextInList />
+																	<Text>-</Text>
+																	<Value />
+																	<Group />
+																</Item>
+															</Items>
+														</ListSource>
+														<ListValueFormatString />
+														<ListValueSeparatorChar>，</ListValueSeparatorChar>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>) </Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+											<ColSpan>3</ColSpan>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>845.9167</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>555.9167</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>640.916565</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XTextTable" StyleIndex="19" NumOfRows="2"
+							NumOfColumns="2">
+							<Attributes />
+							<ID>table3</ID>
+							<Expressions />
+							<ScriptItems />
+							<XElements>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>记录医生: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes />
+													<ID>ZSK_JiLuYS</ID>
+													<ToolTip>记录医师</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements>
+														<Element xsi:type="XString" StyleIndex="9">
+															<XElements xsi:nil="true" />
+															<Text>季红慧</Text>
+														</Element>
+													</XElements>
+													<BorderElementColor />
+													<EventExpressions />
+													<LabelText />
+													<Name>记录医师</Name>
+													<InnerValue>季红慧</InnerValue>
+													<BackgroundText>记录医师</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+								<Element xsi:type="XTextTableRow" StyleIndex="19">
+									<Attributes />
+									<Expressions />
+									<ScriptItems />
+									<XElements>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>审核医生:</Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.039.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>审核医师签名</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_ShenHeYSQM</ID>
+													<ToolTip>审核医师签署的在公安户籍管理部门正式登记注册的姓氏和名称</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValidateStyle>
+														<DateTimeMaxValue>1980-01-01T00:00:00</DateTimeMaxValue>
+														<DateTimeMinValue>1980-01-01T00:00:00</DateTimeMinValue>
+													</ValidateStyle>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements />
+													<BorderElementColor />
+													<EventExpressions />
+													<Name>审核医师签名</Name>
+													<InnerValue />
+													<BackgroundText>审核医师签名</BackgroundText>
+													<LastSelectedListItems />
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+										<Element xsi:type="XTextTableCell" StyleIndex="10">
+											<Attributes />
+											<Expressions />
+											<ScriptItems />
+											<XElements>
+												<Element xsi:type="XString" StyleIndex="9">
+													<XElements xsi:nil="true" />
+													<Text>审核日期: </Text>
+												</Element>
+												<Element xsi:type="XInputField" StyleIndex="9">
+													<Attributes>
+														<Attribute>
+															<Name>YuanSuID</Name>
+															<Value>DE02.01.039.00</Value>
+														</Attribute>
+														<Attribute>
+															<Name>YuanSuMC</Name>
+															<Value>签字日期</Value>
+														</Attribute>
+													</Attributes>
+													<ID>ZSK_QianZiRQ</ID>
+													<ToolTip>审核医生签名时间</ToolTip>
+													<EnableValueValidate>true</EnableValueValidate>
+													<ValueBinding />
+													<Expressions />
+													<ScriptItems />
+													<XElements />
+													<BorderElementColor />
+													<SpecifyWidth>354.330017</SpecifyWidth>
+													<EventExpressions />
+													<Name>审核医生签名时间</Name>
+													<DisplayFormat>
+														<Style>DateTime</Style>
+														<Format>yyyy-MM-dd HH:mm</Format>
+													</DisplayFormat>
+													<BackgroundText />
+													<LastSelectedListItems />
+													<FieldSettings>
+														<EditStyle>DateTime</EditStyle>
+													</FieldSettings>
+												</Element>
+												<Element xsi:type="XString" StyleIndex="9"
+													WhiteSpaceLength="1">
+													<XElements xsi:nil="true" />
+													<Text>
+													</Text>
+												</Element>
+												<Element xsi:type="XParagraphFlag" StyleIndex="9" />
+											</XElements>
+										</Element>
+									</XElements>
+								</Element>
+							</XElements>
+							<Columns>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>1142.375</Width>
+								</Element>
+								<Element xsi:type="XTextTableColumn">
+									<Attributes />
+									<Width>870.375</Width>
+								</Element>
+							</Columns>
+						</Element>
+						<Element xsi:type="XParagraphFlag" StyleIndex="19" />
+					</XElements>
+					<ForeColorForCollapsed />
+				</Element>
+				<Element xsi:type="XParagraphFlag" />
+			</XElements>
+		</Element>
+		<Element xsi:type="XTextFooter">
+			<Attributes />
+			<AcceptTab>true</AcceptTab>
+			<Expressions />
+			<ScriptItems />
+			<XElements>
+				<Element xsi:type="HorizontalLine" StyleIndex="1">
+					<Attributes />
+					<ID>hl1</ID>
+					<PropertyExpressions />
+					<ScriptItems />
+				</Element>
+				<Element xsi:type="XString" StyleIndex="1">
+					<XElements xsi:nil="true" />
+					<Text>第</Text>
+				</Element>
+				<Element xsi:type="XPageInfo" StyleIndex="1">
+					<Attributes />
+					<PropertyExpressions />
+					<ScriptItems />
+					<SpecifyPageIndexs />
+					<Width>100</Width>
+					<AutoHeight>true</AutoHeight>
+					<Height>54.89257</Height>
+					<FormatString />
+					<SpecifyPageIndexTextList />
+				</Element>
+				<Element xsi:type="XString" StyleIndex="1">
+					<XElements xsi:nil="true" />
+					<Text>页</Text>
+				</Element>
+				<Element xsi:type="XParagraphFlag" StyleIndex="0" />
+			</XElements>
+		</Element>
+		<Element xsi:type="XTextHeaderForFirstPage">
+			<Attributes />
+			<AcceptTab>true</AcceptTab>
+			<Expressions />
+			<ScriptItems />
+			<XElements>
+				<Element xsi:type="XParagraphFlag" StyleIndex="8" />
+			</XElements>
+		</Element>
+		<Element xsi:type="XTextFooterForFirstPage">
+			<Attributes />
+			<AcceptTab>true</AcceptTab>
+			<Expressions />
+			<ScriptItems />
+			<XElements>
+				<Element xsi:type="XParagraphFlag" />
+			</XElements>
+		</Element>
+	</XElements>
+	<RepeatedImages />
+	<SaveDocumentOptionsToFile>true</SaveDocumentOptionsToFile>
+	<DocumentOptionsToSaveFile>
+		<SecurityOptions>
+			<EnablePermission>true</EnablePermission>
+			<ShowPermissionTip>false</ShowPermissionTip>
+			<EnableLogicDelete>true</EnableLogicDelete>
+			<TrackVisibleLevel0>
+				<UnderLineColorString>#ADD8E6</UnderLineColorString>
+				<DeleteLineColorString>#FF7F50</DeleteLineColorString>
+			</TrackVisibleLevel0>
+			<TrackVisibleLevel1 />
+			<TrackVisibleLevel2>
+				<BackgroundColorString>#FFFFE0</BackgroundColorString>
+				<UnderLineColorNum>2</UnderLineColorNum>
+				<DeleteLineNum>2</DeleteLineNum>
+			</TrackVisibleLevel2>
+			<TrackVisibleLevel3>
+				<BackgroundColorString>#FFFFE0</BackgroundColorString>
+				<UnderLineColorNum>2</UnderLineColorNum>
+				<DeleteLineNum>2</DeleteLineNum>
+			</TrackVisibleLevel3>
+		</SecurityOptions>
+		<ViewOptions>
+			<AdornTextBackColorValue>#64808080</AdornTextBackColorValue>
+			<ShowCellNoneBorder>false</ShowCellNoneBorder>
+			<ShowParagraphFlag>false</ShowParagraphFlag>
+			<FieldBackColorValue>#FFF8D9</FieldBackColorValue>
+			<FieldHoverBackColorValue>#FFF7B4</FieldHoverBackColorValue>
+			<FieldFocusedBackColorValue>#FFF7B4</FieldFocusedBackColorValue>
+		</ViewOptions>
+		<BehaviorOptions>
+			<AcceptDataFormats>Text</AcceptDataFormats>
+			<FormView>Strict</FormView>
+			<PageLineUnderPageBreak>true</PageLineUnderPageBreak>
+			<ParagraphFlagFollowTableOrSection>true</ParagraphFlagFollowTableOrSection>
+			<OutputFormatedXMLSource>false</OutputFormatedXMLSource>
+			<PromptProtectedContent>None</PromptProtectedContent>
+		</BehaviorOptions>
+		<EditOptions>
+			<GridLinePreviewText>DCWriter是南京都昌信息科技有限公司自主研发的专业的电子病历文档编辑器。</GridLinePreviewText>
+			<FixWidthWhenInsertTable>false</FixWidthWhenInsertTable>
+		</EditOptions>
+	</DocumentOptionsToSaveFile>
+	<GlobalJavaScriptReferences />
+	<Info>
+		<LicenseText>浙江联众:建德市第一人民医院</LicenseText>
+		<CreationTime>1980-01-01T00:00:00</CreationTime>
+		<LastModifiedTime>2017-07-15T15:51:47.714246+08:00</LastModifiedTime>
+		<LastPrintTime>1980-01-01T00:00:00</LastPrintTime>
+		<Operator>DCSoft.Writer Version:1.2015.2.2</Operator>
+		<NumOfPage>4</NumOfPage>
+	</Info>
+	<BodyText>首次病程记录
+		患者姓名:沈惠琴 性别:女 年龄: 39岁 病历号: 759704
+		入院日期:2017-05-08 12:21 床号: 316027 临床科室:心血管内科
+		患者沈惠琴，女，39岁 ，农民。因“反复胸闷胸痛半月”入院。
+		病例特点: 1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。
+		2.患者半月前起无明显诱因下反复出现胸闷、胸痛不适，位于胸骨下段后方，与活动无关，胸痛呈隐痛，持续时间长短不等，未曾正规诊治，今来我院门诊就诊，拟“胸痛”收住入院。
+		3.体检：T 37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。
+		4.辅助检查：心电图：窦性心律 T波改变。
+		拟诊讨论
+		初步诊断:
+		冠状动脉粥样硬化性心脏病可疑
+		诊断依据:
+		1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。
+		2.因“反复胸闷胸痛半月”入院。
+		3.体检：T 37.3℃ P 79次/分 R 20次/分 BP 118/70mmHg
+		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。
+		4.辅助检查：心电图：窦性心律 T波改变。
+		鉴别诊断:
+		1.心脏神经官能症:
+		常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。
+		2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。
+		诊疗计划:
+		1.心内科护理常规，二级护理，低盐低脂饮食。
+		2.完善相关检查如胸片、B超、心电图、动态血压、动态心电图及血生化、甲状腺功能、二便常规等检查助诊治。
+		3.健康宣教。
+		记录医生: 崇爱国 记录日期及时间: 2017-05-08 13:40 2017年05月09日 10时21分 崇爱国主治医师查房记录
+		Subjective:患者诉胸闷胸痛缓解，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿
+		Objective: BP 103/71mmHg
+		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿.
+		Assessment:今崇爱国主治医师查房：目前诊断：冠状动脉粥样硬化性心脏病可疑
+		诊断依据：1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。2.因“反复胸闷胸痛半月”入院。3.体检：T 37.3℃ P 79次/分
+		R 20次/分 BP 118/70mmHg
+		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。4.辅助检查：心电图：窦性心律
+		T波改变。鉴别诊断：1.心脏神经官能症:
+		常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。
+
+		Plan:继续同前治疗，继观。
+		记录医生: 江喜平
+		上级医生审核: 审核日期: 2017年05月10日 13时47分 季红慧副主任医师查房共同照护记录
+		参加人员：副主任医师：季红慧 主治医师：崇爱国 住院医师：-
+		护士长：饶捍卫 主管护士：欧阳琴 其他人员: -
+		Subjective: 患者胸闷胸痛较前好转，无发热，无恶心呕吐，无咳嗽咳痰等不适。
+		Objective: BP 112/67mmHg
+		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率80次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿.血常规+CRP
+		2017-5-9 10:41:00 白细胞 4.2 10^9/L;中性粒细胞% 52.5 %;红细胞 4.90 10^12/L;血红蛋白
+		104 g/L;血小板 184 10^9/L;C反应蛋白 &lt;1.28 mg/L;糖化血红蛋白 2017-5-9 10:52:55
+		糖化血红蛋白HbA1 7.1 %;糖化血红蛋白HbA1c 5.8 %;大生化 2017-5-9 10:47:11 总胆红素 9.4
+		μmol/L;白蛋白 43.0 g/L;谷草转氨酶 18 IU/L;钾 4.15 mmol/L;甘油三酯 1.13
+		mmol/L;同型半胱氨酸 7.6 μmol/L;BNP+cTnI 2017-5-9 10:33:03 血清肌钙蛋白 0.012
+		ng/ml;B型纳尿肽 35.80 pg/ml;甲功+PCT 2017-5-9 10:38:01 促甲状腺素 2.39 μIU/ml;总T3
+		1.09 nmol/ml;总T4 66.73 nmol/L;抗甲状腺球蛋白抗体 460.80 IU/ml;降钙素原 &lt;0.02
+		ng/ml;凝血7项（含Ⅷ，Ⅸ） 2017-5-9 10:21:34 凝血酶原时间 9.9 s;凝血酶原活动度 150.5 ;纤维蛋白原
+		180.4 mg/dl;D-二聚体 0.06 μg/L;PT正常对照值 11.6 ;女性肿瘤指标 2017-5-9 10:35:00
+		甲胎蛋白 2.87 ng/ml;胃蛋白酶原I 68 ug/L;胃蛋白酶原II 4
+		ug/L;传染病９项未见异常。CT胸部(两肺、纵隔)CT平扫报告 2017-5-9 14:37:23 检查号：CTY91242
+		检查结果:右肺下叶背段小肺气囊，右肺下叶间质纤维化。;US泌尿系[女]（双肾、输尿管、膀胱）报告 2017-5-10 08:40:43
+		检查号：USY264404
+		检查结果:肝胆胰脾未见明显异常；双肾输尿管膀胱未见明显异常;US心脏彩色多普勒超声、左心功能测定、室壁运动分析、组织多普勒显像报告
+		2017-5-10 09:09:02 检查号：USY264405 检查结果:心脏大小形态结构功能血流未见明显异常;
+		Assessment: 今季红慧副主任医师查房：目前诊断：冠状动脉粥样硬化性心脏病可疑
+		诊断依据：1.患者中年女性，否认有高血压及糖尿病史。否认药物过敏史。2.因“反复胸闷胸痛半月”入院。3.体检：T 37.3℃ P 79次/分
+		R 20次/分 BP 118/70mmHg
+		神志清，精神尚可，呼吸平稳，颈软，浅表淋巴结未及肿大，两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。4.辅助检查：心电图：窦性心律
+		T波改变。鉴别诊断：1.心脏神经官能症:
+		常诉胸闷胸痛,但为短暂的刺痛或持久的隐痛,患者常喜欢不时的吸一大口气活作叹息样呼吸,症状多于疲劳之后出现,作轻度体力活动反而觉得舒适,常伴有心悸、疲乏、头昏、失眠及其他神经症的症状。2.扩张型心肌病：多慢性起病，表现为胸闷、气急、心悸，体查可见心脏扩大、肝大、水肿，可闻及第三、第四心音奔马律，心彩超可见全心扩大（左心为主）、室壁运动弥漫性减弱，有助于鉴别诊断。
+		Plan: 治疗同前，续观。
+		出院计划:
+		(1)医疗需求评估(-)(2)家庭支持系统评估(-)(3)资源需求评估(-)(4)特殊教育需求评估(-) 记录医生: 季红慧
+		审核医生: 审核日期: 2017年05月13日 10时44分 季红慧副主任医师查房共同照护记录
+		参加人员：副主任医师：季红慧 主治医师：崇爱国 住院医师：
+		护士长：饶捍卫 主管护士：欧阳琴 其他人员:
+		Subjective: 患者胸闷不适好转，无气急浮肿
+		Objective:
+		血压101/58mmHg,两肺呼吸音粗，未闻及明显干湿性啰音；心率79次/分，律齐，未闻及病理性杂音，腹平软，无压痛、反跳痛，肝脾肋下未及，双下肢无浮肿。CT冠状动脉造影成像（CTA）报告
+		2017-5-12 14:00:29 检查结果:冠脉动脉CTA示：左冠回旋支远段肌壁间动脉，请结合临床。
+		Assessment: 目前诊断：冠状动脉肌桥
+		Plan: 今予带药出院，嘱门诊随访。
+		出院计划:
+		(1)医疗需求评估(-)(2)家庭支持系统评估(-)(3)资源需求评估(-)(4)特殊教育需求评估(-) 记录医生: 季红慧
+		审核医生: 审核日期:
+	</BodyText>
+	<Comments />
+	<LocalConfig />
+	<PageSettings>
+		<PageIndexsForHideHeaderFooter />
+		<PageBorderBackground>
+			<BackgroundColor>White</BackgroundColor>
+			<BorderRange>Body</BorderRange>
+		</PageBorderBackground>
+		<PrinterName />
+		<PaperSource />
+		<HeaderDistance>18</HeaderDistance>
+		<FooterDistance>29</FooterDistance>
+		<LeftMargin>72</LeftMargin>
+		<TopMargin>71</TopMargin>
+		<RightMargin>72</RightMargin>
+		<BottomMargin>40</BottomMargin>
+	</PageSettings>
+	<UserHistories>
+		<History>
+			<ID>22292</ID>
+			<Name>江喜平</Name>
+			<SavedTime>1900-01-01T00:00:00</SavedTime>
+			<PermissionLevel>1</PermissionLevel>
+		</History>
+		<History Index="1">
+			<ID>348</ID>
+			<Name>季红慧</Name>
+			<SavedTime>1900-01-01T00:00:00</SavedTime>
+			<PermissionLevel>2</PermissionLevel>
+		</History>
+		<History Index="2">
+			<ID>348</ID>
+			<Name>季红慧</Name>
+			<SavedTime>2017-07-15T15:51:24.669928+08:00</SavedTime>
+			<PermissionLevel>2</PermissionLevel>
+		</History>
+	</UserHistories>
+	<Parameters />
+	<ContentStyles>
+		<Default xsi:type="DocumentContentStyle">
+			<FontName>宋体</FontName>
+			<FontSize>11</FontSize>
+		</Default>
+		<Styles>
+			<Style Index="0">
+				<FontName>宋体</FontName>
+				<FontSize>12</FontSize>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="1">
+				<FontName>宋体</FontName>
+				<FontSize>10.5</FontSize>
+			</Style>
+			<Style Index="2">
+				<FontName>宋体</FontName>
+				<FontSize>12</FontSize>
+				<BorderLeftColor>White</BorderLeftColor>
+				<BorderTopColor>White</BorderTopColor>
+				<BorderRightColor>White</BorderRightColor>
+				<BorderBottomColor>White</BorderBottomColor>
+				<BorderWidth>1</BorderWidth>
+				<PaddingLeft>15</PaddingLeft>
+				<PaddingTop>10</PaddingTop>
+				<PaddingRight>15</PaddingRight>
+				<PaddingBottom>10</PaddingBottom>
+			</Style>
+			<Style Index="3">
+				<FontName>宋体</FontName>
+				<FontSize>12</FontSize>
+				<SpacingBeforeParagraph>65</SpacingBeforeParagraph>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="4">
+				<FontName>宋体</FontName>
+				<FontSize>12</FontSize>
+				<SpacingAfterParagraph>12.833333</SpacingAfterParagraph>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="5">
+				<FontName>黑体</FontName>
+				<FontSize>18</FontSize>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="6">
+				<FontName>黑体</FontName>
+				<FontSize>11</FontSize>
+			</Style>
+			<Style Index="7">
+				<FontName>黑体</FontName>
+				<FontSize>16</FontSize>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="8">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="9">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+			</Style>
+			<Style Index="10">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<PaddingTop>2</PaddingTop>
+				<PaddingBottom>2</PaddingBottom>
+			</Style>
+			<Style Index="11">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<Bold>true</Bold>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="12">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<Align>Center</Align>
+			</Style>
+			<Style Index="13">
+				<FontName>宋体</FontName>
+				<FontSize>10.5</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+			</Style>
+			<Style Index="14">
+				<FontName>宋体</FontName>
+				<FontSize>10.5</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<FirstLineIndent>-248.0315</FirstLineIndent>
+				<LeftIndent>259.842529</LeftIndent>
+			</Style>
+			<Style Index="15">
+				<FontName>宋体</FontName>
+				<FontSize>12</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<FirstLineIndent>-248.0315</FirstLineIndent>
+				<LeftIndent>259.842529</LeftIndent>
+			</Style>
+			<Style Index="16">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<DeleterIndex>0</DeleterIndex>
+			</Style>
+			<Style Index="17">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<CreatorIndex>0</CreatorIndex>
+			</Style>
+			<Style Index="18">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<CreatorIndex>0</CreatorIndex>
+			</Style>
+			<Style Index="19">
+				<FontName>宋体</FontName>
+				<FontSize>12</FontSize>
+			</Style>
+			<Style Index="20">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<CreatorIndex>1</CreatorIndex>
+			</Style>
+			<Style Index="21">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<LineSpacingStyle>Space1pt5</LineSpacingStyle>
+				<CreatorIndex>2</CreatorIndex>
+			</Style>
+			<Style Index="22">
+				<BackgroundColor>WhiteSmoke</BackgroundColor>
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<BorderLeftColor>Blue</BorderLeftColor>
+				<BorderTopColor>Blue</BorderTopColor>
+				<BorderRightColor>Blue</BorderRightColor>
+				<BorderBottomColor>Blue</BorderBottomColor>
+				<PrintBackColor>Transparent</PrintBackColor>
+			</Style>
+			<Style Index="23">
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<BorderLeftColor>Transparent</BorderLeftColor>
+				<BorderTopColor>Transparent</BorderTopColor>
+				<BorderRightColor>Transparent</BorderRightColor>
+				<BorderBottomColor>Transparent</BorderBottomColor>
+				<PrintBackColor>Transparent</PrintBackColor>
+			</Style>
+			<Style>
+				<FontName>宋体</FontName>
+				<FontSize>11</FontSize>
+				<CreatorIndex>2</CreatorIndex>
+			</Style>
+		</Styles>
+	</ContentStyles>
+	<FileName>E:\金虎\胸痛病历\10110599\病程记录.xml</FileName>
+	<FileFormat>XML</FileFormat>
+</XTextDocument>

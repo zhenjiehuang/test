@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ROOT>
+	<patientName>3, 1, 5, 0, 3, 0, 4, 1, 3, 0, 3, 1, 13</patientName>
+	<patientAge>3, 1, 5, 0, 3, 0, 4, 1, 3, 2, 3, 1, 13</patientAge>
+	<patientGender>3, 1, 5, 0, 3, 0, 4, 1, 3, 1, 3, 1, 13</patientGender>
+	<patientGuid>3, 1, 5, 0, 3, 0, 4, 1, 3, 3, 3, 1, 13</patientGuid>
+	<bingchuang>3, 1, 5, 0, 3, 0, 4, 2, 3, 2, 3, 1, 12</bingchuang>
+	<keshi>3, 1, 5, 0, 3, 0, 4, 2, 3, 3, 3, 1, 12</keshi>
+	<inhospital>3, 1, 5, 0, 3, 0, 4, 2, 3, 0, 3, 1, 12</inhospital>
+	<inhospitalFormat>3, 1, 5, 0, 3, 0, 4, 2, 3, 0, 3, 1, 11, 1</inhospitalFormat>
+	<record>
+		<path>3, 1, 5, 0, 3</path>
+		<start>5</start>
+		<step>4</step>
+		<backstep>2</backstep>
+		<subjective>11</subjective>
+		<bingli>11</bingli>
+		<nizhen>13</nizhen>
+		<chubu>13</chubu>
+		<zhenduan>11</zhenduan>
+		<jianbie>11</jianbie>
+		<zhenliao>11</zhenliao>
+		<doctor>4, 0, 3, 0, 3, 1, 13</doctor>
+		<recordTime>4, 0, 3, 1, 3, 1, 12</recordTime>
+		<recordTimeFormat>4, 0, 3, 1, 3, 1, 11, 0</recordTimeFormat>
+	</record>
+	<bingcheng>
+		
+	</bingcheng>
+</ROOT>
+
+
+
+

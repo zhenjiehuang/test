@@ -1,0 +1,3226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Template type="Word">
+	<DocObjContent>
+		<NewCtrl Id="20151118168705" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="患者姓名" DelFlag="TRUE" PlaceHolder="患者姓名" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151118168705" ElementID="355"
+			WordVersion="2" ExternalDataSourceId="inpatientName" IsSaveAsNode="TRUE"
+			Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="患者姓名"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>张国华</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151118161122" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="科室" DelFlag="TRUE" PlaceHolder="科室" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151118161122" ElementID="211"
+			WordVersion="2" ExternalDataSourceId="inpatientDeptName"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementLableAndText"
+			ControlName="科室" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>泌尿外科1</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151118169860" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="床号" DelFlag="TRUE" PlaceHolder="床号" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151118169860" ElementID="353"
+			WordVersion="2" ExternalDataSourceId="inpatientBedNo" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="床号"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>6050005</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151118169676" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="住院号" DelFlag="TRUE" PlaceHolder="住院号" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151118169676" ElementID="358"
+			WordVersion="2" ExternalDataSourceId="inpatientPatientNo"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementLableAndText"
+			ControlName="住院号" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>0000030973</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522092008" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="患者姓名" DelFlag="TRUE" PlaceHolder="患者姓名" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20130522092008" ElementID="355"
+			WordVersion="2" ExternalDataSourceId="inpatientName" IsSaveAsNode="FALSE"
+			Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="患者姓名"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="FALSE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>张国华</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151217121305" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="出生地--入院" DelFlag="TRUE" PlaceHolder="出生地--入院" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151217121305" ElementID="204167"
+			WordVersion="2" ExternalDataSourceId="PatientBirthplace"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementText" ControlName="出生地--入院"
+			UpdateEveryTime="TRUE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>浙江省宁波市江北区</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522092108" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="性别" DelFlag="TRUE" PlaceHolder="性别"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522092108 男~女"
+			ControlID="20130522092108" ElementID="42" WordVersion="2"
+			ExternalDataSourceId="inpatientSex" IsSaveAsNode="FALSE" Reference="FALSE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="性别"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="FALSE" SelectedName="女" SelectedCode="1">
+			<Content_Text>女</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151217123548" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="联系地址--入院" DelFlag="TRUE" PlaceHolder="联系地址--入院" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151217123548" ElementID="204168"
+			WordVersion="2" ExternalDataSourceId="Patientpresentplace"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementText" ControlName="联系地址--入院"
+			UpdateEveryTime="TRUE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>宁波江北区大庆南路186</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522173558" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="年龄" DelFlag="TRUE" PlaceHolder="年龄" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20130522173558" ElementID="359"
+			WordVersion="2" ExternalDataSourceId="inpatientAge" IsSaveAsNode="FALSE"
+			Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="年龄"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" Code="InpatientHisAge"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="FALSE">
+			<Content_Text>52岁</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151217129394" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="工作地址--入院" DelFlag="TRUE" PlaceHolder="工作地址--入院" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151217129394" ElementID="204169"
+			WordVersion="2" ExternalDataSourceId="Patientworkaddress"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementText" ControlName="工作地址--入院"
+			UpdateEveryTime="TRUE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>-</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151217127593" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="13"
+			EdgeStyle="[" HelpTip="职业--入院" DelFlag="TRUE" PlaceHolder="职业--入院"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20151217127593 退（离）休人员~其他~国家公务员~专业技术人员~职员~工人~农民~学生~现役军人~自由职业者~个体经营者~无业人员~企业管理人员"
+			ControlID="20151217127593" ElementID="204164" WordVersion="2"
+			ExternalDataSourceId="PatientOccupation" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementComboBox" ControlName="职业--入院"
+			UpdateEveryTime="TRUE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="个体经营者"
+			SelectedCode="10">
+			<Content_Text>个体经营者</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127204845" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="0" MaxDate="0" ControlHidden="FALSE"
+			UseStubString="FALSE" MustFillContent="TRUE" MinDate="0" Date="20171020"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="接诊时间" DelFlag="TRUE"
+			PlaceHolder="接诊时间" ViewSecret="FALSE" EditProtect="TRUE" MaxTime="0"
+			Reserve="" MinTime="0" Time="16020000" ControlID="20151127204845"
+			ElementID="201579" WordVersion="2" ExternalDataSourceId="regDiagTime"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="8" ControlTypeTemplate="ElementDateTimePicker"
+			ControlName="接诊时间" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=2017-10-20 Week= Time=16:02:">2017-10-20 16:02</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151217121732" Type="6" HasSuperscript="FALSE"
+			ControlHidden="FALSE" ViewSecret="FALSE" DelFlag="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" UseStubString="FALSE" Edge="TRUE"
+			PlaceHolder="民族--入院" HelpTip="民族--入院" ListEntryCount="59" EdgeStyle="["
+			Reserve="20151217121732 苗族~白族~崩龙族~布朗族~保安族~布依族~朝鲜族~傣族~侗族~独龙族~达斡尔族~东乡族~鄂温克族~京族~仡佬族~高山族~哈尼族~回族~赫哲族~基诺族~景颇族~柯尔克孜族~哈萨克族~珞巴族~拉祜族~黎族~傈僳族~满族~门巴族~蒙古族~仫佬族~毛南族~怒族~纳西族~鄂伦春族~普米族~羌族~其他~俄罗斯族~畲族~撒拉族~水族~塔吉克族~土家族~塔塔尔族~土族~维吾尔族~乌孜别克族~佤族~外国血统~锡伯族~瑶族~裕固族~彝族~罗马族~藏族~壮族~阿昌族~汉族"
+			EditProtect="FALSE" Printable="TRUE" ControlID="20151217121732"
+			ElementID="204165" WordVersion="2" ExternalDataSourceId="PatientNation"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="民族--入院"
+			UpdateEveryTime="TRUE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="汉族"
+			SelectedCode="58">
+			<Content_Text>汉族</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522093131" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="0" MaxDate="0" ControlHidden="FALSE"
+			UseStubString="FALSE" MustFillContent="FALSE" MinDate="0" Date="20171020"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="记录日期" DelFlag="TRUE"
+			PlaceHolder="记录日期" ViewSecret="FALSE" EditProtect="FALSE" MaxTime="0"
+			Reserve="" MinTime="0" Time="16130000" ControlID="20130522093131"
+			ElementID="52" WordVersion="2" IsSaveAsNode="TRUE" Reference="FALSE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="8"
+			ControlTypeTemplate="ElementLableAndDateTimePicker" ControlName="记录日期"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="FALSE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=2017-10-20 Week= Time=16:13:">2017-10-20 16:13</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151217121347" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="婚姻--入院" DelFlag="TRUE" PlaceHolder="婚姻--入院"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151217121347 未婚~已婚~离婚~丧偶~其他"
+			ControlID="20151217121347" ElementID="204166" WordVersion="2"
+			ExternalDataSourceId="PatientMarriage" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementComboBox" ControlName="婚姻--入院"
+			UpdateEveryTime="TRUE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="已婚"
+			SelectedCode="1">
+			<Content_Text>已婚</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522092554" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="12"
+			EdgeStyle="[" HelpTip="与患者关系" DelFlag="FALSE" PlaceHolder="与患者关系"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130522092554 本人~父亲~母亲~儿子~女儿~兄弟~姐妹~朋友~亲戚~同事~熟人~其他"
+			ControlID="20130522092554" ElementID="727" WordVersion="2"
+			IsSaveAsNode="FALSE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="与病员关系1" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="FALSE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			SelectedName="患者本人">
+			<Content_Text>患者本人</Content_Text>
+		</NewCtrl>
+		<Section Id="20151127108760" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="主诉" DelFlag="TRUE" PlaceHolder="主诉" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="主诉" ElementID="56" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE"
+			ControlInSection="20151127103465,20151128233367,20151128236426,20151127106386,">
+			<NewCtrl Id="20151127103465" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="主诉症状" DelFlag="TRUE" PlaceHolder="主诉症状" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151127103465" ElementID="202597"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+				ControlName="主诉症状" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>肾移植术后</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128233367" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="主诉时间" DelFlag="TRUE" PlaceHolder="主诉时间" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151128233367" ElementID="202598"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+				ControlName="主诉时间" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>4</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128236426" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+				EdgeStyle="[" HelpTip="时间单位" DelFlag="TRUE" PlaceHolder="时间单位"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151128236426 小时~日~周~月~年"
+				ControlID="20151128236426" ElementID="201589" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="时间单位"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="年"
+				SelectedCode="4">
+				<Content_Text>年</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127106386" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="主诉其他" DelFlag="TRUE" PlaceHolder="主诉其他" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151127106386" ElementID="202600"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+				ControlName="主诉其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>余，双下肢水肿6月</Content_Text>
+			</NewCtrl>
+			<Content_Text>肾移植术后4年余，双下肢水肿6月</Content_Text>
+		</Section>
+		<Section Id="20151127108141" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="现病史" DelFlag="TRUE" PlaceHolder="现病史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="现病史" ElementID="201" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE"
+			ControlInSection="20151127114889,20151127117797,20151127112558,20151127117320,20151127116533,20151127116642,20151127117840,20151127113534,20160108019208,">
+			<NewCtrl Id="20151127114889" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="现病史描述" DelFlag="TRUE" PlaceHolder="现病史描述" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151127114889" ElementID="202601"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+				ControlName="现病史描述" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>患者4年余前因“慢性肾脏病5期”在我院行“同种异体肾移植手术”，术后移植肾功能恢复尚可，给予常规“他克莫司胶囊+吗替麦考酚酯肠溶片+醋酸泼尼松片”三联免疫抑制治疗，移植肾功能恢复良好，门诊定期随访。6月前患者无明显诱因下出现双下肢凹陷性水肿，程度中等，当时无胸闷、气促，无恶心呕吐，无腹痛，无移植肾区不适，无尿频、尿急、尿痛及排尿困难，门诊给予调整药物对症治疗，具体不详，症状未见明显好转，今为求进一步诊治故再次至我院就诊，门诊经查后拟“肾移植术后、双下肢水肿”收住入院。
+				</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127117797" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="7"
+				EdgeStyle="[" HelpTip="神志" DelFlag="TRUE" PlaceHolder="神志"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127117797 清醒~模糊~嗜睡~昏睡~谵妄~淡漠~昏迷"
+				ControlID="20151127117797" ElementID="3063" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+				ControlName="神志" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="0" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+				SelectedName="清">
+				<Content_Text>清</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127112558" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="胃纳" DelFlag="TRUE" PlaceHolder="胃纳"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127112558 较好~一般~较差"
+				ControlID="20151127112558" ElementID="202602" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="胃纳"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="一般"
+				SelectedCode="1">
+				<Content_Text>一般</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127117320" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="精神" DelFlag="TRUE" PlaceHolder="精神"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127117320 较好~一般~较差"
+				ControlID="20151127117320" ElementID="202603" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="精神"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="一般"
+				SelectedCode="1">
+				<Content_Text>一般</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127116533" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="FALSE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="体力" DelFlag="TRUE" PlaceHolder="体力"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127116533 尚可~欠佳~尚可~欠佳"
+				ControlID="20151127116533" ElementID="202604" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="体力"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="尚可"
+				SelectedCode="2">
+				<Content_Text>尚可</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127116642" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="大便" DelFlag="TRUE" PlaceHolder="大便"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127116642 正常~异常"
+				ControlID="20151127116642" ElementID="202605" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="大便"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+				SelectedCode="0">
+				<Content_Text>正常</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127117840" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="小便" DelFlag="TRUE" PlaceHolder="小便"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127117840 如上述~正常~异常"
+				ControlID="20151127117840" ElementID="202606" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="小便"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="如上述"
+				SelectedCode="0">
+				<Content_Text>如上述</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127113534" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="体重" DelFlag="TRUE" PlaceHolder="体重" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151127113534" ElementID="622"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementLableAndText"
+				ControlName="体重" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>无明显改变</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20160108019208" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="慢性病史" DelFlag="FALSE" PlaceHolder="高血压、糖尿病等慢性病史"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20160108019208"
+				ElementID="205377" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+				ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+				ControlTypeTemplate="ElementText" ControlName="慢性病史"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>发现“高血压病”10年余，自服“可素亚片 1# qd+施慧达片1# qd”联合降压治疗，血压控制尚可。
+				</Content_Text>
+			</NewCtrl>
+			<Content_Text>患者4年余前因“慢性肾脏病5期”在我院行“同种异体肾移植手术”，术后移植肾功能恢复尚可，给予常规“他克莫司胶囊+吗替麦考酚酯肠溶片+醋酸泼尼松片”三联免疫抑制治疗，移植肾功能恢复良好，门诊定期随访。6月前患者无明显诱因下出现双下肢凹陷性水肿，程度中等，当时无胸闷、气促，无恶心呕吐，无腹痛，无移植肾区不适，无尿频、尿急、尿痛及排尿困难，门诊给予调整药物对症治疗，具体不详，症状未见明显好转，今为求进一步诊治故再次至我院就诊，门诊经查后拟“肾移植术后、双下肢水肿”收住入院。
+				起病来神志清，胃纳一般，精神一般，体力尚可，大便正常，小便如上述，体重无明显改变。 发现“高血压病”10年余，自服“可素亚片 1#
+				qd+施慧达片1# qd”联合降压治疗，血压控制尚可。</Content_Text>
+		</Section>
+		<Section Id="20151127142053" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="既往史" DelFlag="TRUE" PlaceHolder="既往史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="既往史" ElementID="59" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE"
+			ControlInSection="20151127147692,20151128205376,20151128208841,20151128204368,20151128203752,20151128209626,20151128209310,20151128219136,">
+			<NewCtrl Id="20151127147692" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="既往体质" DelFlag="FALSE" PlaceHolder="既往体质"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127147692 较好~一般~较差"
+				ControlID="20151127147692" ElementID="202607" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="既往体质"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="一般"
+				SelectedCode="1">
+				<Content_Text>一般</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128205376" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+				EdgeStyle="[" HelpTip="慢性病史" DelFlag="FALSE" PlaceHolder="慢性病史"
+				ViewSecret="FALSE" EditProtect="FALSE"
+				Reserve="20151128205376 否认“高血压病、糖尿病及心、脑、血管、肺、肾、肝”等重要器官疾病史~有“高血压”病史~有“糖尿病”病史~有“高血压、糖尿病”病史"
+				ControlID="20151128205376" ElementID="202672" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="慢性病史"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="有“高血压”病史"
+				SelectedCode="1">
+				<Content_Text>有“高血压”病史</Content_Text>
+			</NewCtrl>
+			<Section Id="2015112820537600" Type="1" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+				HelpTip="" DelFlag="FALSE" PlaceHolder="  " ViewSecret="FALSE"
+				EditProtect="FALSE">
+				<Content_Text>，详见现病史，否认“糖尿病及心、脑、血管、肺、肾、肝”等重要器官疾病史</Content_Text>
+			</Section>
+			<NewCtrl Id="20151128208841" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+				EdgeStyle="[" HelpTip="传染病史" DelFlag="FALSE" PlaceHolder="传染病史"
+				ViewSecret="FALSE" EditProtect="FALSE"
+				Reserve="20151128208841 否认“肝炎、结核、伤寒”等传染病史~有“乙肝”病史~有“丙肝”病史~有“结核”病史~有“伤寒”病史"
+				ControlID="20151128208841" ElementID="202679" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="传染病史"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="否认“肝炎、结核、伤寒”等传染病史"
+				SelectedCode="0">
+				<Content_Text>否认“肝炎、结核、伤寒”等传染病史</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128204368" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="手术外伤史" DelFlag="FALSE" PlaceHolder="手术外伤史"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151128204368 否认重大手术外伤史~有手术史~有外伤史"
+				ControlID="20151128204368" ElementID="202682" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="手术外伤史"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="有手术史"
+				SelectedCode="1">
+				<Content_Text>有手术史</Content_Text>
+			</NewCtrl>
+			<Section Id="2015112820436800" Type="1" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+				HelpTip="" DelFlag="FALSE" PlaceHolder="  " ViewSecret="FALSE"
+				EditProtect="FALSE">
+				<NewCtrl Id="20151128207347" Type="3" HasSuperscript="FALSE"
+					Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+					MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+					HelpTip="既往手术史" DelFlag="TRUE" PlaceHolder="既往手术史" ViewSecret="FALSE"
+					EditProtect="FALSE" Reserve="" ControlID="20151128207347"
+					ElementID="60" WordVersion="2" IsSaveAsNode="TRUE" Reference="FALSE"
+					ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+					ControlTypeTemplate="ElementText" ControlName="既往手术史"
+					UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+					IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+					IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE">
+					<Content_Text>10年前因“胆囊炎”在外院行手术治疗，具体不详，术后恢复尚可</Content_Text>
+				</NewCtrl>
+				<Content_Text>：10年前因“胆囊炎”在外院行手术治疗，具体不详，术后恢复尚可，否认其他重大外伤史
+				</Content_Text>
+			</Section>
+			<NewCtrl Id="20151128203752" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="输血史" DelFlag="FALSE" PlaceHolder="输血史"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151128203752 否认输血史~有输血史"
+				ControlID="20151128203752" ElementID="202683" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="输血史"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="否认输血史"
+				SelectedCode="0">
+				<Content_Text>否认输血史</Content_Text>
+			</NewCtrl>
+			<Content_Text>既往体质一般；有“高血压”病史，详见现病史，否认“糖尿病及心、脑、血管、肺、肾、肝”等重要器官疾病史；否认“肝炎、结核、伤寒”等传染病史；有手术史：10年前因“胆囊炎”在外院行手术治疗，具体不详，术后恢复尚可，否认其他重大外伤史；否认输血史；
+			</Content_Text>
+		</Section>
+		<NewCtrl Id="20170719155836" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="住院过敏史（新）" DelFlag="FALSE" PlaceHolder="住院过敏史" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20170719155836" ElementID="212959"
+			WordVersion="2" ExternalDataSourceId="InpatientGuoMinXin"
+			IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementText" ControlName="住院过敏史（新）"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511282093101" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="否认" DelFlag="FALSE" PlaceHolder="否认"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151128209310 否认~曾有"
+			ControlID="20151128209310" ElementID="202685" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="否认"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="否认"
+			SelectedCode="0">
+			<Content_Text>否认</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511282191361" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="预防接种史" DelFlag="FALSE" PlaceHolder="预防接种史" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151128219136" ElementID="202686"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="预防接种史" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>按当地卫生防疫部门要求预防接种，具体不详</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201512171213051" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="出生地--入院" DelFlag="TRUE" PlaceHolder="出生地--入院" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151217121305" ElementID="204167"
+			WordVersion="2" ExternalDataSourceId="PatientBirthplace"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementText" ControlName="出生地--入院"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>浙江省宁波市江北区</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151128211513" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="9"
+			EdgeStyle="[" HelpTip="文化程度" DelFlag="TRUE" PlaceHolder="文化程度"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20151128211513 小学~初中~高中~大学~研究生~硕士~博士~半文盲~文盲" ControlID="20151128211513"
+			ElementID="202298" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="文化程度"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="初中"
+			SelectedCode="1">
+			<Content_Text>初中</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201512171275931" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="13"
+			EdgeStyle="[" HelpTip="职业--入院" DelFlag="TRUE" PlaceHolder="职业--入院"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="201512171275931 退（离）休人员~其他~国家公务员~专业技术人员~职员~工人~农民~学生~现役军人~自由职业者~个体经营者~无业人员~企业管理人员"
+			ControlID="20151217127593" ElementID="204164" WordVersion="2"
+			ExternalDataSourceId="PatientOccupation" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementComboBox" ControlName="职业--入院"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="个体经营者"
+			SelectedCode="10">
+			<Content_Text>个体经营者</Content_Text>
+		</NewCtrl>
+		<Section Id="20151127145411" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="个人史" DelFlag="TRUE" PlaceHolder="个人史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="个人史" ElementID="297" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE" ControlInSection="20160203161677,">
+			<NewCtrl Id="20160203161677" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+				EdgeStyle="[" HelpTip="吸烟饮酒史" DelFlag="TRUE" PlaceHolder="吸烟饮酒史"
+				ViewSecret="FALSE" EditProtect="FALSE"
+				Reserve="20160203161677 否认吸烟、饮酒史~有吸烟史~有饮酒史~有吸烟、饮酒史" ControlID="20160203161677"
+				ElementID="202687" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+				ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+				ControlTypeTemplate="ElementComboBox" ControlName="吸烟饮酒史"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="否认吸烟、饮酒史"
+				SelectedCode="0">
+				<Content_Text>否认吸烟、饮酒史</Content_Text>
+			</NewCtrl>
+			<Content_Text>生活习惯良好。否认长期外地居住史，否认疫区、疫情、疫水接触史，否认牧区、矿山、高氟区、低碘区居住史，否认化学性物质、粉尘、放射性物质、有毒物质接触史，否认吸毒史；否认吸烟、饮酒史；否认药物成瘾史，否认冶游史。
+			</Content_Text>
+		</Section>
+		<Section Id="20151127144166" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="婚育史" DelFlag="FALSE" PlaceHolder="婚育史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="婚育史" ElementID="1635" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE"
+			ControlInSection="201511282194772,20151128219477,201511282194771,20151127145902,">
+			<NewCtrl Id="201511282194772" Type="5" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" AvailableMax="FALSE" MaxiMum="65535"
+				UseStubString="FALSE" MustFillContent="FALSE" DecimalDigits="0"
+				MiniMum="-65535" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="几"
+				MumType="1" DelFlag="FALSE" AvailableMin="FALSE" PlaceHolder="几"
+				ViewSecret="FALSE" EditProtect="FALSE" MumUnit="" Reserve=""
+				ControlID="20151128219477" ElementID="904" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementText" ControlName="几"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>24</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128219477" Type="5" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" AvailableMax="FALSE" MaxiMum="65535"
+				UseStubString="FALSE" MustFillContent="FALSE" DecimalDigits="0"
+				MiniMum="-65535" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="几"
+				MumType="1" DelFlag="FALSE" AvailableMin="FALSE" PlaceHolder="几"
+				ViewSecret="FALSE" EditProtect="FALSE" MumUnit="" Reserve=""
+				ControlID="20151128219477" ElementID="904" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementText" ControlName="几"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>1</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="201511282194771" Type="5" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" AvailableMax="FALSE" MaxiMum="65535"
+				UseStubString="FALSE" MustFillContent="FALSE" DecimalDigits="0"
+				MiniMum="-65535" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="几"
+				MumType="1" DelFlag="FALSE" AvailableMin="FALSE" PlaceHolder="几"
+				ViewSecret="FALSE" EditProtect="FALSE" MumUnit="" Reserve=""
+				ControlID="20151128219477" ElementID="904" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementText" ControlName="几"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>0</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127145902" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="配偶情况" DelFlag="FALSE" PlaceHolder="配偶情况"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127145902 配偶健在~丧偶"
+				ControlID="20151127145902" ElementID="202609" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="配偶情况"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="配偶健在"
+				SelectedCode="0">
+				<Content_Text>配偶健在</Content_Text>
+			</NewCtrl>
+			<Content_Text>24岁结婚，育有1子0女，体健，配偶健在，家庭关系和睦，否认近亲婚配。</Content_Text>
+		</Section>
+		<Section Id="20151127175061" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="生育史" DelFlag="FALSE" PlaceHolder="生育史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="生育史" ElementID="202628" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="TRUE"
+			ControlInSection="20151128219951,20130523174051,20151128218288,20151128213868,">
+			<NewCtrl Id="20151128219951" Type="5" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" AvailableMax="FALSE" MaxiMum="65535"
+				UseStubString="FALSE" MustFillContent="FALSE" DecimalDigits="0"
+				MiniMum="-65535" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="足月产次数"
+				MumType="1" DelFlag="FALSE" AvailableMin="FALSE" PlaceHolder="足月产次数"
+				ViewSecret="FALSE" EditProtect="FALSE" MumUnit="" Reserve=""
+				ControlID="20151128219951" ElementID="202627" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementText" ControlName="足月产次数"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>1</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20130523174051" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="早产次数" DelFlag="FALSE" PlaceHolder="早产次数" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20130523174051" ElementID="79"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementLableAndText"
+				ControlName="妊娠" UpdateFirst="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+				UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>0</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128218288" Type="5" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" AvailableMax="FALSE" MaxiMum="65535"
+				UseStubString="FALSE" MustFillContent="FALSE" DecimalDigits="0"
+				MiniMum="-65535" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="流产次数"
+				MumType="1" DelFlag="FALSE" AvailableMin="FALSE" PlaceHolder="流产次数"
+				ViewSecret="FALSE" EditProtect="FALSE" MumUnit="" Reserve=""
+				ControlID="20151128218288" ElementID="79" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementLableAndText"
+				ControlName="妊娠" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>0</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151128213868" Type="5" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" AvailableMax="FALSE" MaxiMum="65535"
+				UseStubString="FALSE" MustFillContent="FALSE" DecimalDigits="0"
+				MiniMum="-65535" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="现在子女数"
+				MumType="1" DelFlag="FALSE" AvailableMin="FALSE" PlaceHolder="现在子女数"
+				ViewSecret="FALSE" EditProtect="FALSE" MumUnit="" Reserve=""
+				ControlID="20151128213868" ElementID="202629" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementText" ControlName="现在子女数"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>1</Content_Text>
+			</NewCtrl>
+			<Content_Text>生育史:1-0-0- 1。</Content_Text>
+		</Section>
+		<Section Id="20130523152441" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="月经史" DelFlag="FALSE" PlaceHolder="月经史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="月经史" ElementID="251" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="TRUE"
+			ControlInSection="20130523153721,20130523153910,20130523154037,20130523154133,20151127176113,20151127147392,">
+			<NewCtrl Id="20130523153721" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="经量" DelFlag="FALSE" PlaceHolder="经量"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523153721 少~正常~多"
+				ControlID="20130523153721" ElementID="1670" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="少/多/正常"
+				UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+				BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsNullPrint="FALSE" ReplaceOldValue="FALSE" IsUseAct="FALSE"
+				IsNoteSaveInNurse="FALSE" SelectedName="一般" SelectedCode="1">
+				<Content_Text>一般</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20130523153910" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="1"
+				EdgeStyle="[" HelpTip="颜色" DelFlag="TRUE" PlaceHolder="颜色"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523153910 可~未"
+				ControlID="20130523153910" ElementID="1698" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="可"
+				UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+				BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsNullPrint="FALSE" ReplaceOldValue="FALSE" IsUseAct="FALSE"
+				IsNoteSaveInNurse="FALSE" SelectedName="正常">
+				<Content_Text>正常</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20130523154037" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="痛经" DelFlag="TRUE" PlaceHolder="痛经"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523154037 有~无"
+				ControlID="20130523154037" ElementID="1201" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="有"
+				UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+				BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsNullPrint="FALSE" ReplaceOldValue="FALSE" IsUseAct="FALSE"
+				IsNoteSaveInNurse="FALSE" SelectedName="无" SelectedCode="1">
+				<Content_Text>无</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20130523154133" Type="7" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="经期" DelFlag="TRUE" PlaceHolder="经期"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523154133 规则~不规则"
+				ControlID="20130523154133" ElementID="2869" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="3" ControlTypeTemplate="ElementText" ControlName="规则不规则"
+				UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+				BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsNullPrint="FALSE" ReplaceOldValue="FALSE" IsUseAct="FALSE"
+				IsNoteSaveInNurse="FALSE" SelectedName="规则" SelectedCode="0">
+				<Content_Text>规则</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127176113" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="血块" DelFlag="FALSE" PlaceHolder="血块"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127176113 有~无"
+				ControlID="20151127176113" ElementID="202626" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="血块"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				SelectedName="无" SelectedCode="1">
+				<Content_Text>无</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127147392" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="月经史其他" DelFlag="TRUE" PlaceHolder="月经史其他" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151127147392" ElementID="202613"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+				ControlName="月经史其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="TRUE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>未见明显痛经。</Content_Text>
+			</NewCtrl>
+			<Content_Text>月经史 : ，经量 一般，颜色 正常，痛经无，经期规则， 血块无，白带量中，未避孕 。未见明显痛经。
+			</Content_Text>
+		</Section>
+		<Section Id="20151128116941" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="家族史" DelFlag="FALSE" PlaceHolder="家族史" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="家族史" ElementID="253" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE"
+			ControlInSection="20151128226954,20160103169415,20160103166438,20160103164146,20160103169323,20160103161672,">
+			<NewCtrl Id="20151128226954" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+				EdgeStyle="[" HelpTip="父母情况" DelFlag="FALSE" PlaceHolder="父母情况"
+				ViewSecret="FALSE" EditProtect="FALSE"
+				Reserve="20151128226954 父母体检~母亲健在，父亲已故，死因不详~父亲健在，母亲已故，死因不详~父母均已故，死因不详"
+				ControlID="20151128226954" ElementID="202689" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="父母情况"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				SelectedName="父亲健在，母亲已故，死因不详" SelectedCode="2">
+				<Content_Text>父亲健在，母亲已故，死因不详</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20160103169415" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="有无兄弟姐妹" DelFlag="TRUE" PlaceHolder="有无兄弟姐妹"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160103169415 有~无"
+				ControlID="20160103169415" ElementID="205161" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="有无兄弟姐妹"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="有"
+				SelectedCode="0">
+				<Content_Text>有</Content_Text>
+			</NewCtrl>
+			<Section Id="2016010316941500" Type="1" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+				HelpTip="" DelFlag="FALSE" PlaceHolder="  " ViewSecret="FALSE"
+				EditProtect="FALSE"
+				ControlInSection="20160103166438,20160103164146,20160103169323,20160103161672,">
+				<Content_Text>4兄弟姐妹，均体健</Content_Text>
+			</Section>
+			<Content_Text>父亲健在，母亲已故，死因不详，有4兄弟姐妹，均体健，否认家族三代二系成员中有遗传病、精神病、肿瘤等类似疾病史，否认与患者该病相类似病史。
+			</Content_Text>
+		</Section>
+		<NewCtrl Id="20151130188059" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次体温" DelFlag="TRUE" PlaceHolder="首次体温" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151130188059" ElementID="202303"
+			WordVersion="2" ExternalDataSourceId="PatientTEMPERATURE"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementLableAndText"
+			ControlName="首次体温" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>36.7</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127144918" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次脉搏" DelFlag="TRUE" PlaceHolder="首次脉搏" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127144918" ElementID="202304"
+			WordVersion="2" ExternalDataSourceId="PatientMAIBO" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次脉搏"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>86</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127143331" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次呼吸" DelFlag="TRUE" PlaceHolder="首次呼吸" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127143331" ElementID="202305"
+			WordVersion="2" ExternalDataSourceId="PatientHUXI" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次呼吸"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>19</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127149293" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次血压" DelFlag="TRUE" PlaceHolder="首次血压" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127149293" ElementID="202306"
+			WordVersion="2" ExternalDataSourceId="PatientXUEYA" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次血压"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>177/93</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522135118" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="发育" DelFlag="TRUE" PlaceHolder="发育"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522135118 良好~不良~超长~中等"
+			ControlID="20130522135118" ElementID="91" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="发育"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130523175054" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="体型" DelFlag="TRUE" PlaceHolder="体型" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="20130523175054" ControlID="20130523175054"
+			ElementID="94" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="体型"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正力型（均匀型）">
+			<Content_Text>正力型（均匀型）</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522135320" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="6"
+			EdgeStyle="[" HelpTip="营养" DelFlag="TRUE" PlaceHolder="营养"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522135320 良好~欠佳~消瘦~恶病质~中等~肥胖"
+			ControlID="20130522135320" ElementID="95" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="营养"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="良好" SelectedCode="0">
+			<Content_Text>良好</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522135530" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="6"
+			EdgeStyle="[" HelpTip="意识" DelFlag="TRUE" PlaceHolder="意识"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522135530 模糊~嗜睡~昏迷~昏睡~谵妄~清晰"
+			ControlID="20130522135530" ElementID="96" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="意识" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="清晰"
+			SelectedCode="5">
+			<Content_Text>清晰</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130523175557" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="7"
+			EdgeStyle="[" HelpTip="面容" DelFlag="TRUE" PlaceHolder="面容"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130523175557 慢性面容~贫血貌~酒醉貌~脱水貌~肝性面容~正常面容~急性面容" ControlID="20130523175557"
+			ElementID="3064" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="面容"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="0" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="慢性面容" SelectedCode="0">
+			<Content_Text>慢性面容</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522135700" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="体位" DelFlag="TRUE" PlaceHolder="体位"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522135700 自主~被动~强迫"
+			ControlID="20130522135700" ElementID="99" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="体位"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="自主体位">
+			<Content_Text>自主体位</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130523180115" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="6"
+			EdgeStyle="[" HelpTip="步态" DelFlag="TRUE" PlaceHolder="步态"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523180115 稳健~不稳~摇摆~慌乱~划圈~间歇性跛行"
+			ControlID="20130523180115" ElementID="2355" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="步态"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522135831" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="配合检查" DelFlag="TRUE" PlaceHolder="配合检查"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522135831 合作~不合作"
+			ControlID="20130522135831" ElementID="515" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="检查配合" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="合作"
+			SelectedCode="0">
+			<Content_Text>合作</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151110103599" Type="5" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE" MaxiMum="1000"
+			AvailableMax="TRUE" MustFillContent="FALSE" DecimalDigits="2"
+			MiniMum="0" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="首次身高"
+			MumType="1" DelFlag="TRUE" AvailableMin="TRUE" InputErrorMessage="请输入正确的数字！"
+			PlaceHolder="首次身高" ViewSecret="FALSE" EditProtect="FALSE" MumUnit=""
+			Reserve="" RangeErrorMessage="输入的数字必须在0—1000之间！" ControlID="20151110103599"
+			ElementID="202307" WordVersion="2" ExternalDataSourceId="PatientSHENGAO"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="5" ControlTypeTemplate="ElementLableAndNumText"
+			ControlName="首次身高" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>162</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151110105368" Type="5" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE" MaxiMum="500"
+			AvailableMax="TRUE" MustFillContent="FALSE" DecimalDigits="2"
+			MiniMum="0" EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="首次体重"
+			MumType="1" DelFlag="TRUE" AvailableMin="TRUE" InputErrorMessage="请输入正确的数字！"
+			PlaceHolder="首次体重" ViewSecret="FALSE" EditProtect="FALSE" MumUnit=""
+			Reserve="" RangeErrorMessage="输入的数字必须在0—500之间！" ControlID="20151110105368"
+			ElementID="202308" WordVersion="2" ExternalDataSourceId="PatientTIZHONG"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="5" ControlTypeTemplate="ElementLableAndNumText"
+			ControlName="首次体重" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>56.8</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522140031" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="8"
+			EdgeStyle="[" HelpTip="皮肤黏膜" DelFlag="TRUE" PlaceHolder="皮肤黏膜"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130522140031 正常~苍白~发绀~出血~皮疹~水肿~黄疸~蜘蛛痣" ControlID="20130522140031"
+			ElementID="1971" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="皮肤黏膜"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127185315" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="7"
+			EdgeStyle="[" HelpTip="皮疹" DelFlag="TRUE" PlaceHolder="皮疹"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20151127185315 无~斑疹~荨麻疹~丘疹~斑丘疹~玫瑰疹~疱疹" ControlID="20151127185315"
+			ElementID="111" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementComboBox" ControlName="皮疹"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127185715" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="皮下出血" DelFlag="TRUE" PlaceHolder="皮下出血"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127185715 无~瘀点~紫癜~瘀斑~血肿"
+			ControlID="20151127185715" ElementID="112" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="皮下出血"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127171473" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="皮下结节" DelFlag="TRUE" PlaceHolder="皮下结节"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127171473 无~有"
+			ControlID="20151127171473" ElementID="202630" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="皮下结节"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127174886" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="水肿" DelFlag="TRUE" PlaceHolder="水肿"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127174886 有~无"
+			ControlID="20151127174886" ElementID="116" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="水肿" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="1">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127145330" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="皮肤黏膜其他" DelFlag="TRUE" PlaceHolder="皮肤黏膜其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127145330" ElementID="710"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementLableAndText"
+			ControlName="皮肤黏膜其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127176320" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="浅表淋巴结" DelFlag="TRUE" PlaceHolder="浅表淋巴结"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127176320 未触及肿大~触及肿大"
+			ControlID="20151127176320" ElementID="128" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="浅表淋巴结" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="未触及肿大" SelectedCode="0">
+			<Content_Text>未触及肿大</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522140425" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="头颅" DelFlag="TRUE" PlaceHolder="头颅"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522140425 正常~异常"
+			ControlID="20130522140425" ElementID="135" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="头颅" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130523183718" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="结膜" DelFlag="TRUE" PlaceHolder="结膜"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523183718 正常~充血~苍白~水肿~出血"
+			ControlID="20130523183718" ElementID="138" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="结膜症状"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130523183903" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="巩膜" DelFlag="TRUE" PlaceHolder="巩膜"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130523183903 巩膜无黄膜~巩膜有黄膜"
+			ControlID="20130523183903" ElementID="142" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="巩膜情况"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无黄染">
+			<Content_Text>无黄染</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130523184023" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="7"
+			EdgeStyle="[" HelpTip="角膜" DelFlag="TRUE" PlaceHolder="角膜"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20130523184023"
+			ElementID="2940" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="角膜"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常透明" SelectedCode="0">
+			<Content_Text>正常透明</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522140811" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="瞳孔" DelFlag="TRUE" PlaceHolder="瞳孔"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522140811 等大正圆~不等大"
+			ControlID="20130522140811" ElementID="144" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="瞳孔外形" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="圆形">
+			<Content_Text>圆形</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127173958" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="瞳孔" DelFlag="TRUE" PlaceHolder="瞳孔" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="20151127173958 等圆等大~不等" ControlID="20151127173958"
+			ElementID="2934" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementText" ControlName="瞳孔（左）"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>3</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160903159389" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="瞳孔" DelFlag="TRUE" PlaceHolder="瞳孔" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20160903159389" ElementID="207837"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="瞳孔（右）" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" CheckboxCaption="3"
+			IsNullPrint="TRUE" ReplaceOldValue="FALSE" IsUseAct="FALSE"
+			IsNoteSaveInNurse="FALSE">
+			<Content_Text>3</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522141015" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="对光反射" DelFlag="TRUE" PlaceHolder="对光反射"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522141015 迟钝~消失~正常~不对称"
+			ControlID="20130522141015" ElementID="147" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="对光反射" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="灵敏">
+			<Content_Text>灵敏</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524093251" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="耳廓外形" DelFlag="TRUE" PlaceHolder="耳廓外形"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524093251 畸形~正常"
+			ControlID="20130524093251" ElementID="148" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="外耳廓形态" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="1">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524093457" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="耳廓牵拉痛" DelFlag="TRUE" PlaceHolder="耳廓牵拉痛"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130524093457 无~有~有~无~有~无~有~无~无~有~有~无~有~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~无~有~无"
+			ControlID="20130524093457" ElementID="2907" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="耳廓牵拉痛" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="45">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524093529" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="外耳道分泌物" DelFlag="TRUE" PlaceHolder="外耳道分泌物"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524093529 无~有"
+			ControlID="20130524093529" ElementID="523" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="外耳道分泌物"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522141503" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="乳突压痛" DelFlag="TRUE" PlaceHolder="乳突压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522141503 无~有"
+			ControlID="20130522141503" ElementID="2361" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="乳突压痛" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524093722" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="听力粗试" DelFlag="TRUE" PlaceHolder="听力粗试"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524093722 无~有"
+			ControlID="20130524093722" ElementID="2385" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="听力粗试障碍" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524093935" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="鼻翼煽动" DelFlag="TRUE" PlaceHolder="鼻翼煽动"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130524093935 有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无"
+			ControlID="20130524093935" ElementID="2936" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementText" ControlName="鼻翼煽动"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="45">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524094027" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="鼻中隔" DelFlag="TRUE" PlaceHolder="鼻中隔"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524094027 正常~异常"
+			ControlID="20130524094027" ElementID="1914" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="鼻" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524094244" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="鼻出血" DelFlag="TRUE" PlaceHolder="鼻出血"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524094244 无~有"
+			ControlID="20130524094244" ElementID="1201" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="有"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522141723" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="鼻窦压痛" DelFlag="TRUE" PlaceHolder="鼻窦压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20130522141723"
+			ElementID="2937" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="副鼻窦压痛部位"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="无">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522141953" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="口唇情况" DelFlag="TRUE" PlaceHolder="口唇情况"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522141953 红润~发绀~苍白~疱疹~皲裂"
+			ControlID="20130522141953" ElementID="155" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="口唇情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="红润"
+			SelectedCode="0">
+			<Content_Text>红润</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524094440" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="口唇外观" DelFlag="TRUE" PlaceHolder="口唇外观"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524094440 红润~发绀~苍白~疱疹~皲裂"
+			ControlID="20130524094440" ElementID="155" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="口唇情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522142219" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="咽部情况" DelFlag="TRUE" PlaceHolder="咽部情况"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522142219 正常~红肿~充血~分泌物"
+			ControlID="20130522142219" ElementID="120" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="咽部情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522142403" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="扁桃体" DelFlag="TRUE" PlaceHolder="扁桃体"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522142403 正常~肿大"
+			ControlID="20130522142403" ElementID="162" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="扁桃体情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无肿大">
+			<Content_Text>无肿大</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524095247" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="声音" DelFlag="TRUE" PlaceHolder="声音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524095247 正常~嘶哑"
+			ControlID="20130524095247" ElementID="164" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="声音情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522142637" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="颈部" DelFlag="TRUE" PlaceHolder="颈部" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20130522142637" ElementID="255"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="1" ControlTypeTemplate="ElementComboBox"
+			ControlName="颈部" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="自如">
+			<Content_Text>自如</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522142831" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="气管" DelFlag="TRUE" PlaceHolder="气管"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522142831 偏左~偏右~居中"
+			ControlID="20130522142831" ElementID="257" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="气管方向" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="居中"
+			SelectedCode="2">
+			<Content_Text>居中</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522143046" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="颈静脉" DelFlag="TRUE" PlaceHolder="颈静脉"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522143046 正常~充盈~怒张"
+			ControlID="20130522143046" ElementID="571" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="颈静脉情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未显露">
+			<Content_Text>未显露</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522143302" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="肝颈静脉回流征" DelFlag="TRUE" PlaceHolder="肝颈静脉回流征"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130522143302 阳性~阴性~阳性~阴性~阳性~阴性~阳性~阴性" ControlID="20130522143302"
+			ElementID="3002" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="肝颈静脉回流征"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="阴性" SelectedCode="7">
+			<Content_Text>阴性</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522143353" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="颈动脉" DelFlag="TRUE" PlaceHolder="颈动脉"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522143353 搏动正常~搏动增强"
+			ControlID="20130522143353" ElementID="167" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="颈动脉" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127185946" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="颈部血管杂音" DelFlag="TRUE" PlaceHolder="颈部血管杂音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127185946 未闻及~闻及"
+			ControlID="20151127185946" ElementID="2739" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="颈部血管杂音"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未闻及"
+			SelectedCode="0">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522143535" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="甲状腺" DelFlag="TRUE" PlaceHolder="甲状腺"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522143535 正常~Ⅰ°肿大~Ⅱ°肿大~Ⅲ°肿大"
+			ControlID="20130522143535" ElementID="3086" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="甲状腺外形" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无肿大">
+			<Content_Text>无肿大</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524104403" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="硬度" DelFlag="TRUE" PlaceHolder="硬度"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524104403 Ⅰ~Ⅱ~Ⅲ"
+			ControlID="20130524104403" ElementID="551" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="硬度" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="质软">
+			<Content_Text>质软</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524105101" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="节点" DelFlag="TRUE" PlaceHolder="节点"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524105101 无~有"
+			ControlID="20130524105101" ElementID="1201" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="有"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160903162050" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="压痛" DelFlag="TRUE" PlaceHolder="压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903162050 无~有"
+			ControlID="20160903162050" ElementID="207838" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="颈部压痛"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524105226" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="震颤" DelFlag="TRUE" PlaceHolder="震颤"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130524105226 有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无"
+			ControlID="20130524105226" ElementID="2987" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="震颤" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未触及"
+			SelectedCode="45">
+			<Content_Text>未触及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160903163932" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="甲状腺血管杂音" DelFlag="TRUE" PlaceHolder="甲状腺血管杂音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903163932 可闻及~未闻及"
+			ControlID="20160903163932" ElementID="207839" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="甲状腺血管杂音"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未闻及"
+			SelectedCode="1">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522143928" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="胸廓外形" DelFlag="TRUE" PlaceHolder="胸廓外形"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130522143928 漏斗胸~局部隆起~局部凹陷~对称~桶状胸~鸡胸" ControlID="20130522143928"
+			ElementID="267" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="胸廓外形"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="3">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522144123" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="肋间隙" DelFlag="TRUE" PlaceHolder="肋间隙"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522144123 正常~增宽~变窄"
+			ControlID="20130522144123" ElementID="529" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="肋间隙" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160903168204" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="压痛" DelFlag="TRUE" PlaceHolder="压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903168204 无~有"
+			ControlID="20160903168204" ElementID="207857" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="胸壁压痛"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<Section Id="20151127183777" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="乳房情况" DelFlag="FALSE" PlaceHolder="乳房情况" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="乳房情况" ElementID="202634" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="TRUE" ControlInSection="20160903165022,20160903169129,">
+			<NewCtrl Id="20160903165022" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="对称情况" DelFlag="TRUE" PlaceHolder="称情况"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903165022 对称~不对称"
+				ControlID="20160903165022" ElementID="207858" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="乳房对称情况"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="对称"
+				SelectedCode="0">
+				<Content_Text>对称</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20160903169129" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="FALSE" EdgeStyle2="]" Edge="FALSE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="乳房肿块触及情况" DelFlag="FALSE" PlaceHolder="触及"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903169129 未触及~触及"
+				ControlID="20160903169129" ElementID="207859" WordVersion="2"
+				IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="乳房肿块触及情况"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未触及"
+				SelectedCode="0">
+				<Content_Text>未触及</Content_Text>
+			</NewCtrl>
+			<Content_Text>乳房双向对称 肿块未触及</Content_Text>
+		</Section>
+		<NewCtrl Id="20151127183191" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="胸部其他" DelFlag="TRUE" PlaceHolder="胸部其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127183191" ElementID="202633"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="胸部其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160903164486" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="呼吸运动左" DelFlag="TRUE" PlaceHolder="左"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903164486 正常~增强~减弱"
+			ControlID="20160903164486" ElementID="207860" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="呼吸运动左"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160903165792" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="呼吸运动右" DelFlag="TRUE" PlaceHolder="右"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160903165792 正常~增强~减弱"
+			ControlID="20160903165792" ElementID="207861" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="呼吸运动右"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524111310" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="语音震颤" DelFlag="TRUE" PlaceHolder="语音震颤"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524111310 可~未"
+			ControlID="20130524111310" ElementID="1698" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="可"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常对称" SelectedCode="0">
+			<Content_Text>正常对称</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524111531" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="胸膜摩擦感" DelFlag="TRUE" PlaceHolder="胸膜摩擦感"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524111531 无~左~右~双侧"
+			ControlID="20130524111531" ElementID="532" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="胸膜摩擦音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未触及"
+			SelectedCode="0">
+			<Content_Text>未触及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524111721" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="叩诊音" DelFlag="TRUE" PlaceHolder="叩诊音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524111721 鼓音~实音~浊音~清音~过清音"
+			ControlID="20130524111721" ElementID="3117" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="腹部叩诊音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常清音"
+			SelectedCode="0">
+			<Content_Text>正常清音</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522144332" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="7"
+			EdgeStyle="[" HelpTip="呼吸音" DelFlag="TRUE" PlaceHolder="呼吸音"
+			ViewSecret="FALSE" EditProtect="FALSE" ControlID="20130522144332"
+			ElementID="1035" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementComboBox" ControlName="呼吸音1" UpdateFirst="FALSE"
+			IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="正常">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127198618" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="啰音" DelFlag="TRUE" PlaceHolder="啰音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127198618 未闻及~闻及"
+			ControlID="20151127198618" ElementID="2951" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="啰音" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="未闻及" SelectedCode="0">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522144912" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="胸膜摩擦音" DelFlag="TRUE" PlaceHolder="胸膜摩擦音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522144912 无~左~右~双侧"
+			ControlID="20130522144912" ElementID="532" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="胸膜摩擦音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未闻及"
+			SelectedCode="未闻及">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127192096" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="肺脏其他" DelFlag="TRUE" PlaceHolder="肺脏其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127192096" ElementID="202637"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="肺脏其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524112117" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="心前区" DelFlag="TRUE" PlaceHolder="心前区"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20130524112117"
+			ElementID="2997" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="心前区"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无隆起" SelectedCode="0">
+			<Content_Text>无隆起</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524112243" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="心尖搏动" DelFlag="TRUE" PlaceHolder="心尖搏动"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524112243 正常~移位"
+			ControlID="20130524112243" ElementID="2396" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="心尖搏动位置" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="左侧"
+			SelectedCode="1">
+			<Content_Text>左侧</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160909159739" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="几" DelFlag="TRUE" PlaceHolder="几" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20160909159739" ElementID="207918"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="第几肋间" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" CheckboxCaption="3"
+			IsNullPrint="TRUE" ReplaceOldValue="FALSE" IsUseAct="FALSE"
+			IsNoteSaveInNurse="FALSE">
+			<Content_Text>3</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524112554" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="强度" DelFlag="TRUE" PlaceHolder="强度"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524112554 正常~减退~消失"
+			ControlID="20130524112554" ElementID="1132" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="正常"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511271449181" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次脉搏" DelFlag="TRUE" PlaceHolder="首次脉搏" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127144918" ElementID="202304"
+			WordVersion="2" ExternalDataSourceId="PatientMAIBO" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次脉搏"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>86</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522145402" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="心律" DelFlag="TRUE" PlaceHolder="心律"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522145402 齐~不齐~绝对不齐"
+			ControlID="20130522145402" ElementID="334" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="心律" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="齐"
+			SelectedCode="0">
+			<Content_Text>齐</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524113242" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="第一心音" DelFlag="TRUE" PlaceHolder="第一心音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524113242 正常~增强~减弱~强弱不等~分裂"
+			ControlID="20130524113242" ElementID="2783" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="第一心音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524113321" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="第二心音" DelFlag="TRUE" PlaceHolder="第二心音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524113321 增强~减弱~强弱不等~分裂~正常"
+			ControlID="20130524113321" ElementID="2784" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="第二心音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="4">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127199146" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="杂音" DelFlag="TRUE" PlaceHolder="杂音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127199146 可闻及~未闻及"
+			ControlID="20151127199146" ElementID="536" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="杂音" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="未闻及" SelectedCode="1">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522145611" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="心包摩擦音" DelFlag="TRUE" PlaceHolder="心包摩擦音"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130522145611 有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无~有~无"
+			ControlID="20130522145611" ElementID="3014" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementLableAndText"
+			ControlName="心包摩擦音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未闻及"
+			SelectedCode="45">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127193025" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="心脏其他" DelFlag="TRUE" PlaceHolder="心脏其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127193025" ElementID="202639"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="心脏其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524113817" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="脉律" DelFlag="TRUE" PlaceHolder="脉律"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524113817 可~未"
+			ControlID="20130524113817" ElementID="1698" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="可"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="规则" SelectedCode="0">
+			<Content_Text>规则</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524114122" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="7"
+			EdgeStyle="[" HelpTip="脉波" DelFlag="TRUE" PlaceHolder="脉波"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524114122 可~未"
+			ControlID="20130524114122" ElementID="1698" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="可"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524114408" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="周围血管征" DelFlag="TRUE" PlaceHolder="周围血管征"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130524114408 无~大血管枪击音~Duroziez双重杂音~毛细血管搏动~奇脉~交替脉~水冲脉~脉搏短绌"
+			ControlID="20130524114408" ElementID="2983" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="周围血管征" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="阴性"
+			SelectedCode="0">
+			<Content_Text>阴性</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522145743" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="腹部" DelFlag="TRUE" PlaceHolder="腹部"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522145743 正常~膨隆~蛙腹~舟状~疤痕~尖腹"
+			ControlID="20130522145743" ElementID="2400" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="腹部外形" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="平坦">
+			<Content_Text>平坦</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127195170" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="腹壁紧张度" DelFlag="TRUE" PlaceHolder="腹壁紧张度"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127195170 柔软~增加~减低"
+			ControlID="20151127195170" ElementID="202640" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="腹壁紧张度"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="柔软"
+			SelectedCode="0">
+			<Content_Text>柔软</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160909168990" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="腹部压痛" DelFlag="TRUE" PlaceHolder="压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160909168990 无~有"
+			ControlID="20160909168990" ElementID="207919" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="腹部压痛"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127197066" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="反跳痛" DelFlag="TRUE" PlaceHolder="反跳痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127197066 无~有"
+			ControlID="20151127197066" ElementID="273" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="反跳痛" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160909162442" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="腹部包块" DelFlag="TRUE" PlaceHolder="包块"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160909162442 无~有"
+			ControlID="20160909162442" ElementID="207920" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="腹部包块"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127193923" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="胆囊" DelFlag="TRUE" PlaceHolder="胆囊"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127193923 触及~未触及"
+			ControlID="20151127193923" ElementID="276" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="胆囊" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="未触及" SelectedCode="1">
+			<Content_Text>未触及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524125825" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="Murphy征" DelFlag="TRUE" PlaceHolder="Murphy征"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524125825 阴性~阳性"
+			ControlID="20130524125825" ElementID="2420" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="Murphy征" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="阴性"
+			SelectedCode="0">
+			<Content_Text>阴性</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20160909168687" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="肝脏触诊" DelFlag="TRUE" PlaceHolder="肝脏触诊"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20160909168687 肋下未触及~触及"
+			ControlID="20160909168687" ElementID="207921" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="肝脏触诊"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="肋下未触及"
+			SelectedCode="0">
+			<Content_Text>肋下未触及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127191348" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="脾脏" DelFlag="TRUE" PlaceHolder="脾脏"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127191348 肋下未触及~触及"
+			ControlID="20151127191348" ElementID="550" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="脾脏" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="肋下未触及" SelectedCode="0">
+			<Content_Text>肋下未触及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522150648" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="肝区叩痛" DelFlag="TRUE" PlaceHolder="肝区叩痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522150648 阴性~阳性"
+			ControlID="20130522150648" ElementID="3119" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="肝区叩痛" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="1">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522150846" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="移动性浊音" DelFlag="TRUE" PlaceHolder="移动性浊音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522150846 阴性~阳性"
+			ControlID="20130522150846" ElementID="339" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="移动性浊音"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="阴性" SelectedCode="0">
+			<Content_Text>阴性</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522150804" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="肾区叩痛" DelFlag="TRUE" PlaceHolder="肾区叩痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522150804 无~有"
+			ControlID="20130522150804" ElementID="3120" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="肾区叩痛" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522150925" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="肠鸣音" DelFlag="TRUE" PlaceHolder="肠鸣音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522150925 正常~亢进~减弱~消失"
+			ControlID="20130522150925" ElementID="284" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="肠鸣音"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524130937" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="血管杂音" DelFlag="TRUE" PlaceHolder="血管杂音"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524130937 无~有"
+			ControlID="20130524130937" ElementID="265" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="血管杂音" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="未闻及"
+			SelectedCode="0">
+			<Content_Text>未闻及</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127193042" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="腹部其他" DelFlag="TRUE" PlaceHolder="腹部其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127193042" ElementID="202651"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="腹部其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522151129" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="肛门及外生殖器" DelFlag="TRUE" PlaceHolder="肛门及外生殖器"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522151129 正常~异常~未查"
+			ControlID="20130522151129" ElementID="285" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="肛门及外生殖器" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无异常"
+			SelectedCode="1">
+			<Content_Text>无异常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522151316" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="脊柱" DelFlag="TRUE" PlaceHolder="脊柱"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522151316 正常~畸形"
+			ControlID="20130522151316" ElementID="287" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="脊柱" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522151454" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="活动度" DelFlag="TRUE" PlaceHolder="活动度"
+			ViewSecret="FALSE" EditProtect="FALSE"
+			Reserve="20130522151454 未查~Ⅰ°~Ⅱ°~Ⅲ°~未查~Ⅰ°~Ⅱ°~Ⅲ°" ControlID="20130522151454"
+			ElementID="133" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="活动度"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="5">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127194246" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="脊柱压痛" DelFlag="TRUE" PlaceHolder="脊柱压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127194246 有~无"
+			ControlID="20151127194246" ElementID="202652" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="脊柱压痛"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="1">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127195959" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="脊柱叩击痛" DelFlag="TRUE" PlaceHolder="脊柱叩击痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127195959 无~有"
+			ControlID="20151127195959" ElementID="202654" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="脊柱叩击痛"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522153845" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="四肢情况" DelFlag="TRUE" PlaceHolder="四肢情况"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522153845 正常~异常~畸形"
+			ControlID="20130522153845" ElementID="343" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="四肢情况" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524131417" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="杵状指" DelFlag="TRUE" PlaceHolder="杵状指"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20130524131417"
+			ElementID="290" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="1"
+			ControlTypeTemplate="ElementLableAndComboBox" ControlName="杵状指"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524131544" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="反甲" DelFlag="TRUE" PlaceHolder="反甲"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524131544 有~无"
+			ControlID="20130524131544" ElementID="1201" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="有"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="1">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524131629" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="下肢静脉曲张" DelFlag="TRUE" PlaceHolder="下肢静脉曲张"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524131629 无~有"
+			ControlID="20130524131629" ElementID="2429" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="下肢静脉曲张" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127202570" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="双下肢水肿" DelFlag="TRUE" PlaceHolder="双下肢水肿"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127202570 无~左侧~右侧~双侧"
+			ControlID="20151127202570" ElementID="2325" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="双下肢水肿"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="双侧"
+			SelectedCode="3">
+			<Content_Text>双侧</Content_Text>
+		</NewCtrl>
+		<Section Id="2015112720257000" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="" DelFlag="FALSE" PlaceHolder="  " ViewSecret="FALSE"
+			EditProtect="FALSE">
+			<NewCtrl Id="20151127209205" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="下肢水肿程度" DelFlag="FALSE" PlaceHolder="下肢水肿程度"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127209205 轻度~中度~重度"
+				ControlID="20151127209205" ElementID="202656" WordVersion="2"
+				IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="下肢水肿程度"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="中度"
+				SelectedCode="1">
+				<Content_Text>中度</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127202327" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="下肢水肿性质" DelFlag="FALSE" PlaceHolder="下肢水肿性质"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127202327 凹陷性~非凹陷性"
+				ControlID="20151127202327" ElementID="202657" WordVersion="2"
+				IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="下肢水肿性质"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="凹陷性"
+				SelectedCode="0">
+				<Content_Text>凹陷性</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127208150" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+				EdgeStyle="[" HelpTip="下肢水肿程度" DelFlag="FALSE" PlaceHolder="下肢水肿程度"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127208150 轻度~中度~重度"
+				ControlID="20151127208150" ElementID="202656" WordVersion="2"
+				IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="下肢水肿程度"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="中度"
+				SelectedCode="1">
+				<Content_Text>中度</Content_Text>
+			</NewCtrl>
+			<NewCtrl Id="20151127206159" Type="6" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+				EdgeStyle="[" HelpTip="下肢水肿性质" DelFlag="FALSE" PlaceHolder="下肢水肿性质"
+				ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127206159 凹陷性~非凹陷性"
+				ControlID="20151127206159" ElementID="202657" WordVersion="2"
+				IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+				ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="下肢水肿性质"
+				UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+				IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+				IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+				IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="凹陷性"
+				SelectedCode="0">
+				<Content_Text>凹陷性</Content_Text>
+			</NewCtrl>
+			<Content_Text>左侧：程度中度，性质凹陷性，右侧：程度中度，性质凹陷性</Content_Text>
+		</Section>
+		<NewCtrl Id="20151127208259" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="关节红肿" DelFlag="TRUE" PlaceHolder="关节红肿"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127208259 无~有"
+			ControlID="20151127208259" ElementID="556" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="关节红肿" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="无" SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127205518" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="关节压痛" DelFlag="TRUE" PlaceHolder="关节压痛"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127205518 无~有"
+			ControlID="20151127205518" ElementID="202659" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="关节压痛"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="无"
+			SelectedCode="0">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127205500" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="四肢及其关节其他" DelFlag="TRUE" PlaceHolder="四肢及其关节其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127205500" ElementID="202661"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="四肢及其关节其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524132554" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="反射" DelFlag="TRUE" PlaceHolder="反射"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20130524132554"
+			ElementID="294" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="神经反射"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201305241325541" Type="7" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="反射" DelFlag="TRUE" PlaceHolder="反射"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20130524132554"
+			ElementID="294" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="神经反射"
+			UpdateFirst="FALSE" IsGroupUse="FALSE" ConsistenceType="3" IsDefault="TRUE"
+			IsGroupReplace="TRUE" UpdateEveryTime="FALSE"
+			BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127204779" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="5"
+			EdgeStyle="[" HelpTip="肌力" DelFlag="TRUE" PlaceHolder="肌力"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127204779 Ⅰ级~Ⅱ级~Ⅲ级~Ⅵ级~Ⅴ级"
+			ControlID="20151127204779" ElementID="293" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="肌力" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="Ⅴ级" SelectedCode="4">
+			<Content_Text>Ⅴ级</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130522154612" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="3"
+			EdgeStyle="[" HelpTip="肌张力" DelFlag="TRUE" PlaceHolder="肌张力"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130522154612 正常~亢进~减弱"
+			ControlID="20130522154612" ElementID="292" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="肌张力" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="正常"
+			SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524132727" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="病理反射" DelFlag="TRUE" PlaceHolder="病理反射"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524132727 阴性~阳性"
+			ControlID="20130524132727" ElementID="348" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="病理反射" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="阴性"
+			SelectedCode="0">
+			<Content_Text>阴性</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20130524132748" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="脑膜刺激征" DelFlag="TRUE" PlaceHolder="脑膜刺激征"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20130524132748 有~无"
+			ControlID="20130524132748" ElementID="2817" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="脑膜刺激征" UpdateFirst="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="0" IsDefault="TRUE" IsGroupReplace="TRUE"
+			UpdateEveryTime="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="阴性"
+			SelectedCode="1">
+			<Content_Text>阴性</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127207688" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="左膝腱反射" DelFlag="TRUE" PlaceHolder="左膝腱反射"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127207688 正常~亢进~消失~减弱"
+			ControlID="20151127207688" ElementID="559" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="左膝腱反射" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127206405" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" ListEntryCount="4"
+			EdgeStyle="[" HelpTip="右膝腱反射" DelFlag="TRUE" PlaceHolder="右膝腱反射"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127206405 正常~亢进~消失~减弱"
+			ControlID="20151127206405" ElementID="690" WordVersion="2"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementLableAndComboBox"
+			ControlName="右膝腱反射" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE"
+			SelectedName="正常" SelectedCode="0">
+			<Content_Text>正常</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127208796" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="神经系统其他" DelFlag="TRUE" PlaceHolder="神经系统其他" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127208796" ElementID="202662"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="神经系统其他" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>无</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511301880591" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次体温" DelFlag="TRUE" PlaceHolder="首次体温" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151130188059" ElementID="202303"
+			WordVersion="2" ExternalDataSourceId="PatientTEMPERATURE"
+			IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE"
+			ControlType="3" ControlTypeTemplate="ElementLableAndText"
+			ControlName="首次体温" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>36.7</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511271449182" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次脉搏" DelFlag="TRUE" PlaceHolder="首次脉搏" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127144918" ElementID="202304"
+			WordVersion="2" ExternalDataSourceId="PatientMAIBO" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次脉搏"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>86</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511271433311" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次呼吸" DelFlag="TRUE" PlaceHolder="首次呼吸" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127143331" ElementID="202305"
+			WordVersion="2" ExternalDataSourceId="PatientHUXI" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次呼吸"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>19</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="201511271492931" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="首次血压" DelFlag="TRUE" PlaceHolder="首次血压" ViewSecret="FALSE"
+			EditProtect="FALSE" Reserve="" ControlID="20151127149293" ElementID="202306"
+			WordVersion="2" ExternalDataSourceId="PatientXUEYA" IsSaveAsNode="TRUE"
+			Reference="TRUE" ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementLableAndText" ControlName="首次血压"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>177/93</Content_Text>
+		</NewCtrl>
+		<Section Id="20151130101560" Type="1" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE" EdgeStyle="『"
+			HelpTip="专科检查" DelFlag="TRUE" PlaceHolder="专科检查" ViewSecret="FALSE"
+			EditProtect="FALSE" ControlName="专科检查" ElementID="2333" Reference="TRUE"
+			IsSaveAsNode="TRUE" WomanUse="FALSE" ControlInSection="20151130107246,">
+			<NewCtrl Id="20151130107246" Type="3" HasSuperscript="FALSE"
+				Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+				MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+				HelpTip="专科检查-new" DelFlag="FALSE" PlaceHolder="专科查体" ViewSecret="FALSE"
+				EditProtect="FALSE" Reserve="" ControlID="20151130107246" ElementID="202765"
+				WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+				WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+				ControlName="专科检查-new" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+				ConsistenceType="3" IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE"
+				WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+				ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+				<Content_Text>一般情况可，颈软，气管居中， 无慢性肾病面容，
+					无贫血貌，心肺听诊无殊。腹平软，肝脾肋下未及，无压痛及反跳痛，肋腹部无隆起。双肾区无叩痛。双下肢中度凹陷性水肿，无移植肾区压痛，移植肾质地中等，移植肾未及肿大。
+				</Content_Text>
+			</NewCtrl>
+			<Content_Text>一般情况可，颈软，气管居中， 无慢性肾病面容，
+				无贫血貌，心肺听诊无殊。腹平软，肝脾肋下未及，无压痛及反跳痛，肋腹部无隆起。双肾区无叩痛。双下肢中度凹陷性水肿，无移植肾区压痛，移植肾质地中等，移植肾未及肿大。
+			</Content_Text>
+		</Section>
+		<NewCtrl Id="20151127157958" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="辅助检查结果" DelFlag="TRUE"
+			PlaceHolder="格式举例：2016-11-6，鄞州第二医院，B超（US932105）：肝胆脾胰未见明显异常。"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="" ControlID="20151127157958"
+			ElementID="202619" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="3"
+			ControlTypeTemplate="ElementText" ControlName="辅助检查结果"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="TRUE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text>2017.10.20 本院生化提示：总蛋白 47.9g/L 白蛋白 24.0g/L.
+			</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127157157" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="FALSE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="诊断类型" DelFlag="TRUE" PlaceHolder="诊断类型"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127157157 补充诊断：~修正诊断："
+			ControlID="20151127157157" ElementID="202621" WordVersion="2"
+			IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="诊断类型"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="">
+			<Content_Text />
+		</NewCtrl>
+		<NewCtrl Id="20151127152836" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="FALSE"
+			MustFillContent="TRUE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="入院诊断" DelFlag="TRUE" PlaceHolder="入院诊断" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151127152836" ElementID="357"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementLableAndRichTextBox"
+			ControlName="入院诊断" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3"
+			FormatConvertClassWord="Neusoft.Emr.Diagnosis.UI,Neusoft.Emr.Diagnosis.UI.Internal.Controls.InpatientDiagnoseControl"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<ConvertProperty>
+				<DiagnosisType DiagType="5504" />
+			</ConvertProperty>
+			<ShowControlCustom>
+				<DiseaseId>1226464</DiseaseId>
+			</ShowControlCustom>
+			<Content_Text>1.异体肾移植状态 2.白细胞异常 3.丙肝病毒携带者 4.蛋白尿 5.低蛋白血症 6.高血压病
+			</Content_Text>
+		</NewCtrl>
+		<Section Id="AllDoctorSign201511271582671" Type="1"
+			HasSuperscript="FALSE" Printable="TRUE" ControlHidden="FALSE"
+			UseStubString="TRUE" MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE"
+			EdgeStyle="『" HelpTip="签名" DelFlag="TRUE" PlaceHolder="签名"
+			ViewSecret="FALSE" EditProtect="FALSE" Reference="FALSE"
+			IsSaveAsNode="FALSE" WomanUse="FALSE">
+			<Content_Text />
+		</Section>
+		<NewCtrl Id="20151127156453" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="7" ControlHidden="FALSE" MaxDate="0"
+			UseStubString="FALSE" MustFillContent="TRUE" Date="20171022" MinDate="0"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="签名日期" DelFlag="TRUE"
+			PlaceHolder="签名日期" ViewSecret="FALSE" EditProtect="FALSE" MaxTime="0"
+			Reserve="" Time="11155900" MinTime="0" ControlID="20151127156453"
+			ElementID="202620" WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE"
+			ExpandInput="TRUE" WomanUse="FALSE" ControlType="8"
+			ControlTypeTemplate="ElementDateTimePicker" ControlName="签名日期"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=2017-10-22 Week= Time=11:15:">2017年10月22日</Content_Text>
+		</NewCtrl>
+		<NewCtrl Id="20151127154295" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="其他诊断" DelFlag="TRUE" PlaceHolder="其他诊断" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151127154295" ElementID="202622"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="其他诊断" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3"
+			FormatConvertClassWord="Neusoft.Emr.Diagnosis.UI,Neusoft.Emr.Diagnosis.UI.Internal.Controls.InpatientDiagnoseControl"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<ConvertProperty>
+				<DiagnosisType DiagType="5504" />
+			</ConvertProperty>
+			<Content_Text />
+		</NewCtrl>
+		<Section Id="AllDoctorSign2015112715826711" Type="1"
+			HasSuperscript="FALSE" Printable="TRUE" ControlHidden="FALSE"
+			UseStubString="TRUE" MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE"
+			EdgeStyle="『" HelpTip="签名" DelFlag="TRUE" PlaceHolder="签名"
+			ViewSecret="FALSE" EditProtect="TRUE" Reference="FALSE" IsSaveAsNode="FALSE"
+			WomanUse="FALSE">
+			<Content_Text />
+		</Section>
+		<NewCtrl Id="201511271564531" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="7" ControlHidden="FALSE" MaxDate="0"
+			UseStubString="TRUE" MustFillContent="FALSE" Date="0" MinDate="0"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="签名日期" DelFlag="TRUE"
+			PlaceHolder="签名日期" ViewSecret="FALSE" EditProtect="FALSE" MaxTime="0"
+			Reserve="" Time="0" MinTime="0" ControlID="20151127156453" ElementID="202620"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="8" ControlTypeTemplate="ElementDateTimePicker"
+			ControlName="签名日期" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=0-0-0 Week= Time=0:0:" />
+		</NewCtrl>
+		<NewCtrl Id="201511271571571" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="FALSE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="诊断类型" DelFlag="TRUE" PlaceHolder="诊断类型"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127157157 补充诊断：~修正诊断："
+			ControlID="20151127157157" ElementID="202621" WordVersion="2"
+			IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="诊断类型"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="">
+			<Content_Text />
+		</NewCtrl>
+		<NewCtrl Id="201511271542951" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="其他诊断" DelFlag="TRUE" PlaceHolder="其他诊断" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151127154295" ElementID="202622"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="其他诊断" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3"
+			FormatConvertClassWord="Neusoft.Emr.Diagnosis.UI,Neusoft.Emr.Diagnosis.UI.Internal.Controls.InpatientDiagnoseControl"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<ConvertProperty>
+				<DiagnosisType DiagType="5504" />
+			</ConvertProperty>
+			<Content_Text />
+		</NewCtrl>
+		<Section Id="AllDoctorSign20151203199136" Type="1"
+			HasSuperscript="FALSE" Printable="TRUE" ControlHidden="FALSE"
+			UseStubString="TRUE" MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE"
+			EdgeStyle="『" HelpTip="签名" DelFlag="TRUE" PlaceHolder="签名"
+			ViewSecret="FALSE" EditProtect="TRUE" Reference="FALSE" IsSaveAsNode="FALSE"
+			WomanUse="FALSE">
+			<Content_Text />
+		</Section>
+		<NewCtrl Id="2015112715645311" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="7" ControlHidden="FALSE" MaxDate="0"
+			UseStubString="TRUE" MustFillContent="FALSE" Date="0" MinDate="0"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="签名日期" DelFlag="TRUE"
+			PlaceHolder="签名日期" ViewSecret="FALSE" EditProtect="FALSE" MaxTime="0"
+			Reserve="" Time="0" MinTime="0" ControlID="20151127156453" ElementID="202620"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="8" ControlTypeTemplate="ElementDateTimePicker"
+			ControlName="签名日期" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=0-0-0 Week= Time=0:0:" />
+		</NewCtrl>
+		<NewCtrl Id="201511271571572" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="FALSE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="诊断类型" DelFlag="FALSE" PlaceHolder="诊断类型"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127157157 补充诊断：~修正诊断："
+			ControlID="20151127157157" ElementID="202621" WordVersion="2"
+			IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="诊断类型"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="">
+			<Content_Text />
+		</NewCtrl>
+		<NewCtrl Id="201511271542952" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="其他诊断" DelFlag="FALSE" PlaceHolder="其他诊断" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151127154295" ElementID="202622"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="FALSE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="其他诊断" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3"
+			FormatConvertClassWord="Neusoft.Emr.Diagnosis.UI,Neusoft.Emr.Diagnosis.UI.Internal.Controls.InpatientDiagnoseControl"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<ConvertProperty>
+				<DiagnosisType DiagType="5504" />
+			</ConvertProperty>
+			<Content_Text />
+		</NewCtrl>
+		<Section Id="AllDoctorSign20151203197950" Type="1"
+			HasSuperscript="FALSE" Printable="TRUE" ControlHidden="FALSE"
+			UseStubString="TRUE" MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE"
+			EdgeStyle="『" HelpTip="签名" DelFlag="FALSE" PlaceHolder="签名"
+			ViewSecret="FALSE" EditProtect="TRUE" Reference="FALSE" IsSaveAsNode="FALSE"
+			WomanUse="FALSE">
+			<Content_Text />
+		</Section>
+		<NewCtrl Id="2015112715645312" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="7" ControlHidden="FALSE" MaxDate="0"
+			UseStubString="TRUE" MustFillContent="FALSE" Date="0" MinDate="0"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="签名日期" DelFlag="FALSE"
+			PlaceHolder="签名日期" ViewSecret="FALSE" EditProtect="FALSE" MaxTime="0"
+			Reserve="" Time="0" MinTime="0" ControlID="20151127156453" ElementID="202620"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="8" ControlTypeTemplate="ElementDateTimePicker"
+			ControlName="签名日期" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="FALSE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=0-0-0 Week= Time=0:0:" />
+		</NewCtrl>
+		<NewCtrl Id="201511271571573" Type="6" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="FALSE" ListEntryCount="2"
+			EdgeStyle="[" HelpTip="诊断类型" DelFlag="FALSE" PlaceHolder="诊断类型"
+			ViewSecret="FALSE" EditProtect="FALSE" Reserve="20151127157157 补充诊断：~修正诊断："
+			ControlID="20151127157157" ElementID="202621" WordVersion="2"
+			IsSaveAsNode="FALSE" Reference="FALSE" ExpandInput="FALSE" WomanUse="FALSE"
+			ControlType="1" ControlTypeTemplate="ElementComboBox" ControlName="诊断类型"
+			UpdateEveryTime="FALSE" IsGroupUse="FALSE" ConsistenceType="3"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="TRUE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE" SelectedName="">
+			<Content_Text />
+		</NewCtrl>
+		<NewCtrl Id="201511271542953" Type="3" HasSuperscript="FALSE"
+			Printable="TRUE" ControlHidden="FALSE" UseStubString="TRUE"
+			MustFillContent="FALSE" EdgeStyle2="]" Edge="TRUE" EdgeStyle="["
+			HelpTip="其他诊断" DelFlag="FALSE" PlaceHolder="其他诊断" ViewSecret="FALSE"
+			EditProtect="TRUE" Reserve="" ControlID="20151127154295" ElementID="202622"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="3" ControlTypeTemplate="ElementText"
+			ControlName="其他诊断" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3"
+			FormatConvertClassWord="Neusoft.Emr.Diagnosis.UI,Neusoft.Emr.Diagnosis.UI.Internal.Controls.InpatientDiagnoseControl"
+			IsDefault="TRUE" BetweenInTimeAndOutTime="FALSE" WritingInAdvance="FALSE"
+			IsGroupReplace="FALSE" IsNullPrint="FALSE" ReplaceOldValue="FALSE"
+			IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<ConvertProperty>
+				<DiagnosisType DiagType="5504" />
+			</ConvertProperty>
+			<Content_Text />
+		</NewCtrl>
+		<Section Id="AllDoctorSign20151203191515" Type="1"
+			HasSuperscript="FALSE" Printable="TRUE" ControlHidden="FALSE"
+			UseStubString="TRUE" MustFillContent="FALSE" EdgeStyle2="』" Edge="TRUE"
+			EdgeStyle="『" HelpTip="签名" DelFlag="FALSE" PlaceHolder="签名"
+			ViewSecret="FALSE" EditProtect="TRUE" Reference="FALSE" IsSaveAsNode="FALSE"
+			WomanUse="FALSE">
+			<Content_Text />
+		</Section>
+		<NewCtrl Id="2015112715645313" Type="11" HasSuperscript="FALSE"
+			Printable="TRUE" FormatDateTime="7" ControlHidden="FALSE" MaxDate="0"
+			UseStubString="TRUE" MustFillContent="FALSE" Date="0" MinDate="0"
+			EdgeStyle2="]" Edge="TRUE" EdgeStyle="[" HelpTip="签名日期" DelFlag="FALSE"
+			PlaceHolder="签名日期" ViewSecret="FALSE" EditProtect="FALSE" MaxTime="0"
+			Reserve="" Time="0" MinTime="0" ControlID="20151127156453" ElementID="202620"
+			WordVersion="2" IsSaveAsNode="TRUE" Reference="TRUE" ExpandInput="TRUE"
+			WomanUse="FALSE" ControlType="8" ControlTypeTemplate="ElementDateTimePicker"
+			ControlName="签名日期" UpdateEveryTime="FALSE" IsGroupUse="FALSE"
+			ConsistenceType="3" IsDefault="FALSE" BetweenInTimeAndOutTime="FALSE"
+			WritingInAdvance="FALSE" IsGroupReplace="TRUE" IsNullPrint="FALSE"
+			ReplaceOldValue="FALSE" IsUseAct="FALSE" IsNoteSaveInNurse="FALSE">
+			<Content_Text AllDate="Date=0-0-0 Week= Time=0:0:" />
+		</NewCtrl>
+	</DocObjContent>
+</Template>
