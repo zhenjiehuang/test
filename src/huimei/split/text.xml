@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<templates customerName="宣武" authKey="" author="huangzhengjie" remark="">
+	<!-- 文本解析配置 -->
+	<template progressType="2" dependType="true" progressTempalteName="首次病程">
+		<punctuations>
+			<!-- field id为空则不会映射到具体字段，只做中间字符串截取流程，
+				同一个层级下面field name不要有重复，
+				所有field id不要有重复，
+				同一个层级的field节点顺序随意
+			 -->
+			<punctuation name="病例特点" id="">
+				<!-- index表示匹配上的字符串的次序，不设置默认是0，-1表示最后一个 -->
+				<!-- from是段落开始，end是段落结束，无end会根据所有field适配 -->
+				<from index="0">一、病例特点：</from>
+				<end index="-1">二、诊断依据及鉴别诊断：</end>
+				<replaces>
+					<replace source="。。"></replace>
+				</replaces>
+				<punctuation name="病史：" id="A">
+					<from>病史：</from>
+				</punctuation>
+				<punctuation name="既往史：" id="B">
+					<from>既往史：</from>
+				</punctuation>
+				<punctuation name="入院查体：" id="C">
+					<from>入院查体：</from>
+				</punctuation>
+				<punctuation name="辅助检查:" id="D">
+					<from>辅助检查:</from>
+				</punctuation>
+				<!-- *可以表示模糊匹配 -->
+				<punctuation name="肌电图xxxxx：" id="E">
+					<from>肌电图（*）：</from>
+				</punctuation>
+			</punctuation>
+			<punctuation name="病例特点" id="">
+				<from index="0">二、诊断依据及鉴别诊断：</from>
+				<punctuation name="诊断及诊断依据：" id="F">
+					<from>诊断及诊断依据：</from>
+				</punctuation>
+				<punctuation name="鉴别诊断：" id="G">
+					<from>鉴别诊断：</from>
+				</punctuation>
+			</punctuation>
+			<punctuation name="诊疗计划" id="H">
+				<from index="0">三、诊疗计划：</from>
+				<end index="-1">医生签名：</end>
+			</punctuation>
+		</punctuations>
+		<field attrName="" attr="previousHistory">
+			<punctuation name="病史：" id="A"/>
+			<punctuation name="既往史：" id="B"/>
+		</field>
+	</template>
+</templates>
