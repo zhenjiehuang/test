@@ -17,20 +17,23 @@ public class Test {
             // jedis.del(key);
             // }
 
-            jedis.del("HitExpress:23041:20171026:type");
-            jedis.del("HitExpress:23041:20171026:1");
-            jedis.del("HitExpress:23041:20171026:3");
-            jedis.del("HitExpress:23041:20171026:4");
-            jedis.del("RecognitionResult:23041:20171026");
+            // jedis.del("HitExpress:38723:20171109:type");
+            // jedis.del("HitExpress:38723:20171109:1");
+            // jedis.del("HitExpress:38723:20171109:2");
+            // jedis.del("HitExpress:38723:20171109:3");
+            // jedis.del("HitExpress:38723:20171109:4");
+            // jedis.del("RecognitionResult:38723:20171026");
 
-            // System.out.println(jedis.lrange("HitExpress:23041:20171025:1", 0,
-            // 100));
+            System.out.println(jedis.lrange("HitExpress:38723:20171110:type", 0, 100));
+            System.out.println(jedis.lrange("HitExpress:38723:20171110:3", 0, 100));
+            System.out.println(jedis.lrange("HitExpress:38723:20171110:4", 0, 100));
             // System.out.println("");
             // System.out.println(jedis.lrange("HitExpress:23041:20171025:3", 0,
             // 100));
             // System.out.println("");
-            // System.out.println(jedis.hget("RecognitionResult:23041:20171025",
-            // "29242"));
+            System.out.println(jedis.hkeys("RecognitionResult:38723:20171110"));
+            System.out.println(jedis.hget("RecognitionResult:38723:20171110", "44994"));
+            System.out.println(jedis.hget("RecognitionResult:38723:20171110", "102164"));
 
             jedis.close();
         } catch (Exception e) {

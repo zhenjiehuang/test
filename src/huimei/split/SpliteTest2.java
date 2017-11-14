@@ -16,7 +16,7 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.tree.DefaultElement;
 
 import com.alibaba.druid.util.StringUtils;
-import com.hm.mayson.module.customer.xml.XmlReplace;
+import com.hm.mayson.module.customer.template.Replace;
 
 import huimei.split.model.KeyProgress;
 import huimei.split.model.KeySegment;
@@ -111,9 +111,9 @@ public class SpliteTest2 {
                     value = text.substring(start.getIndex() + start.getKeyWord().length(), end.getIndex());
                 }
                 // 替换字符
-                List<XmlReplace> replaces = segment.getPunctuation().getReplaces();
+                List<Replace> replaces = segment.getPunctuation().getReplaces();
                 if (CollectionUtils.isNotEmpty(replaces)) {
-                    for (XmlReplace replace : replaces) {
+                    for (Replace replace : replaces) {
                         value = value.replaceAll(replace.getSource(), replace.getTarget());
                     }
                 }
@@ -252,18 +252,18 @@ public class SpliteTest2 {
         return word;
     }
 
-    private List<XmlReplace> getReplace(List<?> nodes) {
+    private List<Replace> getReplace(List<?> nodes) {
         if (CollectionUtils.isEmpty(nodes)) {
             return null;
         }
 
-        List<XmlReplace> replaces = new ArrayList<XmlReplace>();
+        List<Replace> replaces = new ArrayList<Replace>();
         for (Object obj : nodes) {
             DefaultElement node = (DefaultElement) obj;
             String source = node.attributeValue("source");
             String target = node.getText();
             if (!StringUtils.isEmpty(source)) {
-                XmlReplace replace = new XmlReplace();
+                Replace replace = new Replace();
                 replace.setSource(source);
                 replace.setTarget(target);
                 replaces.add(replace);

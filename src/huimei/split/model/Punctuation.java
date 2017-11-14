@@ -2,7 +2,7 @@ package huimei.split.model;
 
 import java.util.List;
 
-import com.hm.mayson.module.customer.xml.XmlReplace;
+import com.hm.mayson.module.customer.template.Replace;
 
 public class Punctuation {
 
@@ -14,7 +14,7 @@ public class Punctuation {
 
     private TextWord end;
 
-    private List<XmlReplace> replaces;
+    private List<Replace> replaces;
 
     private List<Punctuation> punctuations;
 
@@ -50,11 +50,11 @@ public class Punctuation {
         this.end = end;
     }
 
-    public List<XmlReplace> getReplaces() {
+    public List<Replace> getReplaces() {
         return replaces;
     }
 
-    public void setReplaces(List<XmlReplace> replaces) {
+    public void setReplaces(List<Replace> replaces) {
         this.replaces = replaces;
     }
 
