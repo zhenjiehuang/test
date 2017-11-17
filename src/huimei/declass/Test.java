@@ -16,12 +16,12 @@ public class Test {
             String path = "Z:\\workspace\\huimei\\work\\test\\";
              Process process = Runtime.getRuntime()
              .exec("java -jar " + path
-                            + "decompiler.jar UnitRecognitionServiceImpl.class");
+                            + "decompiler.jar Test.class");
             // Process process = Runtime.getRuntime()
             // .exec("java -jar " + path
             // + "decompiler.jar JarFile");
-            InputStream in = process.getErrorStream();
-            // InputStream in = process.getInputStream();
+            // InputStream in = process.getErrorStream();
+            InputStream in = process.getInputStream();
             // in.read(b)
             byte[] bs = new byte[1024];
             while (in.read(bs) != -1) {

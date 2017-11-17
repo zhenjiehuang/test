@@ -32,6 +32,8 @@ public class JarFile {
 
     public static void main(String[] args) throws IOException {
         try {
+            new JarFile().jar();
+
             FileInputStream in = new FileInputStream(new File("JarFile.class"));
 
             byte[] bs = new byte[1024];

@@ -1,20 +1,16 @@
 package redis;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 public class Test2 {
 
-    private static void add(int i) {
-        System.out.println(i);
-    }
-
     public static void main(String[] args) {
-        try {
-            int i = 0;
-            while (true) {
-                add(i++);
-                Thread.sleep(1000);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        DateFormat format = new SimpleDateFormat("dd/MMM/yyyy:HH:mm:ss", Locale.CHINESE);
+
+        System.out.println(format.format(new Date()));
+
     }
 }

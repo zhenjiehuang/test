@@ -5,11 +5,14 @@ import com.poi.excel.base.ExcelColumn;
 public class Excel {
     @ExcelColumn(columnNum = 0, columnName = "原文", length = 10000)
     private String text;
-    @ExcelColumn(columnNum = 1, columnName = "病史", length = 10000)
+    // @ExcelColumn(columnNum = 1, columnName = "病史", length = 10000)
+    @ExcelColumn(columnNum = 1, columnName = "主诉", length = 10000)
     private String A;
-    @ExcelColumn(columnNum = 2, columnName = "既往史", length = 10000)
+    // @ExcelColumn(columnNum = 2, columnName = "既往史", length = 10000)
+    @ExcelColumn(columnNum = 2, columnName = "当前诊断", length = 10000)
     private String B;
-    @ExcelColumn(columnNum = 3, columnName = "入院查体", length = 10000)
+    // @ExcelColumn(columnNum = 3, columnName = "入院查体", length = 10000)
+    @ExcelColumn(columnNum = 3, columnName = "体格检查", length = 10000)
     private String C;
     @ExcelColumn(columnNum = 4, columnName = "辅助检查", length = 10000)
     private String D;
