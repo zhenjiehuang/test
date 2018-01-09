@@ -29,5 +29,7 @@ public class StreamTest {
 
         System.out.println(Integer.toHexString("1234".hashCode()));
 
+        System.out.println("无".startsWith("无#"));
+
     }
 }

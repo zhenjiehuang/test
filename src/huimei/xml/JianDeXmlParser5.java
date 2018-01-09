@@ -17,7 +17,8 @@ public class JianDeXmlParser5 {
 
     public static void main(String[] args) {
         // parserProgressXml("Z:\\hm\\config\\mayson\\xml\\ruyuan.xml");
-        parserProgressXml("Z:/workspace/huimei/mayson/mayson/src/main/resources/text/xuanwu.xml");
+        parserProgressXml("2_入院记录.xml");
+        // parserProgressXml("Z:/workspace/huimei/mayson/mayson/src/main/resources/text/xuanwu.xml");
 //        parserProgressXml("C:/Users/Administrator/Desktop/实际患者信息模板/首次查房_format.xml");
         // parserProgressXml("C:/Users/Administrator/Desktop/实际患者信息模板/入院记录_format.xml");
         // parserProgressXml("C:/Users/Administrator/Desktop/实际患者信息模板/首次病程_format.xml");
@@ -42,7 +43,7 @@ public class JianDeXmlParser5 {
             // System.out.println(XTextDocument.valueOf("//Template//NewCtrl[@ElementID=56]//Content_Text"));
 
             List<?> nodes = XTextDocument
-                    .selectNodes("//templates//fields//NewCtrl[@ElementID=204277][0]/Content_Text");
+                    .selectNodes("//XElements//Element//Name | //XElements//Element//InnerValue");
             for (Object node : nodes) {
                 System.out.println(((Node) node).getText());
             }
