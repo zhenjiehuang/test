@@ -1,0 +1,10 @@
+INSERT INTO node_synonym (synonym_word,modify_id,node_id,is_node,status,flag) VALUES ('分型词',77,112445,1,2,1);
+
+INSERT INTO node_relation (node_id,sub_node_id,flag,relation_type,modify_id,STATUS) VALUES (10000,112445,1,1,77,2);
+
+
+SELECT * FROM node_synonym where synonym_word LIKE '分型词';
+
+SELECT * from node_relation where sub_node_id=112445;
+
+SELECT * from classification_word where words LIKE '%肝细胞肿瘤%' OR callback_word LIKE '%慢性阻塞性气%'
