@@ -4,6 +4,7 @@ import java.util.Set;
 
 import com.google.common.collect.Sets;
 import com.hm.apollo.framework.utils.ExpressionParserUtils;
+import com.hm.apollo.module.cdss.pojo.ExamRecognizePojo;
 import com.hm.mayson.module.progress.model.PatientRecord;
 
 /**
@@ -35,5 +36,10 @@ public class ExpressionTest {
                         + "( param.contains('肌钙蛋白阴性') || param.contains('cTnI阴性') || param.contains('cTnT阴性') )"
                         + " && param.contains('CK-MB正常') )",
                 patientRecord));
+
+        ExamRecognizePojo pojo = new ExamRecognizePojo();
+        pojo.setNumberValue(0D);
+        System.out.println(ExpressionParserUtils.parseExpression("numberValue==0", pojo));
+
 	}
 }

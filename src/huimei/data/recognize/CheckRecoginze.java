@@ -7,26 +7,31 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.apache.commons.collections.CollectionUtils;
+
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.controller.PushService;
 import com.hm.apollo.module.recognition.pojo.RecordInfo;
-import com.poi.excel.parse.ExportDynamicExcel;
+import com.poi.excel.parse.ExportExcel;
 
-public class Test {
+import huimei.data.recognize.result.RecognizedResult;
+
+public class CheckRecoginze {
 
     public static void main(String[] args) {
         String resultPath = "D://1//1";
         String charset = "GBk";
         String path = System.getProperty("user.dir");
-        path = path + "\\src\\" + Test.class.getPackage().getName().replace('.', '\\');
+        path = path + "\\src\\" + CheckRecoginze.class.getPackage().getName().replace('.', '\\');
         // String fileName = "建德线上辅助检查.txt";
         String fileName = "建德胸痛病例.txt";
         try {
             BufferedReader br = new BufferedReader(new FileReader(new File(path, fileName)));
             String line = null;
             int count = 0;
-            while ((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null && count < 5) {
                 RecordInfo info = new RecordInfo();
                 info.setSymptom(line);
 
@@ -38,36 +43,29 @@ public class Test {
 
                 JSONArray sentences = result.getJSONObject("body").getJSONArray("sentences");
 
-                List<List<?>> list = new ArrayList<List<?>>();
-                list.add(Arrays.asList(line));
+                List<RecognizedResult> datas = new ArrayList<>();
 
                 for (int i = 0; i < sentences.size(); i++) {
                     JSONObject sentence = sentences.getJSONObject(i);
-                    list.add(Arrays.asList(sentence.getString("sentence")));
-
                     JSONArray words = sentence.getJSONArray("words");
-                    List<String> word = new ArrayList<String>();
                     for (int j = 0; j < words.size(); j++) {
-                        word.add(words.getJSONObject(j).getString("word"));
+                        RecognizedResult data = new RecognizedResult();
+                        data.setData1(words.getJSONObject(j).getString("word"));
+                        data.setData2(words.getJSONObject(j).getString("types"));
+                        // data.getData2()
+                        if (data.getData2() != null && !data.getData2().equals("null")) {
+                            if (CollectionUtils.containsAny(JSON.parseArray(data.getData2()),
+                                    Arrays.asList(-1, 4, 16))) {
+                                data.setData3("pass");
+                            }
+                        }
+                        datas.add(data);
                     }
-                    if (word.size() > 254) {
-                        word = word.subList(0, 254);
-                    }
-                    list.add(word);
 
-                    List<String> types = new ArrayList<String>();
-                    for (int j = 0; j < words.size(); j++) {
-                        types.add(words.getJSONObject(j).getString("types"));
-                    }
-                    if (types.size() > 254) {
-                        types = types.subList(0, 254);
-                    }
-                    list.add(types);
-                    list.add(new ArrayList<>());
                 }
 
-                ExportDynamicExcel export = new ExportDynamicExcel(list);
-                export.saveFile(new File(resultPath, count++ + ".xls"));
+                ExportExcel<RecognizedResult> export = new ExportExcel<>(datas, RecognizedResult.class);
+                export.saveFile(new File(resultPath, "item" + count++ + ".xls"));
             }
 
             br.close();

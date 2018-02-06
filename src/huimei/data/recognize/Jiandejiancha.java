@@ -11,6 +11,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.hm.apollo.controller.PushService;
 import com.hm.apollo.module.recognition.pojo.RecordInfo;
+import com.poi.excel.parse.ExportDynamicExcel;
 import com.poi.excel.parse.ImportExcel;
 
 public class Jiandejiancha {
@@ -27,9 +28,9 @@ public class Jiandejiancha {
             List<List<?>> list = new ArrayList<List<?>>();
             for (Excel data : in.getRowDatas()) {
                 try {
-                    System.out.println(data.getData());
+                    System.out.println(data.getData2());
                     RecordInfo info = new RecordInfo();
-                    info.setSymptom(data.getData());
+                    info.setSymptom(data.getData2());
 
                     PushService pushService = new PushService();
 
@@ -41,7 +42,7 @@ public class Jiandejiancha {
                     JSONArray sentences = result.getJSONObject("body").getJSONArray("sentences");
 
 
-                    list.add(Arrays.asList(data.getData()));
+                    list.add(Arrays.asList(data.getData2()));
 
                     for (int i = 0; i < sentences.size(); i++) {
                         JSONObject sentence = sentences.getJSONObject(i);
@@ -69,8 +70,8 @@ public class Jiandejiancha {
                 }
             }
 
-            // ExportDynamicExcel export = new ExportDynamicExcel(list);
-            // export.saveFile(new File(resultPath, "建德检查数据-结果.xls"));
+            ExportDynamicExcel export = new ExportDynamicExcel(list);
+            export.saveFile(new File(resultPath, "建德检查数据-结果.xls"));
             br.close();
         } catch (Exception e) {
             e.printStackTrace();

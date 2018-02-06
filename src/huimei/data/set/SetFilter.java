@@ -4,34 +4,55 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
-import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
-import com.alibaba.fastjson.JSONObject;
-import com.hm.apollo.controller.PushService;
-import com.hm.apollo.module.recognition.model.NodeSynonym;
-import com.huaban.analysis.jieba.WordDictionary;
+import com.poi.excel.parse.ExportExcel;
+
+import huimei.data.recognize.Excel;
 
 public class SetFilter {
-
-    static PushService service = new PushService();
-
-    private static boolean hasNode(String word) {
-        NodeSynonym info = new NodeSynonym();
-        info.setSynonymWord(word);
-
-        String result = service.push("http://127.0.0.1:8080/apollo", "/getNodeSynonym/getWords", info);
-
-        return JSONObject.parseObject(result).getJSONObject("body") != null;
-    }
 
     public static void main(String[] args) {
         String resultPath = "D://1";
         String charset = "GBk";
         String path = System.getProperty("user.dir");
         path = path + "\\src\\" + SetFilter.class.getPackage().getName().replace('.', '\\');
-        WordDictionary.getInstance().init(Paths.get(path));
+        // WordDictionary.getInstance().init(Paths.get(path));
+        String fileName = "set2.txt";
+        try {
+            BufferedReader br = new BufferedReader(
+                    new InputStreamReader(new FileInputStream(new File(path, fileName))));
+
+            String line = null;
+
+            List<Excel> es = new ArrayList<>();
+            while ((line = br.readLine()) != null) {
+                if (line.trim().length() == 0) {
+                    continue;
+                }
+                String[] s = line.split(",");
+                Excel e = new Excel();
+                e.setData(s[0].trim());
+                e.setData2(s[1].trim());
+                es.add(e);
+            }
+            ExportExcel<Excel> ex = new ExportExcel<>(es, Excel.class);
+            ex.saveFile("D://test.xls");
+            br.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main1(String[] args) {
+        String resultPath = "D://1";
+        String charset = "GBk";
+        String path = System.getProperty("user.dir");
+        path = path + "\\src\\" + SetFilter.class.getPackage().getName().replace('.', '\\');
+        // WordDictionary.getInstance().init(Paths.get(path));
         String fileName = "set.txt";
         try {
             BufferedReader br = new BufferedReader(
@@ -44,9 +65,17 @@ public class SetFilter {
                 lines.add(line);
             }
 
+            StringBuffer ss = new StringBuffer();
             for (String s : lines) {
-                System.out.println(s);
+                // ss.append("insert into node_temp (str) values (");
+                // ss.append("\"");
+                // ss.append(s);
+                // ss.append("\");\n");
+                ss.append("\"");
+                ss.append(s);
+                ss.append("\",");
             }
+            System.out.println(ss);
 
             br.close();
         } catch (Exception e) {
