@@ -5,6 +5,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -100,9 +102,14 @@ public class NewAndOldRecognize2 {
         String resultPath = "D://1";
         String path = System.getProperty("user.dir");
         path = path + "\\src\\" + NewAndOldRecognize2.class.getPackage().getName().replace('.', '\\');
-        String fileName = "test.xls";
+        String fileName = "test1.xls";
+        // String fileName = "test.xls";
+        // String fileName = "contain.xlsx";
         // String fileName = "classification.xls";
         try {
+            ImportExcel<Excel> im = new ImportExcel<>(new File(path, "contain.xlsx"), Excel.class);
+            Set<String> contains = im.getRowDatas().stream()
+                    .collect(Collectors.mapping(Excel::getData, Collectors.toSet()));
             ImportExcel<Excel> in = new ImportExcel<Excel>(new File(path, fileName), Excel.class);
             // ImportExcel<Excel> in = new ImportExcel<>(new File(resultPath,
             // "\\检验.xls"), Excel.class);
@@ -110,9 +117,12 @@ public class NewAndOldRecognize2 {
             int i=0;
             for (Excel data : in.getRowDatas()) {
                 String data1 = data.getData();
-                if (StringUtils.isNotEmpty(data1)) {
+                if (StringUtils.isNotEmpty(data1) && contains.contains(data.getData2())) {
                     // String[] ds = data1.split(",");
                     String[] ds = new String[] { data1 };
+                    if (data1.equals("哮喘1天/周")) {
+                        System.out.println();
+                    }
                     for (String d : ds) {
                         if (StringUtils.isBlank(d)) {
                             continue;
@@ -161,7 +171,7 @@ public class NewAndOldRecognize2 {
 
             ExportExcel<Excel> export = new ExportExcel<Excel>(results, Excel.class);
 
-            export.saveFile(new File(resultPath, "classification_result_test_31.xls"));
+            export.saveFile(new File(resultPath, "classification_result_test_1234.xls"));
         } catch (Exception e) {
             e.printStackTrace();
         }

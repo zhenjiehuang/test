@@ -6,7 +6,6 @@ import java.util.List;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.hm.apollo.module.recognition.pojo.RecordInfo;
 import com.hm.apollo.service.PushService;
 import com.poi.excel.parse.ImportExcel;
 

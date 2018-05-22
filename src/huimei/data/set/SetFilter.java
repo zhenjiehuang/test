@@ -8,8 +8,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import com.poi.excel.parse.ExportExcel;
+import com.poi.excel.parse.ImportExcel;
 
 import huimei.data.recognize.Excel;
 
@@ -23,11 +25,13 @@ public class SetFilter {
         // WordDictionary.getInstance().init(Paths.get(path));
         String fileName = "set2.txt";
         try {
+            ImportExcel<Excel> im = new ImportExcel<>(new File(path, "contain.xlsx"), Excel.class);
+            Set<String> contains = im.getRowDatas().stream()
+                    .collect(Collectors.mapping(Excel::getData, Collectors.toSet()));
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(new FileInputStream(new File(path, fileName))));
 
             String line = null;
-
             List<Excel> es = new ArrayList<>();
             while ((line = br.readLine()) != null) {
                 if (line.trim().length() == 0) {
@@ -37,7 +41,9 @@ public class SetFilter {
                 Excel e = new Excel();
                 e.setData(s[0].trim());
                 e.setData2(s[1].trim());
-                es.add(e);
+                if (contains.contains(e.getData2())) {
+                    es.add(e);
+                }
             }
             ExportExcel<Excel> ex = new ExportExcel<>(es, Excel.class);
             ex.saveFile("D://test.xls");

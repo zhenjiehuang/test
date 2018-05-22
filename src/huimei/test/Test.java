@@ -34,6 +34,23 @@ public class Test {
         // System.out.println("gethry\\pP[P|p]".endsWith("[P|p]"));
 
         // System.out.println("gethry\\pP[P|p]".endsWith("[P|p]"));
+
+        System.out.println("µmol/L".matches("^[A-Za-z]+$"));
+        System.out.println(System.currentTimeMillis());
+
+        List<String> s = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            s.add(i + "");
+
+        }
+
+        for (int i = 0; i < s.size(); i += 10) {
+            if (s.size() < i + 10) {
+                System.out.println(s.subList(i, s.size()));
+            } else {
+                System.out.println(s.subList(i, i + 10));
+            }
+        }
     }
 
 }

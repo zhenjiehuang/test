@@ -1,7 +1,10 @@
 package huimei.test;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+
+import com.hm.mayson.module.qc.model.QcProject;
 
 /**
  * Description:
@@ -24,12 +27,19 @@ public class StreamTest {
 	}
 
     public static void main(String[] args) {
-        List<String> l = Arrays.asList("1", "2", "3", "4", "5");
+        List<QcProject> ps = new ArrayList<>();
+        QcProject p1 = new QcProject();
+        p1.setId(1L);
+        p1.setCustomerId(1L);
+        ps.add(p1);
 
+        QcProject p2 = new QcProject();
+        p2.setId(1L);
+        p2.setCustomerId(2L);
+        ps.add(p2);
 
-        System.out.println(Integer.toHexString("1234".hashCode()));
-
-        System.out.println("无".startsWith("无#"));
-
+        List<Long> ids = ps.stream()
+                .collect(Collectors.mapping(QcProject::getId, Collectors.toList()));
+        System.out.println(ids);
     }
 }

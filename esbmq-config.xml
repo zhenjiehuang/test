@@ -1,0 +1,47 @@
+﻿<EWELL>
+	<MQCONFIG>	
+		<!-- 队列管理器配置1 ,标签名为queueTools类connect方法参数，建议使用系统或队列管理器名-->
+		<default>
+			<!-- 主机名 -->
+			<HOSTNAME>192.168.17.189</HOSTNAME>
+			<!-- 端口 -->
+			<PORT>50049</PORT>
+			<!-- 队列管理器名称 -->
+			<QUEUEMANAGER>QMGR.S49</QUEUEMANAGER>
+			<!-- 通道名称 -->
+			<CHANNEL>C.S49.C</CHANNEL>
+			<!-- 队列管理器编码类型 -->
+			<CCSID>1381</CCSID>
+			<!-- 消息编码格式，没有此项时默认1386 -->
+			<CHARSET>1392</CHARSET>
+			<!-- 消息文件目录，暂不启用，默认设置就好。 -->
+			<FILEPATH>D:\test</FILEPATH>
+			<QUEUES>
+			<!-- 标签名为服务名以及序号拼接,通常情况下一个服务对应两个队列。需要操作更多队列需要指定标签序号，具体方法参考接入手册 -->
+				<BS10021_1>EQ.S49.BS10021.GET</BS10021_1>				<BS10021_0>EQ.S49.BS10021.PUT</BS10021_0>
+<BS10021>EQ.S49.BS10021.GET</BS10021>
+
+<BS20002_1>EQ.S49.BS20002.GET</BS20002_1>				<BS20002_0>EQ.S49.BS20002.PUT</BS20002_0>
+<BS20002>EQ.S49.BS20002.GET</BS20002>
+
+<MS45101_1>EQ.S49.MS45101.GET</MS45101_1>			<MS45101_0>EQ.S49.MS45101.PUT</MS45101_0>
+<MS45101>EQ.S49.MS45101.GET</MS45101>
+			 	
+			 
+			</QUEUES>
+		</default>
+		<!-- 队列管理器配置2，需要连接多个队列管理器时启用-->
+		<QMGR.SXX>
+			<HOSTNAME>192.168.17.189</HOSTNAME>
+			<PORT>XXXXX</PORT>
+			<QUEUEMANAGER>QMGR.SXX</QUEUEMANAGER>
+			<CHANNEL>C.SXX.C</CHANNEL>
+			<CCSID>1381</CCSID>
+			<CHARSET>1392</CHARSET>
+			<FILEPATH>D:\test</FILEPATH>
+			<QUEUES>				
+			</QUEUES>
+		</QMGR.SXX>
+
+	</MQCONFIG>
+</EWELL>
